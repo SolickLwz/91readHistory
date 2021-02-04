@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.NoticeMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.Notice">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="craeatetime" jdbcType="TIMESTAMP" property="craeatetime" />
+    <result column="receivetime" jdbcType="TIMESTAMP" property="receivetime" />
+    <result column="head" jdbcType="VARCHAR" property="head" />
+    <result column="authorid" jdbcType="INTEGER" property="authorid" />
+    <result column="authornickname" jdbcType="VARCHAR" property="authornickname" />
+    <result column="isreceive" jdbcType="VARCHAR" property="isreceive" />
+  </resultMap>
+
+  <select id="queryUnreadByAuthorNickName" resultMap="BaseResultMap">
+SELECT * FROM notice WHERE authornickname=#{authorName} and  isreceive="no" ORDER BY craeatetime LIMIT 1
+  </select>
+</mapper>

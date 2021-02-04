@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.AuditBookMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.AuditBook">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="book_id" jdbcType="INTEGER" property="bookId" />
+    <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+    <result column="audit_status" jdbcType="INTEGER" property="auditStatus" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="words" jdbcType="INTEGER" property="words" />
+    <result column="category" jdbcType="VARCHAR" property="category" />
+    <result column="valid" jdbcType="INTEGER" property="valid" />
+    <result column="complete_state" jdbcType="INTEGER" property="completeState" />
+    <result column="last_chapter_id" jdbcType="INTEGER" property="lastChapterId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="pic_url" jdbcType="VARCHAR" property="picUrl" />
+    <result column="cp_book_id" jdbcType="VARCHAR" property="cpBookId" />
+    <result column="open_search" jdbcType="INTEGER" property="openSearch" />
+    <result column="visit_count" jdbcType="INTEGER" property="visitCount" />
+    <result column="cp_id" jdbcType="INTEGER" property="cpId" />
+    <result column="provider" jdbcType="VARCHAR" property="provider" />
+    <result column="male_lead" jdbcType="VARCHAR" property="maleLead" />
+    <result column="heroine" jdbcType="VARCHAR" property="heroine" />
+    <result column="recommend" jdbcType="VARCHAR" property="recommend" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+
+  <select id="selectBookInfo4PageAndParam" resultType="com.nine.one.yuedu.read.entity.AuditBook">
+    SELECT
+    b.id,
+    b.book_name AS bookName,
+    b.author,
+    b.keywords,
+    b.words,
+    b.category,
+    b.book_id AS bookId,
+    b.audit_status AS auditStatus,
+    b.complete_state AS completeState,
+    b.last_chapter_id AS lastChapterId,
+    b.create_time AS createTime,
+    b.update_time AS updateTime,
+    b.pic_url AS picUrl,
+    b.visit_count AS visitCount,
+    b.open_search AS openSearch,
+    b.provider,
+    b.description,
+    c.cp_name AS cpName,
+    b.cp_id AS cpId,
+    b.cp_book_id AS cpBookId
+    FROM audit_book b,cp c
+    <where>
+      b.cp_id = c.id
+      <if test="privoder!=null and privoder!=''">
+        AND b.provider=#{privoder,jdbcType=VARCHAR}
+      </if>
+      <if test="id!=null">
+        AND b.id=#{id,jdbcType=INTEGER}
+      </if>
+      <if test="bookName!=null and bookName!=''">
+        AND b.book_name LIKE CONCAT('%',#{bookName,jdbcType=VARCHAR},'%')
+      </if>
+      <if test="author!=null and author!=''">
+        AND b.author = #{author,jdbcType=VARCHAR}
+      </if>
+      <if test="category!=null and category!=''">
+        AND b.category=#{category,jdbcType=VARCHAR}
+      </if>
+
+      <if test="auditStatus!=null">
+        AND b.audit_status=#{auditStatus,jdbcType=INTEGER}
+      </if>
+    </where>
+    ORDER BY b.create_time DESC
+  </select>
+
+  <select id="getThatAuthorBookListByDraftStatus" resultType="com.nine.one.yuedu.read.entity.AuditBook">
+    SELECT b.id,
+    b.book_name AS bookName,
+    b.author,
+    b.keywords,
+    b.words,
+    b.category,
+    b.book_id AS bookId,
+    b.audit_status AS auditStatus,
+    b.complete_state AS completeState,
+    b.last_chapter_id AS lastChapterId,
+    b.create_time AS createTime,
+    b.update_time AS updateTime,
+    b.pic_url AS picUrl,
+    b.visit_count AS visitCount,
+    b.open_search AS openSearch,
+    b.description
+   FROM audit_chapter c LEFT JOIN audit_book b ON b.id=c.book_id
+   where b.author=#{author,jdbcType=VARCHAR} and c.draft_status=#{draftStatus,jdbcType=INTEGER}
+   GROUP BY b.book_name
+  </select>
+</mapper>

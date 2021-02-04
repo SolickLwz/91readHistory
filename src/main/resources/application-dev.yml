@@ -1,0 +1,24 @@
+server:
+  port: 9004
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://121.196.216.78/read_91yuedu?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      # MySQL 8.x: com.mysql.cj.jdbc.Driver
+      driver-class-name: com.mysql.jdbc.Driver
+  #配置上传文件的最大限制
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 30MB
+      max-request-size: 30MB
+
+mybatis:
+  type-aliases-package: com.nine.one.yuedu.read.entity
+  mapper-locations: classpath:mapper/*.xml

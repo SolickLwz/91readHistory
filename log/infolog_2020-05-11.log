@@ -1,0 +1,758 @@
+2020-05-11 18:07:03.621 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52681 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:07:03.623 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:07:04.313 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:07:04.314 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:07:04.339 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-05-11 18:07:04.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:07:04.783 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:07:04.784 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:07:04.785 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:07:04.839 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:07:04.839 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1185 ms
+2020-05-11 18:07:04.983 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:07:05.580 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:07:08.799 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:07:08.838 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: aed36f9b-8125-4b54-ab97-bffadb9c5f25
+
+2020-05-11 18:07:08.891 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15e1f8fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@373afd6c, org.springframework.security.web.header.HeaderWriterFilter@7197b07f, org.springframework.security.web.authentication.logout.LogoutFilter@622d7e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@592ca48c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cfb0c4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@110b7837, org.springframework.security.web.session.SessionManagementFilter@2415e4c7, org.springframework.security.web.access.ExceptionTranslationFilter@61608e1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43d65a81]
+2020-05-11 18:07:08.972 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:07:09.329 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:07:09.340 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:07:09.376 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:07:09.502 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:07:09.531 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:07:09.535 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:07:09.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:07:09.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:07:09.581 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 6.2 seconds (JVM running for 6.739)
+2020-05-11 18:10:02.109 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:10:02.110 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:10:02.115 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 18:10:36.665 [http-nio-9004-exec-4] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:10:53.588 [http-nio-9004-exec-7] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 安装教程电脑版安装步骤：1.上传源代码，绑定域名后，访问域名/install，直到安装完成。2.访问域名/22key.php，输入域名，选择定制版，生成授权码。
+2020-05-11 18:10:57.844 [http-nio-9004-exec-8] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 安装教程电脑版安装步骤：1.上传源代码，绑定域名后，访问域名/install，直到安装完成。2.访问域名/22key.php，输入域名，选择定制版，生成授权码。
+2020-05-11 18:11:02.016 [http-nio-9004-exec-9] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:13:21.474 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:13:21.479 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-11 18:13:26.461 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52742 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:13:26.463 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:13:27.140 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:13:27.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:13:27.169 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-05-11 18:13:27.597 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:13:27.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:13:27.605 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:13:27.605 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:13:27.661 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:13:27.662 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1169 ms
+2020-05-11 18:13:27.806 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:13:28.409 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:13:30.814 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:13:30.847 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7a899d9e-7bf4-45a2-9606-971a1588d54c
+
+2020-05-11 18:13:30.891 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f0a133d, org.springframework.security.web.context.SecurityContextPersistenceFilter@28e8888d, org.springframework.security.web.header.HeaderWriterFilter@7243145f, org.springframework.security.web.authentication.logout.LogoutFilter@59636c47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@794eeaf8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64518270, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@241fbec, org.springframework.security.web.session.SessionManagementFilter@1f4f0fcc, org.springframework.security.web.access.ExceptionTranslationFilter@7c96c85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b37df8e]
+2020-05-11 18:13:30.975 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:13:31.354 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:13:31.368 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:13:31.392 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:13:31.582 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:13:31.634 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:13:31.639 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:13:31.654 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:13:31.680 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:13:31.683 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.473 seconds (JVM running for 6.047)
+2020-05-11 18:13:36.751 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:13:36.751 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:13:36.757 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 18:15:44.227 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:15:44.235 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-11 18:15:49.103 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52767 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:15:49.105 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:15:49.791 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:15:49.793 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:15:49.820 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-05-11 18:15:50.244 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:15:50.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:15:50.251 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:15:50.251 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:15:50.306 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:15:50.306 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1172 ms
+2020-05-11 18:15:50.456 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:15:51.030 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:15:51.791 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:15:51.837 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 066b982f-c59d-44d5-a4d8-12808f90b6af
+
+2020-05-11 18:15:51.887 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@487cd177, org.springframework.security.web.context.SecurityContextPersistenceFilter@b950f82, org.springframework.security.web.header.HeaderWriterFilter@261de205, org.springframework.security.web.authentication.logout.LogoutFilter@66749eea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e243175, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73e776b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@324b6a56, org.springframework.security.web.session.SessionManagementFilter@678a9516, org.springframework.security.web.access.ExceptionTranslationFilter@267f9765, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b97907c]
+2020-05-11 18:15:51.963 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:15:52.318 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:15:52.329 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:15:52.365 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:15:52.493 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:15:52.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:15:52.537 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:15:52.554 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:15:52.585 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:15:52.588 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.737 seconds (JVM running for 4.297)
+2020-05-11 18:15:57.313 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:15:57.313 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:15:57.317 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 18:19:32.112 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:19:32.119 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-11 18:19:36.755 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52809 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:19:36.757 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:19:37.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:19:37.450 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:19:37.476 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-05-11 18:19:37.885 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:19:37.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:19:37.894 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:19:37.894 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:19:37.947 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:19:37.948 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1162 ms
+2020-05-11 18:19:38.096 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:19:38.649 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:19:39.517 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:19:39.554 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c24d052f-7be9-4b06-99d0-8a8ccca51555
+
+2020-05-11 18:19:39.600 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b88ca8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@55736cfe, org.springframework.security.web.header.HeaderWriterFilter@629e8212, org.springframework.security.web.authentication.logout.LogoutFilter@413d2cd1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f7a2a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b415f5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fa02932, org.springframework.security.web.session.SessionManagementFilter@6d963d70, org.springframework.security.web.access.ExceptionTranslationFilter@59d0cdb6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ee5f485]
+2020-05-11 18:19:39.678 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:19:40.024 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:19:40.035 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:19:40.055 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:19:40.185 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:19:40.219 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:19:40.224 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:19:40.237 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:19:40.267 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:19:40.270 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.765 seconds (JVM running for 4.305)
+2020-05-11 18:19:45.802 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:19:45.802 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:19:45.806 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-05-11 18:20:13.530 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:20:13.536 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-11 18:20:17.834 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52824 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:20:17.836 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:20:18.536 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:20:18.538 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:20:18.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-05-11 18:20:18.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:20:18.997 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:20:18.998 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:20:18.998 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:20:19.053 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:20:19.053 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1186 ms
+2020-05-11 18:20:19.198 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:20:19.772 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:20:20.501 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:20:20.533 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ec337016-3922-49a5-9489-f71983ad3ed5
+
+2020-05-11 18:20:20.590 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d3a1903, org.springframework.security.web.context.SecurityContextPersistenceFilter@324b6a56, org.springframework.security.web.header.HeaderWriterFilter@608cd501, org.springframework.security.web.authentication.logout.LogoutFilter@510689af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63f40ca0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36359723, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26582ca, org.springframework.security.web.session.SessionManagementFilter@738a5848, org.springframework.security.web.access.ExceptionTranslationFilter@38fb50f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5460edd3]
+2020-05-11 18:20:20.671 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:20:21.034 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:20:21.045 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:20:21.068 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:20:21.196 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:20:21.228 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:20:21.232 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:20:21.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:20:21.279 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:20:21.282 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.692 seconds (JVM running for 4.234)
+2020-05-11 18:23:22.900 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:23:22.901 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:23:22.906 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 18:28:19.035 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:28:19.044 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-11 18:28:24.116 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52906 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:28:24.119 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:28:24.843 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:28:24.844 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:28:24.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-05-11 18:28:25.313 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:28:25.320 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:28:25.321 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:28:25.321 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:28:25.380 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:28:25.380 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1224 ms
+2020-05-11 18:28:25.534 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:28:26.102 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:28:29.825 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:28:29.867 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d3cd6553-d830-4a62-87b8-d6f0b902a46b
+
+2020-05-11 18:28:29.922 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@241fbec, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e98b788, org.springframework.security.web.header.HeaderWriterFilter@15c6027d, org.springframework.security.web.authentication.logout.LogoutFilter@5c18d6d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37c5284a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b7c58e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@715fa8c5, org.springframework.security.web.session.SessionManagementFilter@46c10083, org.springframework.security.web.access.ExceptionTranslationFilter@b0f2d91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b63abdc]
+2020-05-11 18:28:30.003 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:28:30.385 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:28:30.397 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:28:30.432 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:28:30.564 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:28:30.602 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:28:30.607 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:28:30.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:28:30.649 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:28:30.652 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 6.802 seconds (JVM running for 7.396)
+2020-05-11 18:29:52.169 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:29:52.169 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:29:52.174 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 18:29:54.634 [http-nio-9004-exec-2] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 文本上传成功了
+2020-05-11 18:30:01.796 [http-nio-9004-exec-3] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:33:13.618 [http-nio-9004-exec-8] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 文本上传成功了
+2020-05-11 18:33:21.684 [http-nio-9004-exec-1] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 安装教程
+
+电脑版安装步骤：
+1.上传源代码，绑定域名后，访问域名/install，直到安装完成。
+2.访问域名/22key.php，输入域名，选择定制版，生成授权码。
+3.复制授权码，找到\configs\define.php文件，用notepad++打开，找到JIEQI_LICENSE_KEY那一列，粘贴授权码，程序安装完成。
+4.设置支付宝：\configs\pay\alipay.php。
+5.设置微信支付：\weixin\config.php连接数据库，设置\weixin\WxPayPubHelper\ WxPay.pub.config.php配置商户信息，同时导入\weixin中sql文件到数据库。
+6.设置QQ，新浪登录\api\qq\ config.inc.php，以及\api\weibo\ config.inc.php。
+7.设置微信登录：\wxlogin\config.php连接数据库，\api\weixin\ config.inc.php配置应用信息。导入weixin.sql到数据库。
+8.访问域名/admin，进入后台更新缓存。
+9.安装之后设置网站系统定义名称等，需要注意授权码为空需在里面填写授权码，显示错误模式选择不显示错误。切记。
+手机端安装步骤：
+1.访问域名/22key.php，输入域名，选择定制版，生成授权码。
+2.复制授权码，找到\configs\define.php文件，用notepad++打开，找到JIEQI_LICENSE_KEY那一列，粘贴授权码。设置网站地址，标题同时修改数据库相关，直接连接电脑版数据库。
+3.打开configs\article\config.php，选项$jieqiConfigs['article']['txtdir']和$jieqiConfigs['article']['opfdir']，填入电脑版的文件存放地址如D:\wwwroot\xiaoshuo\files\article\txt'。
+4.找到$jieqiConfigs['article']['imageurl']选项，填入电脑版的封面图片地址，如http://www.xxxx.com/files/article/image
+5.找到\configs\system.php文件，找到JIEQI_URL写电脑版地址，JIEQI_SITE_NAME写手机版名称。
+6.在\weixin里面导入sql.sql，找到config.php和pay.php，进行微信登录和支付配置。
+7.手机版网站名和关键词等不能在后台设置需要在文件里面修改。\configs\define.php 这是文件的位置。
+2020-05-11 18:33:34.090 [http-nio-9004-exec-4] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀猪。
+
+
+2020-05-11 18:34:24.635 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:34:24.641 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-11 18:34:31.236 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 52982 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-05-11 18:34:31.241 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - No active profile set, falling back to default profiles: default
+2020-05-11 18:34:32.120 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 18:34:32.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 18:34:32.148 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-05-11 18:34:32.632 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-05-11 18:34:32.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:34:32.638 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 18:34:32.639 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 18:34:32.707 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 18:34:32.708 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1410 ms
+2020-05-11 18:34:33.213 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-05-11 18:34:34.036 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-11 18:34:36.839 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-11 18:34:36.871 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 878f244e-1922-4738-83b5-6dc38364d68e
+
+2020-05-11 18:34:36.921 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16b3c905, org.springframework.security.web.context.SecurityContextPersistenceFilter@43da0955, org.springframework.security.web.header.HeaderWriterFilter@6e243175, org.springframework.security.web.authentication.logout.LogoutFilter@7243145f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d963d70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7015ebef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49fdbe2b, org.springframework.security.web.session.SessionManagementFilter@113ee1ce, org.springframework.security.web.access.ExceptionTranslationFilter@b950f82, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4dad8ec0]
+2020-05-11 18:34:37.001 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 18:34:37.397 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-11 18:34:37.409 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-11 18:34:37.433 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-11 18:34:37.569 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-05-11 18:34:37.613 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-05-11 18:34:37.623 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-05-11 18:34:37.641 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-05-11 18:34:37.674 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-05-11 18:34:37.677 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 6.757 seconds (JVM running for 7.505)
+2020-05-11 18:35:41.503 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 18:35:41.504 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 18:35:41.509 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 18:35:44.634 [http-nio-9004-exec-1] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀猪。
+
+
+2020-05-11 18:35:55.625 [http-nio-9004-exec-2] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀猪。
+
+
+2020-05-11 18:35:59.274 [http-nio-9004-exec-3] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀猪。
+
+
+2020-05-11 18:36:11.512 [http-nio-9004-exec-7] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀猪。
+
+
+2020-05-11 18:36:26.054 [http-nio-9004-exec-1] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀********************
+
+2020-05-11 18:37:00.822 [http-nio-9004-exec-2] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:37:07.697 [http-nio-9004-exec-4] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:37:17.616 [http-nio-9004-exec-6] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀********************
+
+2020-05-11 18:40:28.295 [http-nio-9004-exec-8] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀********************
+
+2020-05-11 18:40:41.957 [http-nio-9004-exec-1] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:40:42.853 [http-nio-9004-exec-2] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:42:35.166 [http-nio-9004-exec-5] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:42:38.169 [http-nio-9004-exec-6] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:42:52.567 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:42:59.914 [http-nio-9004-exec-8] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:43:08.728 [http-nio-9004-exec-9] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:43:28.543 [http-nio-9004-exec-10] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:45:30.657 [http-nio-9004-exec-2] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:45:36.370 [http-nio-9004-exec-3] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:46:09.493 [http-nio-9004-exec-8] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:57:08.714 [http-nio-9004-exec-10] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:57:41.466 [http-nio-9004-exec-1] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:57:49.907 [http-nio-9004-exec-3] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:57:52.901 [http-nio-9004-exec-4] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 18:57:57.685 [http-nio-9004-exec-6] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - A市东林区的巷子口。
+昏暗的巷子里站着五个男人，四周安静到只能听见男人们不怀好意的笑声。
+苏月被围在男人中间，身上只穿着一件尚能敝体的长裙，如黑澡般的长发已经已经变得杂乱，遮住了她惨白中透着不正常红晕的脸。
+她如一头被群狼盯住的猎物，神经紧绷，黑眸带着警惕和犀利，直勾勾凝视着五个男人中的其一。
+“辰逸，你到底想要做什么？”
+辰逸交握着双手，伸手推了一下鼻梁上架着的金丝边眼镜，冷笑道：“苏月，凭你的智商，看不出来我想要干什么？”
+说完，他放下交握着的双手，击了一下掌：“这女人可真好看，今晚你们可要好好伺候。”
+阴阳怪气的语气，黑暗之中，苏月只能看见他嘴角勾起的一抹残忍的笑。
+“我是你的未婚妻，你为什么要这样对我？为什么……”
+“因为你已经没有了任何价值。”
+辰逸的声音越来越小，他说完最后一句话，递给身边四个男人一个眼神，转身便走。
+他刚走，四个高矮胖瘦各不一致的男人立刻逼近苏月，摩拳擦掌满脸横肉看上去恶心至极。
+“美女，别挣扎了，乖乖让哥几个爽一爽。”
+“大家都有分，所有人都不准抢，这妞我第一个。”一个高大的胖男人朗声道。
+“行，我第二个……”
+四个男人开始商量谁先上，苏月脸色惨白，巴掌大的脸上却没有一点泪痕，露在空气外的胳膊上有着细小的针孔。
+这个针孔，是被他们注射药物时留下的。
+残留在身体里的药物，导致苏月手脚发软，她想起十分钟前，被辰逸逼着注射了一管药物，紧接着她的身体就开始难受发热。
+不用脑袋想，她都知道那管药，八成就不是好东西。
+现在她该怎么办？
+苏月努力让自己镇定下来，冷着一张脸警惕的想要找逃跑的地方。
+“你们这么做是犯法的，你们不怕死？”苏月眸光一转，尽量的拖延时间。
+她话音刚落，其中一个胖男人突然笑出了声，“死？老子就是死，也得死在你裙下啊。”
+其余三个男人也跟着附和，胖男人伸手摸苏月的腰，低头眼见着就要亲她。
+“去死！”苏月大喝了一声，张嘴一口咬住男人的耳朵。
+不遗余力的狠狠咬住住，胖男人惨痛大叫，苏月松开嘴，拼尽全身力气屈膝朝男人。
+胖男人疼到出冷汗，捂着身下蹲在地上，趁此机会，苏月敛了敛脸色，拔腿就跑。
+“她跑了，赶紧追。”
+“千万不能让她跑了。”
+后面传来几个男人的唤声，错落有致的脚步声在黑暗的小巷子里回响。
+她没有多少力气，刚才那拼死一击，已经耗费了她大量体力，现在的她根本跑不快。
+“救命，救命……”苏月红了眼睛，不停的呼救，她不敢回头，只能咬紧牙关硬着头皮往前跑。
+可是，最终她也没能跑赢他们，男人们逮住了她。
+苏月被摁在地上，耳边传来男人的咒骂声：“胆子真不小，打了我哥们还想跑，老子今天非弄死你不可。”
+“撕拉”一声，布帛划破空气的声音，身上的长裙被硬生生的撕碎。
+“你们这些禽兽，不准碰我！”苏月声音沙哑，悲愤的流泪，眼底满是恨意，“辰逸，我今天要是没死，来日一定会把今天的屈辱，加倍还回去。”
+她脑子晕晕乎乎，身体分外难受，犹如在火炉里烧，再也没有一点反抗能力。
+苏月如同砧板上的鱼躺在地上，就在她失去神智的最后一秒，耳边传来一道皮鞋打地的声音。
+很沉稳的脚步声，她歪过头，眼神迷离的朝发声处看了一眼，却只能看见男人一张模糊的轮廓。
+“救我！”她拼尽最后一丝力气，双手紧紧攥着男人的裤脚。
+“苏月，保持清醒。”一道低沉带有磁性的男性声音，在黑暗中显得格外突兀。
+苏月的意识已经越来越迷糊，在她昏过去的最后一秒，只听见了有人唤了一声她的名字。
+辰少恭一身笔挺的黑色西装，衬得他身姿修长，棱角分明的轮廓，五官如同被雕刻般的完美，打磨的锃亮的手工皮鞋，无一不彰显出男人的尊贵。
+他的身后跟着五个黑衣保镖，保镖已经将追赶苏月的几个男人给制住。
+“小子，你谁啊？还不快放开老子，知道老子的后台是谁吗？小心老子让你吃不了兜着走！”胖男人被压制住，还不忘嚣张的瞎嚷嚷。
+“快放开我们，你们这些人想死是吗？”
+几个被困住的人不停大叫。
+辰少恭低垂着脑袋看着面前躺在地上的苏月，面色阴沉的弯腰一把将她抱起来，动作小心翼翼，像是对待珍宝一样。
+他抱着苏月走到几个猥琐男身边，脚步一顿，面无表情的吩咐：“拔了他们的舌头，做的干净点，我不希望听见今天发生的事情被传出去。”
+话落，男人没有一丝犹豫，阔步走出巷子，坐进巷子口停着的车里，将怀中的苏月放在副驾驶，快速帮她扣好安全带。
+半晌后，狭小黑暗的巷子里，传来几道惨叫声，惨叫声不绝于耳，犹如杀********************
+
+2020-05-11 18:58:14.139 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-11 20:40:36.958 [http-nio-9004-exec-8] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-12 09:51:04.824 [http-nio-9004-exec-10] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-05-12 09:53:28.588 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-12 09:53:28.595 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

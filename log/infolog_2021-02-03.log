@@ -1,0 +1,236 @@
+2021-02-03 10:01:18.972 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 19904 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2021-02-03 10:01:18.972 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2021-02-03 10:01:19.784 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 10:01:19.784 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 10:01:19.853 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+2021-02-03 10:01:20.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 10:01:20.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 10:01:20.101 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2021-02-03 10:01:20.656 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2021-02-03 10:01:20.671 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2021-02-03 10:01:20.671 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 10:01:20.671 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-02-03 10:01:20.771 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 10:01:20.771 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1707 ms
+2021-02-03 10:01:20.903 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-02-03 10:01:21.141 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-03 10:01:23.094 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 10:01:23.163 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e9367cc9-83b8-4070-b8c0-e4544dea4cf0
+
+2021-02-03 10:01:23.264 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70d3cdbf, org.springframework.security.web.context.SecurityContextPersistenceFilter@1182413a, org.springframework.security.web.header.HeaderWriterFilter@586843bc, org.springframework.security.web.authentication.logout.LogoutFilter@75ed125a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b14f482, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cf0673d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72a7aa4f, org.springframework.security.web.session.SessionManagementFilter@7ead1d80, org.springframework.security.web.access.ExceptionTranslationFilter@7cdb7fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@516195cf]
+2021-02-03 10:01:23.379 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 10:01:23.495 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-03 10:01:23.526 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 10:01:23.548 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 10:01:23.580 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 10:01:23.695 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2021-02-03 10:01:23.727 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2021-02-03 10:01:23.764 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContentUsingGET_1
+2021-02-03 10:01:23.764 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2021-02-03 10:01:23.764 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2021-02-03 10:01:23.764 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2021-02-03 10:01:23.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2021-02-03 10:01:23.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2021-02-03 10:01:23.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2021-02-03 10:01:23.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2021-02-03 10:01:23.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2021-02-03 10:01:23.796 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2021-02-03 10:01:23.796 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2021-02-03 10:01:23.796 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2021-02-03 10:01:23.796 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2021-02-03 10:01:23.796 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2021-02-03 10:01:23.796 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2021-02-03 10:01:23.849 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookListUsingGET_1
+2021-02-03 10:01:23.849 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2021-02-03 10:01:23.865 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2021-02-03 10:01:23.880 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2021-02-03 10:01:23.880 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2021-02-03 10:01:23.880 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2021-02-03 10:01:23.880 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2021-02-03 10:01:23.880 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2021-02-03 10:01:23.896 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: repairUsingPOST_1
+2021-02-03 10:01:23.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2021-02-03 10:01:24.121 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2021-02-03 10:01:24.121 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.539 seconds (JVM running for 6.65)
+2021-02-03 10:08:38.554 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-03 10:08:38.554 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-03 10:08:38.554 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-02-03 10:32:41.210 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 11172 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2021-02-03 10:32:41.210 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2021-02-03 10:32:41.934 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 10:32:41.934 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 10:32:41.981 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 0 Redis repository interfaces.
+2021-02-03 10:32:42.182 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 10:32:42.182 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 10:32:42.213 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2021-02-03 10:32:42.714 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2021-02-03 10:32:42.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2021-02-03 10:32:42.730 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 10:32:42.730 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-02-03 10:32:42.830 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 10:32:42.830 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1551 ms
+2021-02-03 10:32:42.952 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-02-03 10:32:43.200 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-03 10:32:44.819 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 10:32:44.857 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: dba501aa-a842-489b-99ad-139d597dbf43
+
+2021-02-03 10:32:44.920 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37b1149b, org.springframework.security.web.context.SecurityContextPersistenceFilter@25ae1f80, org.springframework.security.web.header.HeaderWriterFilter@37d0d373, org.springframework.security.web.authentication.logout.LogoutFilter@6546371, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6df791a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f8667bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1187dc82, org.springframework.security.web.session.SessionManagementFilter@64bba0eb, org.springframework.security.web.access.ExceptionTranslationFilter@b3857e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67b560fe]
+2021-02-03 10:32:45.042 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 10:32:45.142 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-03 10:32:45.173 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 10:32:45.189 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 10:32:45.220 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 10:32:45.321 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2021-02-03 10:32:45.358 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2021-02-03 10:32:45.405 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContentUsingGET_1
+2021-02-03 10:32:45.405 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2021-02-03 10:32:45.405 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2021-02-03 10:32:45.405 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2021-02-03 10:32:45.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2021-02-03 10:32:45.436 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2021-02-03 10:32:45.436 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2021-02-03 10:32:45.436 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2021-02-03 10:32:45.490 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookListUsingGET_1
+2021-02-03 10:32:45.490 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2021-02-03 10:32:45.505 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2021-02-03 10:32:45.505 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2021-02-03 10:32:45.505 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2021-02-03 10:32:45.521 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2021-02-03 10:32:45.521 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2021-02-03 10:32:45.521 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2021-02-03 10:32:45.521 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: repairUsingPOST_1
+2021-02-03 10:32:45.559 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2021-02-03 10:32:45.737 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2021-02-03 10:32:45.737 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.865 seconds (JVM running for 5.969)
+2021-02-03 10:32:51.983 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-03 10:32:51.983 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-03 10:32:51.983 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-02-03 11:09:58.555 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 5172 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2021-02-03 11:09:58.562 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2021-02-03 11:09:59.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 11:09:59.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 11:09:59.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+2021-02-03 11:09:59.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 11:09:59.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 11:09:59.547 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2021-02-03 11:10:00.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2021-02-03 11:10:00.001 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2021-02-03 11:10:00.001 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 11:10:00.001 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-02-03 11:10:00.106 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 11:10:00.106 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1482 ms
+2021-02-03 11:10:00.220 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-02-03 11:10:00.431 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-03 11:10:01.959 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 11:10:02.006 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 066ccd02-ef89-41ed-8cf4-8948d7e6b4b0
+
+2021-02-03 11:10:02.059 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bc2ae16, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fca3eb5, org.springframework.security.web.header.HeaderWriterFilter@6b6def36, org.springframework.security.web.authentication.logout.LogoutFilter@19105a87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cb29ea8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c5a91b4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a0963be, org.springframework.security.web.session.SessionManagementFilter@1d283d1, org.springframework.security.web.access.ExceptionTranslationFilter@63db743d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54567b05]
+2021-02-03 11:10:02.191 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 11:10:02.291 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-03 11:10:02.323 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 11:10:02.329 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 11:10:02.360 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 11:10:02.461 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2021-02-03 11:10:02.492 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2021-02-03 11:10:02.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContentUsingGET_1
+2021-02-03 11:10:02.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2021-02-03 11:10:02.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2021-02-03 11:10:02.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2021-02-03 11:10:02.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2021-02-03 11:10:02.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2021-02-03 11:10:02.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2021-02-03 11:10:02.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2021-02-03 11:10:02.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2021-02-03 11:10:02.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2021-02-03 11:10:02.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2021-02-03 11:10:02.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2021-02-03 11:10:02.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2021-02-03 11:10:02.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2021-02-03 11:10:02.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2021-02-03 11:10:02.623 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookListUsingGET_1
+2021-02-03 11:10:02.623 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2021-02-03 11:10:02.630 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2021-02-03 11:10:02.630 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2021-02-03 11:10:02.630 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2021-02-03 11:10:02.645 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2021-02-03 11:10:02.645 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2021-02-03 11:10:02.645 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2021-02-03 11:10:02.645 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: repairUsingPOST_1
+2021-02-03 11:10:02.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2021-02-03 11:10:02.877 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2021-02-03 11:10:02.877 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.621 seconds (JVM running for 5.533)
+2021-02-03 11:10:09.889 [http-nio-9004-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-03 11:10:09.889 [http-nio-9004-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-03 11:10:09.889 [http-nio-9004-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-02-03 11:20:01.821 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 12420 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2021-02-03 11:20:01.829 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2021-02-03 11:20:02.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 11:20:02.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 11:20:02.567 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+2021-02-03 11:20:02.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-03 11:20:02.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-03 11:20:02.795 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2021-02-03 11:20:03.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2021-02-03 11:20:03.334 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2021-02-03 11:20:03.334 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 11:20:03.334 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-02-03 11:20:03.418 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 11:20:03.418 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1539 ms
+2021-02-03 11:20:03.534 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-02-03 11:20:03.751 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-03 11:20:05.439 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 11:20:05.471 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0dd945ab-60bb-4d55-a637-30fd8a9e8223
+
+2021-02-03 11:20:05.524 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@99c4993, org.springframework.security.web.context.SecurityContextPersistenceFilter@61808ecd, org.springframework.security.web.header.HeaderWriterFilter@239b98cb, org.springframework.security.web.authentication.logout.LogoutFilter@6d7740f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77ea806f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60dcf9ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38089dae, org.springframework.security.web.session.SessionManagementFilter@4fe8f2ae, org.springframework.security.web.access.ExceptionTranslationFilter@3c28181b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f3c8b60]
+2021-02-03 11:20:05.640 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 11:20:05.756 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-03 11:20:05.787 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 11:20:05.787 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 11:20:05.825 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 11:20:05.903 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2021-02-03 11:20:05.956 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2021-02-03 11:20:05.988 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContentUsingGET_1
+2021-02-03 11:20:05.988 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2021-02-03 11:20:05.988 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2021-02-03 11:20:05.988 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2021-02-03 11:20:06.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2021-02-03 11:20:06.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2021-02-03 11:20:06.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2021-02-03 11:20:06.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2021-02-03 11:20:06.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2021-02-03 11:20:06.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2021-02-03 11:20:06.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2021-02-03 11:20:06.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2021-02-03 11:20:06.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2021-02-03 11:20:06.025 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2021-02-03 11:20:06.025 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2021-02-03 11:20:06.072 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookListUsingGET_1
+2021-02-03 11:20:06.072 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2021-02-03 11:20:06.088 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2021-02-03 11:20:06.088 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2021-02-03 11:20:06.088 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2021-02-03 11:20:06.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2021-02-03 11:20:06.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2021-02-03 11:20:06.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2021-02-03 11:20:06.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: repairUsingPOST_1
+2021-02-03 11:20:06.126 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2021-02-03 11:20:06.342 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2021-02-03 11:20:06.342 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.818 seconds (JVM running for 5.785)
+2021-02-03 11:20:15.715 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-03 11:20:15.715 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-03 11:20:15.715 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms

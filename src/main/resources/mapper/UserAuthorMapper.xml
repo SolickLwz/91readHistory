@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.UserAuthorMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.UserAuthor">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="role_id" jdbcType="INTEGER" property="roleId" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="head_image" jdbcType="VARCHAR" property="headImage" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="card_id" jdbcType="VARCHAR" property="cardId" />
+    <result column="emile" jdbcType="VARCHAR" property="emile" />
+    <result column="phone_num" jdbcType="VARCHAR" property="phoneNum" />
+    <result column="qq_num" jdbcType="VARCHAR" property="qqNum" />
+    <result column="bank_name" jdbcType="VARCHAR" property="bankName" />
+    <result column="bank_num" jdbcType="VARCHAR" property="bankNum" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+	
+	<select id="selectUserAuthorLikeNickName" resultMap="BaseResultMap">
+      SELECT id,
+			 username,
+			 password,
+			 role_id,
+			 nickname,
+			 real_name,
+			 head_image,
+			 status,
+			 sex,
+			 card_id,
+			 emile,
+			 phone_num,
+			 qq_num,
+			 bank_name,
+			 bank_num,
+			 create_time,
+			 update_time
+	  FROM user_author
+	  <where>
+		  <if test="nickname!=null and nickname!=''">
+			  nickname LIKE CONCAT('%',#{nickname,jdbcType=VARCHAR},'%')
+		  </if>
+	  </where>
+		ORDER BY create_time DESC
+    </select>
+
+	<select id="selectOneAuthUserByUsernameAndPassword" resultType="com.nine.one.yuedu.read.entity.UserAuthor">
+		SELECT id,
+			 username,
+			 password,
+			 role_id,
+			 nickname,
+			 real_name,
+			 head_image,
+			 status,
+			 sex,
+			 card_id,
+			 emile,
+			 phone_num,
+			 qq_num,
+			 bank_name,
+			 bank_num,
+			 create_time,
+			 update_time
+	  FROM user_author
+	  where username=#{username,jdbcType=VARCHAR} and  password=#{password,jdbcType=VARCHAR}
+	</select>
+</mapper>

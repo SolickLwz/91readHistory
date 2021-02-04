@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.AuditChapterMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.AuditChapter">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="book_id" jdbcType="INTEGER" property="bookId" />
+    <result column="chapter_id" jdbcType="INTEGER" property="chapterId" />
+    <result column="chapter_name" jdbcType="VARCHAR" property="chapterName" />
+    <result column="draft_status" jdbcType="INTEGER" property="draftStatus" />
+    <result column="opinionsynopsis" jdbcType="VARCHAR" property="opinionsynopsis" />
+    <result column="opinion" jdbcType="VARCHAR" property="opinion" />
+    <result column="words" jdbcType="INTEGER" property="words" />
+    <result column="is_free" jdbcType="TINYINT" property="isFree" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="cp_chapter_id" jdbcType="VARCHAR" property="cpChapterId" />
+  </resultMap>
+
+  <select id="selectMaxSortByAuditBookId" resultType="java.lang.Integer">
+		SELECT MAX(chapter_id) FROM audit_chapter
+		WHERE book_id=#{bookId,jdbcType=INTEGER}
+	</select>
+
+  <select id="getThatAuthorBoxChapterAllAndBookNameForVo" resultType="com.nine.one.yuedu.read.entity.vo.AuditChapterAndBookNameVo">
+    SELECT b.book_name AS bookName,
+            c.id,
+            c.book_id AS bookId,
+            c.chapter_id as  chapterId,
+            c.chapter_name AS  chapterName,
+            c.draft_status as draftStatus,
+            c.opinionsynopsis,
+            c.words,
+            c.is_free as  isFree,
+            c.create_time as  createTime,
+            c.update_time as  updateTime
+
+FROM audit_chapter c LEFT JOIN audit_book b ON b.id=c.book_id
+WHERE b.author =#{author,jdbcType=VARCHAR} AND c.draft_status =#{draftStatus,jdbcType=INTEGER}
+  </select>
+
+    <select id="selectTiming" resultMap="BaseResultMap">
+        SELECT id,book_id,chapter_id FROM audit_chapter WHERE  #{tomorrow}>create_time AND draft_status in (3,4)
+    </select>
+
+    <select id="selectByNickNameAndTimeInterval" resultType="java.lang.Integer">
+        SELECT sum(words)
+        FROM audit_chapter
+        WHERE book_id=#{bookId}
+        and draft_status in (3,4)
+        AND create_time between #{startDate} AND #{endDate}
+    </select>
+
+    <select id="getLastMonthInformation" resultType="java.lang.Integer">
+        SELECT book_id FROM chapter_info
+        WHERE create_time BETWEEN #{startTime} and #{endTime}
+        GROUP BY book_id
+    </select>
+
+</mapper>

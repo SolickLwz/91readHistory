@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.ChapterInfoMapper">
+	<resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.ChapterInfo">
+		<!--
+		  WARNING - @mbg.generated
+		-->
+		<id column="id" jdbcType="INTEGER" property="id"/>
+		<result column="book_id" jdbcType="INTEGER" property="bookId"/>
+		<result column="chapter_id" jdbcType="INTEGER" property="chapterId"/>
+		<result column="chapter_name" jdbcType="VARCHAR" property="chapterName"/>
+		<result column="words" jdbcType="INTEGER" property="words"/>
+		<result column="is_free" jdbcType="TINYINT" property="isFree"/>
+		<result column="cp_chapter_id" jdbcType="VARCHAR" property="cpChapterId"/>
+		<result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+		<result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+	</resultMap>
+	<delete id="delByBookId">
+      DELETE FROM chapter_info WHERE book_id =#{bookId,jdbcType=INTEGER}
+    </delete>
+	<select id="selectMaxSortByBookId" resultType="java.lang.Integer">
+		SELECT MAX(chapter_id) FROM chapter_info
+		WHERE book_id=#{bookId,jdbcType=INTEGER}
+	</select>
+	<select id="selectChapterListByBookId" resultMap="BaseResultMap">
+		SELECT id,book_id,chapter_id,chapter_name,words,is_free,cp_chapter_id,create_time,update_time
+		FROM chapter_info WHERE book_id =#{bookId,jdbcType=INTEGER} order by chapter_id
+	</select>
+
+	<select id="selectOneByBookIdAndChapterId" resultMap="BaseResultMap">
+		select id,book_id,chapter_id,chapter_name,words,is_free,cp_chapter_id,create_time,update_time
+		from chapter_info
+		where
+		book_id=#{bookId,jdbcType=INTEGER} and chapter_id=#{chapterId,jdbcType=INTEGER}
+	</select>
+
+	<select id="getWordsByMonth" resultType="java.lang.Integer">
+SELECT sum(words)
+FROM chapter_info
+WHERE book_id=#{bookId} AND create_time between #{startTime} AND #{endTime}
+	</select>
+
+	<select id="selectRangeChapter" resultMap="BaseResultMap">
+SELECT * FROM chapter_info WHERE book_id=#{bookid} AND chapter_id BETWEEN #{start} and #{end}
+	</select>
+
+	<select id="selectChapterListByBookIdAndLikeName" resultMap="BaseResultMap">
+select * from chapter_info where book_id=#{bookId} and
+chapter_id > (SELECT chapter_id FROM chapter_info WHERE book_id=#{bookId} AND chapter_name like CONCAT('%',#{nameEnd}))
+
+	</select>
+
+	<select id="selectMinToIdMaxToBookIdOnTimeInterval" resultType="java.util.HashMap">
+SELECT MIN(chapter_id) minsort,MAX(chapter_id) maxsort FROM chapter_info WHERE book_id=#{bookid} AND create_time BETWEEN #{startTime} and #{endTime}
+	</select>
+</mapper>

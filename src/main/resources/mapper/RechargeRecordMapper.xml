@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.RechargeRecordMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.RechargeRecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="recharge_no" jdbcType="VARCHAR" property="rechargeNo" />
+    <result column="recharge_status" jdbcType="VARCHAR" property="rechargeStatus" />
+    <result column="recharge_money" jdbcType="BIGINT" property="rechargeMoney" />
+    <result column="recharge_gold" jdbcType="BIGINT" property="rechargeGold" />
+    <result column="recharge_time" jdbcType="TIMESTAMP" property="rechargeTime" />
+    <result column="recharge_desc" jdbcType="VARCHAR" property="rechargeDesc" />
+    <result column="keep" jdbcType="VARCHAR" property="keep" />
+  </resultMap>
+
+  <select id="selectRecent" resultMap="BaseResultMap">
+    SELECT * FROM recharge_record WHERE uid=#{uid} AND recharge_money=#{total_fee} ORDER BY recharge_time DESC LIMIT 1
+  </select>
+
+  <select id="selectByDateBetweenAndStatus" resultMap="BaseResultMap">
+    SELECT * FROM recharge_record WHERE recharge_time BETWEEN #{earlMorningDate} AND #{specificDate} AND recharge_status=#{status}
+  </select>
+</mapper>

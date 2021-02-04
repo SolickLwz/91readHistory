@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.CsBookinfoMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.CsBookinfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="articlename" jdbcType="VARCHAR" property="articlename" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="cover" jdbcType="VARCHAR" property="cover" />
+    <result column="cpid" jdbcType="INTEGER" property="cpid" />
+    <result column="cpbookid" jdbcType="BIGINT" property="cpbookid" />
+    <result column="keyword" jdbcType="VARCHAR" property="keyword" />
+    <result column="category" jdbcType="INTEGER" property="category" />
+    <result column="categoryname" jdbcType="VARCHAR" property="categoryname" />
+    <result column="words" jdbcType="INTEGER" property="words" />
+    <result column="serial" jdbcType="INTEGER" property="serial" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="readtype" jdbcType="BIT" property="readtype" />
+    <result column="addtime" jdbcType="TIMESTAMP" property="addtime" />
+    <result column="updatetime" jdbcType="TIMESTAMP" property="updatetime" />
+    <result column="chargetype" jdbcType="INTEGER" property="chargetype" />
+    <result column="unitprice" jdbcType="INTEGER" property="unitprice" />
+    <result column="totalprice" jdbcType="INTEGER" property="totalprice" />
+    <result column="intro" jdbcType="LONGVARCHAR" property="intro" />
+  </resultMap>
+
+  <select id="selectCpBookIdInfo" resultType="java.lang.Integer">
+SELECT bookid FROM csbook.cs_cpbook WHERE cpid=#{cpid}
+  </select>
+
+  <select id="selectSerialAndOnlineByCpid" resultType="com.nine.one.yuedu.read.entity.CsBookinfo">
+    SELECT * FROM csbook.cs_bookinfo WHERE serial=1 AND status=1 AND id IN (SELECT bookid FROM csbook.cs_cpbook WHERE cpid=#{cpid})
+  </select>
+</mapper>

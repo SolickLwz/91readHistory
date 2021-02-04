@@ -1,0 +1,534 @@
+2020-06-23 01:29:40.285 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 2148 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 01:29:40.288 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 01:29:41.745 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 01:29:41.749 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 01:29:41.822 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-06-23 01:29:42.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 01:29:42.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 01:29:42.622 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 01:29:42.622 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 01:29:42.879 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 01:29:42.879 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2483 ms
+2020-06-23 01:29:43.102 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 01:30:04.603 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 01:30:04.624 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-23 01:30:04.661 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 01:32:36.246 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 13496 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 01:32:36.250 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 01:32:37.534 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 01:32:37.537 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 01:32:37.605 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2020-06-23 01:32:38.301 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 01:32:38.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 01:32:38.313 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 01:32:38.313 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 01:32:38.553 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 01:32:38.553 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2208 ms
+2020-06-23 01:32:38.756 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 01:32:39.550 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 01:32:41.903 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 01:32:41.983 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 81b0b521-fdeb-45c6-90c3-4bdc15a197cf
+
+2020-06-23 01:32:42.120 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12723c5d, org.springframework.security.web.context.SecurityContextPersistenceFilter@93fb44, org.springframework.security.web.header.HeaderWriterFilter@5814b4fb, org.springframework.security.web.authentication.logout.LogoutFilter@70aa58e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14b48f39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f9a3325, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56a09a5c, org.springframework.security.web.session.SessionManagementFilter@683fe7b5, org.springframework.security.web.access.ExceptionTranslationFilter@5724c7da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@115ef673]
+2020-06-23 01:32:42.312 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 01:32:43.028 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 01:32:43.058 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 01:32:43.109 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 01:32:43.371 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 01:32:43.462 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 01:32:43.470 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 01:32:43.478 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 01:32:43.480 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 01:32:43.481 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 01:32:43.482 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 01:32:43.483 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 01:32:43.506 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 01:32:43.538 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 01:32:43.541 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 7.846 seconds (JVM running for 9.713)
+2020-06-23 01:33:10.831 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 01:33:10.831 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 01:33:10.844 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-06-23 01:35:11.203 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 01:35:11.225 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 07:35:59.939 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 964 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 07:35:59.942 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 07:36:00.940 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 07:36:00.943 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 07:36:00.995 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-06-23 07:36:01.646 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 07:36:01.657 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 07:36:01.658 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 07:36:01.658 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 07:36:01.872 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 07:36:01.872 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1862 ms
+2020-06-23 07:36:02.065 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 07:36:03.352 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 07:36:05.610 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 07:36:05.705 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8512ea48-b913-4254-83b7-d5bab11188f4
+
+2020-06-23 07:36:05.824 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37e491e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@181098bf, org.springframework.security.web.header.HeaderWriterFilter@628bd77e, org.springframework.security.web.authentication.logout.LogoutFilter@30e143ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a552721, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@722b3ba2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56f84c9b, org.springframework.security.web.session.SessionManagementFilter@1ab268bd, org.springframework.security.web.access.ExceptionTranslationFilter@74e4be21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63d3c9dc]
+2020-06-23 07:36:05.958 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 07:36:06.421 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 07:36:06.440 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 07:36:06.479 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 07:36:06.719 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 07:36:06.830 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 07:36:06.840 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 07:36:06.845 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 07:36:06.847 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 07:36:06.848 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 07:36:06.850 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 07:36:06.851 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 07:36:06.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 07:36:06.898 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 07:36:06.901 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 7.347 seconds (JVM running for 9.661)
+2020-06-23 07:37:42.278 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 07:37:42.278 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 07:37:42.294 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-06-23 07:39:32.866 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 07:39:32.866 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 08:05:05.723 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 14852 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 08:05:05.723 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 08:05:06.692 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 08:05:06.707 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 08:05:06.754 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-06-23 08:05:07.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 08:05:07.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 08:05:07.254 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 08:05:07.254 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 08:05:07.410 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 08:05:07.410 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1609 ms
+2020-06-23 08:05:07.566 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 08:05:12.190 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 08:05:16.970 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 08:05:17.064 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fe0a8490-22f2-49d4-b083-7498e6309eb6
+
+2020-06-23 08:05:17.205 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9f48198, org.springframework.security.web.context.SecurityContextPersistenceFilter@69a76b74, org.springframework.security.web.header.HeaderWriterFilter@41f40dfa, org.springframework.security.web.authentication.logout.LogoutFilter@628bd77e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2aafa84f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24e2355c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5615f82d, org.springframework.security.web.session.SessionManagementFilter@52eca410, org.springframework.security.web.access.ExceptionTranslationFilter@6c9151c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f68eec6]
+2020-06-23 08:05:17.392 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 08:05:18.392 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 08:05:18.423 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 08:05:18.486 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 08:05:18.845 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 08:05:18.986 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 08:05:19.001 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 08:05:19.001 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 08:05:19.001 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 08:05:19.017 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 08:05:19.017 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 08:05:19.017 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 08:05:19.032 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 08:05:19.095 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 08:05:19.111 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 13.761 seconds (JVM running for 14.996)
+2020-06-23 08:05:36.655 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 08:05:36.655 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 08:05:36.671 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-06-23 08:06:24.275 [Druid-ConnectionPool-Create-1855297340] INFO  com.alibaba.druid.pool.DruidDataSource - put physical connection to pool failed.
+2020-06-23 08:11:13.724 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 08:11:13.740 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 08:11:40.496 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 10856 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 08:11:40.512 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 08:11:42.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 08:11:42.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 08:11:42.777 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 0 Redis repository interfaces.
+2020-06-23 08:11:43.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 08:11:43.761 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 08:11:43.761 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 08:11:43.761 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 08:11:44.073 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 08:11:44.073 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3374 ms
+2020-06-23 08:11:44.323 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 08:11:46.901 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 08:11:50.369 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 08:11:50.463 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f918d1ca-811f-4760-bc36-c50b04d1d8c5
+
+2020-06-23 08:11:50.572 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7672960e, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a751535, org.springframework.security.web.header.HeaderWriterFilter@5960f17, org.springframework.security.web.authentication.logout.LogoutFilter@3d98729a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f166d61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e017950, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69bca406, org.springframework.security.web.session.SessionManagementFilter@546083d6, org.springframework.security.web.access.ExceptionTranslationFilter@5d3634c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b25709e]
+2020-06-23 08:11:50.728 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 08:11:51.306 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 08:11:51.337 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 08:11:51.384 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 08:11:51.634 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 08:11:51.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 08:11:51.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 08:11:51.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 08:11:51.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 08:11:51.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 08:11:51.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 08:11:51.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 08:11:51.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 08:11:51.806 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 08:11:51.806 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 12.279 seconds (JVM running for 14.455)
+2020-06-23 08:12:14.535 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 08:12:14.535 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 08:12:14.551 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-06-23 09:21:43.987 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 09:21:44.005 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 09:55:55.633 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 26984 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 09:55:55.633 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 09:55:56.476 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 09:55:56.476 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 09:55:56.523 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-06-23 09:55:57.013 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 09:55:57.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 09:55:57.029 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 09:55:57.029 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 09:55:57.217 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 09:55:57.217 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1522 ms
+2020-06-23 09:55:57.341 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 09:55:57.607 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 09:55:58.825 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 09:55:58.872 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f3e24208-1114-4985-849d-080178c6531c
+
+2020-06-23 09:55:58.950 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e1a150c, org.springframework.security.web.context.SecurityContextPersistenceFilter@38968752, org.springframework.security.web.header.HeaderWriterFilter@41ec4271, org.springframework.security.web.authentication.logout.LogoutFilter@59a2bed1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13662609, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cecab19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@527d5e48, org.springframework.security.web.session.SessionManagementFilter@236a4d30, org.springframework.security.web.access.ExceptionTranslationFilter@4f2544b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e20f4e3]
+2020-06-23 09:55:59.029 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 09:55:59.388 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 09:55:59.403 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 09:55:59.435 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 09:55:59.575 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 09:55:59.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 09:55:59.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 09:55:59.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 09:55:59.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 09:55:59.653 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 09:55:59.653 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 09:55:59.653 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 09:55:59.669 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 09:55:59.685 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 09:55:59.685 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.529 seconds (JVM running for 5.623)
+2020-06-23 09:57:57.805 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 09:57:57.805 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 09:57:57.805 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-06-23 10:38:44.675 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 10:38:44.675 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 10:38:52.653 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 16272 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 10:38:52.653 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 10:38:53.527 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 10:38:53.527 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 10:38:53.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-06-23 10:38:54.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 10:38:54.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 10:38:54.074 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 10:38:54.074 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 10:38:54.215 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 10:38:54.215 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1484 ms
+2020-06-23 10:38:54.371 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 10:38:54.654 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 10:38:55.903 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 10:38:55.950 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3d9f733f-e9ab-43d9-bdb5-182916ab6f80
+
+2020-06-23 10:38:56.028 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49925d21, org.springframework.security.web.context.SecurityContextPersistenceFilter@50fa5938, org.springframework.security.web.header.HeaderWriterFilter@4746fb8c, org.springframework.security.web.authentication.logout.LogoutFilter@6e4e60f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58b5f7d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aca2579, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11170228, org.springframework.security.web.session.SessionManagementFilter@74f649a7, org.springframework.security.web.access.ExceptionTranslationFilter@289a4b90, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e2c627e]
+2020-06-23 10:38:56.122 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 10:38:56.481 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 10:38:56.497 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 10:38:56.528 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 10:38:56.684 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 10:38:56.731 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 10:38:56.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 10:38:56.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 10:38:56.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 10:38:56.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 10:38:56.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 10:38:56.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 10:38:56.763 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 10:38:56.794 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 10:38:56.794 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.525 seconds (JVM running for 5.591)
+2020-06-23 10:40:28.467 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 10:40:28.467 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 10:40:28.467 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-06-23 10:40:41.082 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 10:40:41.082 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1026354021556944624.jpg
+2020-06-23 10:40:48.188 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 10:40:48.188 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4042075707471044413.jpg
+2020-06-23 10:43:33.940 [http-nio-9004-exec-8] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 10:43:33.940 [http-nio-9004-exec-8] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8768301724710896262.jpg
+2020-06-23 10:44:56.863 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 10:44:56.863 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5432194788879509709.jpg
+2020-06-23 10:45:13.544 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 10:45:13.560 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4701833797217375382.jpg
+2020-06-23 10:45:21.052 [http-nio-9004-exec-5] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 10:45:21.052 [http-nio-9004-exec-5] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern799910515268200639.jpg
+2020-06-23 12:20:33.127 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 12:20:33.142 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 12:20:39.836 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 25268 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 12:20:39.836 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 12:20:40.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 12:20:40.679 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 12:20:40.711 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-06-23 12:20:41.148 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 12:20:41.148 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 12:20:41.148 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 12:20:41.148 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 12:20:41.336 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 12:20:41.336 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1453 ms
+2020-06-23 12:20:41.460 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 12:20:41.679 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 12:20:42.804 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 12:20:42.866 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3de52bff-659b-40dc-92a7-b7e6db29febf
+
+2020-06-23 12:20:42.929 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58b3eb1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ebf524, org.springframework.security.web.header.HeaderWriterFilter@4b9fa2f, org.springframework.security.web.authentication.logout.LogoutFilter@4ba13fed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@799971ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@513fab1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d7e2795, org.springframework.security.web.session.SessionManagementFilter@b267745, org.springframework.security.web.access.ExceptionTranslationFilter@6b86826a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45d46254]
+2020-06-23 12:20:43.023 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 12:20:43.366 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 12:20:43.382 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 12:20:43.413 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 12:20:43.554 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 12:20:43.616 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 12:20:43.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 12:20:43.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 12:20:43.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 12:20:43.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 12:20:43.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 12:20:43.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 12:20:43.647 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 12:20:43.663 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 12:20:43.663 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.24 seconds (JVM running for 5.269)
+2020-06-23 12:22:48.612 [http-nio-9004-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 12:22:48.612 [http-nio-9004-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 12:22:48.612 [http-nio-9004-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-06-23 12:22:49.237 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 12:22:49.237 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7300637324410389221.jpg
+2020-06-23 12:28:50.783 [http-nio-9004-exec-4] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 12:28:50.783 [http-nio-9004-exec-4] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4088762628061217937.jpg
+2020-06-23 12:46:33.346 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 12:46:33.361 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 12:47:26.586 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 42060 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 12:47:26.586 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 12:47:28.616 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 12:47:28.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 12:47:28.694 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-06-23 12:47:29.737 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 12:47:29.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 12:47:29.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 12:47:29.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 12:47:30.019 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 12:47:30.019 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3277 ms
+2020-06-23 12:47:30.284 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 12:47:30.753 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 12:47:32.627 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 12:47:32.706 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c6d4d515-eeee-427e-8c8b-b97ae84173dd
+
+2020-06-23 12:47:32.831 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cbbfe29, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d9bd1d6, org.springframework.security.web.header.HeaderWriterFilter@1dfe5dd1, org.springframework.security.web.authentication.logout.LogoutFilter@11309dd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@117fb9ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bc21e34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25823192, org.springframework.security.web.session.SessionManagementFilter@4449b273, org.springframework.security.web.access.ExceptionTranslationFilter@93f15f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65ad2b42]
+2020-06-23 12:47:32.987 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 12:47:33.627 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 12:47:33.658 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 12:47:33.705 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 12:47:33.987 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 12:47:34.096 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 12:47:34.096 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 12:47:34.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 12:47:34.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 12:47:34.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 12:47:34.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 12:47:34.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 12:47:34.143 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 12:47:34.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 12:47:34.190 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 8.66 seconds (JVM running for 10.418)
+2020-06-23 12:47:38.749 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 12:47:38.749 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 12:47:38.765 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-06-23 12:47:39.374 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 12:47:39.374 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3918933969511686881.jpg
+2020-06-23 13:18:38.142 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 13:18:38.158 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 13:19:16.652 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 47016 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 13:19:16.652 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 13:19:17.871 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 13:19:17.887 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 13:19:17.933 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2020-06-23 13:19:18.511 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 13:19:18.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 13:19:18.527 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 13:19:18.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 13:19:18.730 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 13:19:18.730 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1999 ms
+2020-06-23 13:19:18.902 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 13:19:19.418 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 13:19:20.870 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 13:19:20.933 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b199efbc-2017-48d5-9b76-84ad63f67cd9
+
+2020-06-23 13:19:21.026 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a7ae340, org.springframework.security.web.context.SecurityContextPersistenceFilter@470135da, org.springframework.security.web.header.HeaderWriterFilter@b267745, org.springframework.security.web.authentication.logout.LogoutFilter@93fb44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f68eec6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bc52a41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e8bd498, org.springframework.security.web.session.SessionManagementFilter@513fab1e, org.springframework.security.web.access.ExceptionTranslationFilter@452ec287, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@752494dd]
+2020-06-23 13:19:21.151 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 13:19:21.604 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 13:19:21.620 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 13:19:21.651 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 13:19:21.870 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 13:19:21.948 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 13:19:21.948 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 13:19:21.964 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 13:19:21.964 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 13:19:21.964 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 13:19:21.964 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 13:19:21.964 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 13:19:21.979 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 13:19:22.011 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 13:19:22.011 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.863 seconds (JVM running for 7.371)
+2020-06-23 13:20:08.546 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 13:20:08.546 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 13:20:08.562 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-06-23 13:20:09.143 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 13:20:09.158 [http-nio-9004-exec-1] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern949507197181102514.jpg
+2020-06-23 14:16:28.795 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 14:16:28.822 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 14:25:18.389 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 45392 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 14:25:18.391 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 14:25:19.289 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 14:25:19.291 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 14:25:19.336 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-06-23 14:25:19.811 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 14:25:19.819 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 14:25:19.819 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 14:25:19.819 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 14:25:19.984 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 14:25:19.984 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1524 ms
+2020-06-23 14:25:20.124 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 14:25:20.374 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 14:25:21.582 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 14:25:21.635 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fa64d87e-4f16-432a-b1e6-46672dc5bebe
+
+2020-06-23 14:25:21.706 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@286dfa20, org.springframework.security.web.context.SecurityContextPersistenceFilter@6802d023, org.springframework.security.web.header.HeaderWriterFilter@69d58731, org.springframework.security.web.authentication.logout.LogoutFilter@14ca88bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77476fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2567c091, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1468e880, org.springframework.security.web.session.SessionManagementFilter@8ce3f27, org.springframework.security.web.access.ExceptionTranslationFilter@11170228, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31e3c34]
+2020-06-23 14:25:21.803 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 14:25:22.175 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 14:25:22.191 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 14:25:22.218 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 14:25:22.365 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 14:25:22.426 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 14:25:22.431 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 14:25:22.436 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 14:25:22.437 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 14:25:22.438 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 14:25:22.439 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 14:25:22.440 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 14:25:22.455 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 14:25:22.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 14:25:22.481 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.501 seconds (JVM running for 5.527)
+2020-06-23 14:31:23.478 [http-nio-9004-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 14:31:23.478 [http-nio-9004-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 14:31:23.491 [http-nio-9004-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-06-23 14:31:25.164 [http-nio-9004-exec-2] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 14:31:25.166 [http-nio-9004-exec-2] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3097508741141480670.jpg
+2020-06-23 15:21:29.246 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 15:21:29.263 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 17:38:01.792 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 67264 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 17:38:01.795 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 17:38:02.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 17:38:02.742 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 17:38:02.789 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-06-23 17:38:03.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 17:38:03.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 17:38:03.292 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 17:38:03.292 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 17:38:03.472 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 17:38:03.474 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1611 ms
+2020-06-23 17:38:03.617 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-23 17:38:04.070 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-23 17:38:05.351 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 17:38:05.401 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 285382c0-3ac7-4084-880b-b65954aed3f1
+
+2020-06-23 17:38:05.480 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74619273, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e8986b6, org.springframework.security.web.header.HeaderWriterFilter@7323dce7, org.springframework.security.web.authentication.logout.LogoutFilter@11e24688, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ad2883a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@878feb2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38c55a8a, org.springframework.security.web.session.SessionManagementFilter@21698e5a, org.springframework.security.web.access.ExceptionTranslationFilter@53d87b2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c048b30]
+2020-06-23 17:38:05.571 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 17:38:05.970 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-23 17:38:05.986 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-23 17:38:06.013 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-23 17:38:06.169 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-23 17:38:06.233 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-23 17:38:06.239 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-23 17:38:06.243 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-23 17:38:06.244 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-23 17:38:06.245 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-23 17:38:06.246 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-23 17:38:06.247 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-23 17:38:06.263 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-23 17:38:06.284 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-23 17:38:06.287 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.889 seconds (JVM running for 6.052)
+2020-06-23 17:39:59.598 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 17:39:59.599 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-23 17:39:59.607 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-06-23 17:40:28.605 [http-nio-9004-exec-2] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 17:40:28.607 [http-nio-9004-exec-2] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3871690291935622127.jpg
+2020-06-23 17:54:06.664 [http-nio-9004-exec-9] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 17:54:06.669 [http-nio-9004-exec-9] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2080820717402517235.jpg
+2020-06-23 17:58:03.631 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 17:58:03.633 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4484446295137303485.jpg
+2020-06-23 18:01:07.486 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:01:07.488 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8216507478605032242.jpg
+2020-06-23 18:02:44.987 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:02:44.989 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern380615136681897805.jpg
+2020-06-23 18:07:37.620 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:07:37.622 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5633452954653170056.jpg
+2020-06-23 18:09:33.808 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:09:33.810 [http-nio-9004-exec-10] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3394306261516332142.jpg
+2020-06-23 18:33:43.401 [http-nio-9004-exec-2] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:33:43.403 [http-nio-9004-exec-2] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1572723689860615099.jpg
+2020-06-23 18:39:33.716 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:39:33.718 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern380789542940684550.jpg
+2020-06-23 18:49:58.525 [http-nio-9004-exec-4] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-23 18:49:58.528 [http-nio-9004-exec-4] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7565733258049110188.jpg
+2020-06-23 18:54:19.642 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 18:54:19.676 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-23 18:54:34.971 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 76204 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 18:54:34.982 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 18:54:37.309 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 18:54:37.311 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 18:54:37.394 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 Redis repository interfaces.
+2020-06-23 18:54:38.392 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 18:54:38.404 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 18:54:38.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 18:54:38.408 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 18:54:38.668 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 18:54:38.668 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3470 ms
+2020-06-23 18:54:38.884 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-23 18:54:38.915 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 23:49:51.220 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 84684 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 23:49:51.223 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 23:49:52.282 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 23:49:52.284 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 23:49:52.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+2020-06-23 23:49:52.892 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 23:49:52.903 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 23:49:52.903 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 23:49:52.904 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 23:49:53.089 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 23:49:53.089 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1778 ms
+2020-06-23 23:49:53.233 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-23 23:49:53.253 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 23:56:43.704 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 75108 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-23 23:56:43.707 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-23 23:56:44.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 23:56:44.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-23 23:56:44.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+2020-06-23 23:56:45.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-23 23:56:45.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-23 23:56:45.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 23:56:45.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-23 23:56:45.690 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 23:56:45.690 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1883 ms
+2020-06-23 23:56:45.824 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-23 23:56:45.839 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

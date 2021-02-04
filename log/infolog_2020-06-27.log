@@ -1,0 +1,385 @@
+2020-06-27 00:07:05.873 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 43628 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-27 00:07:05.873 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-27 00:07:06.746 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 00:07:06.746 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-27 00:07:06.793 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-06-27 00:07:07.246 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-27 00:07:07.262 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-27 00:07:07.262 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-27 00:07:07.262 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-27 00:07:07.434 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-27 00:07:07.434 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1499 ms
+2020-06-27 00:07:07.578 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-27 00:07:07.828 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-27 00:07:09.002 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-27 00:07:09.049 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 11a9a4a2-ac3e-4c88-9560-f49d01a06dd1
+
+2020-06-27 00:07:09.127 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59a2bed1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ff9f715, org.springframework.security.web.header.HeaderWriterFilter@41bdaa81, org.springframework.security.web.authentication.logout.LogoutFilter@13d1f898, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cb194f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21698e5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49f2646, org.springframework.security.web.session.SessionManagementFilter@7323dce7, org.springframework.security.web.access.ExceptionTranslationFilter@31e22365, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c1bebca]
+2020-06-27 00:07:09.221 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-27 00:07:09.611 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-27 00:07:09.627 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-27 00:07:09.658 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-27 00:07:09.736 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-06-27 00:07:09.829 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-27 00:07:09.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-27 00:07:09.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-27 00:07:09.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-27 00:07:09.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-27 00:07:09.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-27 00:07:09.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-27 00:07:09.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-27 00:07:09.907 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-27 00:07:09.970 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-27 00:07:09.970 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.47 seconds (JVM running for 5.541)
+2020-06-27 00:07:53.294 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-27 00:07:53.310 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-27 00:08:40.803 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 151400 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-27 00:08:40.803 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-27 00:08:41.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 00:08:41.712 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-27 00:08:41.744 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-06-27 00:08:42.193 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-27 00:08:42.208 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-27 00:08:42.208 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-27 00:08:42.208 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-27 00:08:42.349 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-27 00:08:42.349 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1468 ms
+2020-06-27 00:08:42.474 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-27 00:08:42.781 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-27 00:08:43.900 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-27 00:08:43.947 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 193f2534-296c-4595-a65d-f3473cee2313
+
+2020-06-27 00:08:44.009 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2579d8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@24f90aff, org.springframework.security.web.header.HeaderWriterFilter@4be460e5, org.springframework.security.web.authentication.logout.LogoutFilter@2986427e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25ea068e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@736788b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2507a170, org.springframework.security.web.session.SessionManagementFilter@70aa58e1, org.springframework.security.web.access.ExceptionTranslationFilter@35d114f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4805069b]
+2020-06-27 00:08:44.103 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-27 00:08:44.447 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-27 00:08:44.462 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-27 00:08:44.494 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-27 00:08:44.556 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-06-27 00:08:44.665 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-27 00:08:44.712 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-27 00:08:44.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-27 00:08:44.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-27 00:08:44.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-27 00:08:44.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-27 00:08:44.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-27 00:08:44.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-27 00:08:44.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-27 00:08:44.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-27 00:08:44.775 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.325 seconds (JVM running for 5.3)
+2020-06-27 00:10:50.132 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-27 00:10:50.132 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-27 00:10:50.132 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-06-27 09:22:10.812 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-27 09:22:10.843 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-27 12:43:30.518 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 95360 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-06-27 12:43:30.518 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-27 12:43:31.459 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 12:43:31.459 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-27 12:43:31.506 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2020-06-27 12:43:32.022 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-27 12:43:32.022 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-27 12:43:32.022 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-27 12:43:32.022 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-27 12:43:32.203 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-27 12:43:32.203 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1638 ms
+2020-06-27 12:43:32.344 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-27 12:43:33.181 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-27 12:43:34.494 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-27 12:43:34.541 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: de7a7079-2fb2-46db-ab6e-982dacf033dd
+
+2020-06-27 12:43:34.619 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f8f40cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e61a863, org.springframework.security.web.header.HeaderWriterFilter@8b1202a, org.springframework.security.web.authentication.logout.LogoutFilter@4654e373, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fea9a7b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cfa2ac5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14d81f2c, org.springframework.security.web.session.SessionManagementFilter@7b9c2387, org.springframework.security.web.access.ExceptionTranslationFilter@103e7c7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4af7ac25]
+2020-06-27 12:43:34.713 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-27 12:43:35.181 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-27 12:43:35.213 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-27 12:43:35.244 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-27 12:43:35.322 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-06-27 12:43:35.430 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_2
+2020-06-27 12:43:35.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-06-27 12:43:35.524 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-27 12:43:35.555 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-27 12:43:35.555 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.427 seconds (JVM running for 6.565)
+2020-06-27 12:43:55.906 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-27 12:43:55.906 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-27 12:43:55.921 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2020-06-27 12:44:08.262 [http-nio-9004-exec-7] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 12:44:08.262 [http-nio-9004-exec-7] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern302980725970480197.jpg
+2020-06-27 13:42:03.838 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:03.838 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6101173830878446543.jpg
+2020-06-27 13:42:04.434 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:04.434 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern532396766660465736.jpg
+2020-06-27 13:42:05.012 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:05.027 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7837622510128306604.jpg
+2020-06-27 13:42:05.618 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:05.634 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4875284426769654970.jpg
+2020-06-27 13:42:06.290 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:06.290 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4878753879884609122.jpg
+2020-06-27 13:42:06.926 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:06.926 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2568922879504244371.jpg
+2020-06-27 13:42:07.567 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:07.567 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern481300017235145273.jpg
+2020-06-27 13:42:08.175 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:08.175 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6347447416684650358.jpg
+2020-06-27 13:42:08.769 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:08.769 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8432039364342212705.jpg
+2020-06-27 13:42:09.461 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:09.461 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8344032451134688704.jpg
+2020-06-27 13:42:10.127 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:10.127 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6655952217956180730.jpg
+2020-06-27 13:42:10.690 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:10.705 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern619636516659343087.jpg
+2020-06-27 13:42:11.248 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:11.248 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1440090996317274877.jpg
+2020-06-27 13:42:11.858 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:11.858 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5143417178684064598.jpg
+2020-06-27 13:42:12.542 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:12.542 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7044487990274829780.jpg
+2020-06-27 13:42:13.104 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:42:13.120 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6139897473102233901.jpg
+2020-06-27 13:46:26.008 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:46:26.008 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7556522764557551103.jpg
+2020-06-27 13:51:14.251 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:51:14.251 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1663142971756962830.jpg
+2020-06-27 13:56:09.049 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 13:56:09.049 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5388747229814058767.jpg
+2020-06-27 14:01:59.209 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:01:59.225 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1944950207972035265.jpg
+2020-06-27 14:08:08.154 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:08:08.154 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1640967107645198789.jpg
+2020-06-27 14:23:18.584 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:18.588 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1410516969310090034.jpg
+2020-06-27 14:23:19.244 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:19.244 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7905441667083726780.jpg
+2020-06-27 14:23:19.878 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:19.878 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6929953421705077265.jpg
+2020-06-27 14:23:20.456 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:20.456 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8485549666700894887.jpg
+2020-06-27 14:23:20.952 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:20.952 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7894541440541425140.jpg
+2020-06-27 14:23:21.514 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:21.514 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern764829163104302974.jpg
+2020-06-27 14:23:22.072 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:22.072 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern9201440091161214640.jpg
+2020-06-27 14:23:22.666 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:22.666 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5992532876261032862.jpg
+2020-06-27 14:23:23.256 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:23.256 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern341999839669356943.jpg
+2020-06-27 14:23:23.912 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:23.912 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3007050638455205243.jpg
+2020-06-27 14:23:24.491 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:24.491 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3705914245120638134.jpg
+2020-06-27 14:23:25.178 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:25.178 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7368822286123438532.jpg
+2020-06-27 14:23:25.816 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:25.816 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8757720969557656795.jpg
+2020-06-27 14:23:26.375 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:23:26.375 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7707197243374795628.jpg
+2020-06-27 14:29:07.666 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:07.666 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6483908433380613317.jpg
+2020-06-27 14:29:08.275 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:08.275 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6386051760226768680.jpg
+2020-06-27 14:29:08.871 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:08.871 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4989461710165062500.jpg
+2020-06-27 14:29:09.713 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:09.713 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6379453725698329244.jpg
+2020-06-27 14:29:10.337 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:10.337 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6674130767907505662.jpg
+2020-06-27 14:29:10.881 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:10.881 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7197306547611779383.jpg
+2020-06-27 14:29:11.443 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:11.443 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6630299839436328933.jpg
+2020-06-27 14:29:12.051 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:12.051 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5997669345964899056.jpg
+2020-06-27 14:29:12.660 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:12.660 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4469170570802935546.jpg
+2020-06-27 14:29:13.547 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:13.563 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4477402493856276179.jpg
+2020-06-27 14:29:15.487 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:15.487 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5815893995558983502.jpg
+2020-06-27 14:29:16.108 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:16.108 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7463761126331369934.jpg
+2020-06-27 14:29:16.686 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:16.686 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8043855921976879520.jpg
+2020-06-27 14:29:17.263 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:29:17.263 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6574415771367623314.jpg
+2020-06-27 14:32:14.225 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:32:14.225 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4370134278857973527.jpg
+2020-06-27 14:34:29.325 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:34:29.340 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1775953530511513940.jpg
+2020-06-27 14:38:19.010 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:38:19.010 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3581982614296150812.jpg
+2020-06-27 14:47:00.249 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:47:00.249 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern73984761368799223.jpg
+2020-06-27 14:51:44.054 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:51:44.054 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4427125262418737637.jpg
+2020-06-27 14:56:35.339 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 14:56:35.339 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6520035636593582165.jpg
+2020-06-27 15:01:18.074 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:01:18.074 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6068334563495439005.jpg
+2020-06-27 15:04:51.286 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:04:51.286 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7452757707492160848.jpg
+2020-06-27 15:10:40.149 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:40.149 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2036870656438906955.jpg
+2020-06-27 15:10:40.895 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:40.895 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6938638428874173407.jpg
+2020-06-27 15:10:41.442 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:41.442 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3570350111908891049.jpg
+2020-06-27 15:10:42.295 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:42.295 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5295129915427597694.jpg
+2020-06-27 15:10:42.870 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:42.870 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6119163191219567606.jpg
+2020-06-27 15:10:43.823 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:43.823 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4970732256380986269.jpg
+2020-06-27 15:10:44.773 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:44.773 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1370550588650920687.jpg
+2020-06-27 15:10:45.348 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:45.348 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4366430973043270514.jpg
+2020-06-27 15:10:46.067 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:46.067 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1168921256562309745.jpg
+2020-06-27 15:10:47.236 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:47.251 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2788788477595936879.jpg
+2020-06-27 15:10:48.294 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:48.294 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3358705789693392318.jpg
+2020-06-27 15:10:48.884 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:48.884 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1916274770298492893.jpg
+2020-06-27 15:10:49.400 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:49.400 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3572894495548421533.jpg
+2020-06-27 15:10:51.095 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:51.095 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8275303171485779225.jpg
+2020-06-27 15:10:51.720 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:51.720 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5233373417244592573.jpg
+2020-06-27 15:10:52.314 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:52.314 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5768204113098569923.jpg
+2020-06-27 15:10:52.935 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:52.935 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7806201377778468423.jpg
+2020-06-27 15:10:53.544 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:53.544 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7384616803304640853.jpg
+2020-06-27 15:10:54.166 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:54.166 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7520235719322011162.jpg
+2020-06-27 15:10:54.822 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:54.837 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4176451811204648161.jpg
+2020-06-27 15:10:56.037 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:56.037 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5454468225774179814.jpg
+2020-06-27 15:10:56.643 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:56.643 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1246146927892673882.jpg
+2020-06-27 15:10:57.236 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:57.236 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2062110058948129035.jpg
+2020-06-27 15:10:57.811 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:57.811 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern627722541118470874.jpg
+2020-06-27 15:10:58.401 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:58.401 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6170605332027337786.jpg
+2020-06-27 15:10:59.026 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:59.026 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern9118191704877797004.jpg
+2020-06-27 15:10:59.634 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:10:59.634 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2046462611599818969.jpg
+2020-06-27 15:11:00.228 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:00.228 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern631733414083117484.jpg
+2020-06-27 15:11:00.739 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:00.739 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8568092556453521062.jpg
+2020-06-27 15:11:01.348 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:01.348 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3255598630583147052.jpg
+2020-06-27 15:11:01.920 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:01.920 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7285053149202802084.jpg
+2020-06-27 15:11:02.483 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:02.483 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7107180064055168764.jpg
+2020-06-27 15:11:03.163 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:03.179 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3074299323871715484.jpg
+2020-06-27 15:11:03.741 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:03.741 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6425159708243190394.jpg
+2020-06-27 15:11:04.424 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:04.424 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4686448570944836628.jpg
+2020-06-27 15:11:05.015 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:05.015 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3796414514410926931.jpg
+2020-06-27 15:11:05.656 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:05.656 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4378736283551536285.jpg
+2020-06-27 15:11:06.295 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:06.295 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8018759697063520975.jpg
+2020-06-27 15:11:06.857 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:06.857 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7937099360171482357.jpg
+2020-06-27 15:11:07.541 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:07.541 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2742061002122148017.jpg
+2020-06-27 15:11:08.381 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:08.381 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6276564581050337545.jpg
+2020-06-27 15:11:09.006 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:09.006 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4223271501605253522.jpg
+2020-06-27 15:11:09.659 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:09.659 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7581555114909768395.jpg
+2020-06-27 15:11:10.221 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:10.221 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1219094973006958619.jpg
+2020-06-27 15:11:11.530 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:11.530 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1516488011317366481.jpg
+2020-06-27 15:11:11.996 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:11.996 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3010285412967991446.jpg
+2020-06-27 15:11:12.527 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:12.527 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern31996640703236188.jpg
+2020-06-27 15:11:13.149 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:13.149 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1940711780179840788.jpg
+2020-06-27 15:11:13.743 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:13.743 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6057311757389148159.jpg
+2020-06-27 15:11:14.303 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:14.303 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern934614760099854542.jpg
+2020-06-27 15:11:14.955 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:14.956 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern461139223266937473.jpg
+2020-06-27 15:11:15.487 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:15.487 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1287426065271547030.jpg
+2020-06-27 15:11:16.078 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:16.093 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3588347476910288524.jpg
+2020-06-27 15:11:16.687 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:16.687 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1348063553535835140.jpg
+2020-06-27 15:11:17.308 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:17.308 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6411847431695396800.jpg
+2020-06-27 15:11:17.918 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:17.918 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4183667506215722089.jpg
+2020-06-27 15:11:18.447 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:18.447 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4839711486655214627.jpg
+2020-06-27 15:11:19.025 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:19.025 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4690396884583708806.jpg
+2020-06-27 15:11:19.616 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:19.616 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3696287140887784062.jpg
+2020-06-27 15:11:20.163 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:20.163 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6395250056742194003.jpg
+2020-06-27 15:11:20.861 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:20.861 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1626491131224638133.jpg
+2020-06-27 15:11:21.733 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:21.733 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1049384710645874512.jpg
+2020-06-27 15:11:22.294 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:22.294 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2141627429057545818.jpg
+2020-06-27 15:11:22.838 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:22.838 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern8143183190782963960.jpg
+2020-06-27 15:11:23.401 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:23.401 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern5421533954411336242.jpg
+2020-06-27 15:11:23.977 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:23.977 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3983944586506144564.jpg
+2020-06-27 15:11:24.540 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:24.540 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7230747182269911836.jpg
+2020-06-27 15:11:25.037 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:25.053 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern2889649833925394445.jpg
+2020-06-27 15:11:25.740 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:25.740 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern1692486740027499312.jpg
+2020-06-27 15:11:26.409 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:26.409 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern7807738805694656821.jpg
+2020-06-27 15:11:26.893 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:26.893 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6897675037881296742.jpg
+2020-06-27 15:11:27.500 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:27.500 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern3563052734412349558.jpg
+2020-06-27 15:11:28.031 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:28.031 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern109233908961190924.jpg
+2020-06-27 15:11:28.637 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:28.637 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern4737044313158437243.jpg
+2020-06-27 15:11:29.338 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:29.338 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6559650327144940731.jpg
+2020-06-27 15:11:29.963 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 后缀是:.jpg
+2020-06-27 15:11:29.963 [http-nio-9004-exec-3] INFO  com.nine.one.yuedu.read.utils.FileOptionUtil - 临时文件创建成功=C:\Users\asus\AppData\Local\Temp\pattern6705623402158517247.jpg
+2020-06-27 15:18:01.544 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-27 15:18:01.544 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

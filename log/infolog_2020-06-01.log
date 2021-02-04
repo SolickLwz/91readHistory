@@ -1,0 +1,1206 @@
+2020-06-01 12:47:27.517 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 12:47:27.525 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 12:47:27.527 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 12:47:27.660 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 12:47:27.787 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 12:47:27.805 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@266374ef, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13b3d178, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@24c4ddae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37fb0bed, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a82c5f1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7b7fdc8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51c693d, org.springframework.test.context.event.EventPublishingTestExecutionListener@6a57ae10, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@766653e6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e07b95f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@28b46423, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fc4780b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3b79fd76]
+2020-06-01 12:47:28.171 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82514 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 12:47:28.172 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - No active profile set, falling back to default profiles: default
+2020-06-01 12:47:29.121 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 12:47:29.124 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 12:47:29.161 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-01 12:47:30.030 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 12:47:30.923 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 12:47:33.928 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 12:47:34.030 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e1a53b58-9950-482a-ad30-b777e88cf133
+
+2020-06-01 12:47:34.229 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19105a87, org.springframework.security.web.context.SecurityContextPersistenceFilter@70c491b8, org.springframework.security.web.header.HeaderWriterFilter@3b96f8b0, org.springframework.security.web.authentication.logout.LogoutFilter@14a1769d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a3cf824, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c6928c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@83b0d0f, org.springframework.security.web.session.SessionManagementFilter@3120495d, org.springframework.security.web.access.ExceptionTranslationFilter@44da7eb3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74b1838]
+2020-06-01 12:47:34.658 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 12:47:35.551 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 12:47:35.578 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 12:47:35.613 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 12:47:35.818 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 12:47:35.890 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 12:47:35.898 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 12:47:35.922 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 8.072 seconds (JVM running for 9.14)
+2020-06-01 12:47:39.279 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取先婚厚爱：豪门老公宠上瘾成功
+2020-06-01 12:47:39.740 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取歌落浮华成功
+2020-06-01 12:47:40.707 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取一等女官成功
+2020-06-01 12:47:41.687 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取白纸迷局成功
+2020-06-01 12:47:42.155 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取倾城一笑只为君成功
+2020-06-01 12:47:42.616 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取兵诀之热血教师成功
+2020-06-01 12:47:43.110 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取将军的小花兮事成功
+2020-06-01 12:47:43.587 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取穿书之女配洗白记成功
+2020-06-01 12:47:44.055 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取青冥游记之颍川王妃成功
+2020-06-01 12:47:44.504 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 12:47:44.507 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 13:20:26.266 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 13:20:26.273 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 13:20:26.274 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 13:20:26.385 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 13:20:26.462 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 13:20:26.477 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 13:20:26.769 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82789 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 13:20:26.770 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - No active profile set, falling back to default profiles: default
+2020-06-01 13:20:27.638 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 13:20:27.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 13:20:27.676 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 13:20:28.445 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 13:20:29.152 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 13:20:31.918 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 13:20:32.012 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ae0ad0aa-cd4b-47aa-ad7d-b8cf113ab99b
+
+2020-06-01 13:20:32.171 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2120bed, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c28181b, org.springframework.security.web.header.HeaderWriterFilter@b75b890, org.springframework.security.web.authentication.logout.LogoutFilter@4b4927e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@239b98cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e151e1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@566fe83c, org.springframework.security.web.session.SessionManagementFilter@1b3a9ef4, org.springframework.security.web.access.ExceptionTranslationFilter@4416e18d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21be14c2]
+2020-06-01 13:20:32.525 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:20:33.303 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 13:20:33.330 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 13:20:33.366 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 13:20:33.579 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 13:20:33.646 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 13:20:33.654 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 13:20:33.674 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 7.159 seconds (JVM running for 8.118)
+2020-06-01 13:20:46.022 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:20:46.033 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 13:21:04.798 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 13:21:04.805 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 13:21:04.805 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 13:21:04.904 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 13:21:04.987 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 13:21:04.999 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 13:21:05.252 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82800 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 13:21:05.253 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - No active profile set, falling back to default profiles: default
+2020-06-01 13:21:06.040 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 13:21:06.043 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 13:21:06.075 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-06-01 13:21:06.730 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 13:21:07.377 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 13:21:08.799 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 13:21:08.872 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 89987e81-3d8d-4a71-815e-314839aa4f19
+
+2020-06-01 13:21:08.994 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61a704d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c6928c, org.springframework.security.web.header.HeaderWriterFilter@781c2497, org.springframework.security.web.authentication.logout.LogoutFilter@afee63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73aaec54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b3f4bd8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2120bed, org.springframework.security.web.session.SessionManagementFilter@3c60c681, org.springframework.security.web.access.ExceptionTranslationFilter@5d829ef0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64c8fcfb]
+2020-06-01 13:21:09.312 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:21:10.005 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 13:21:10.025 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 13:21:10.057 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 13:21:10.241 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 13:21:10.305 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 13:21:10.313 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 13:21:10.332 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 5.305 seconds (JVM running for 6.159)
+2020-06-01 13:21:14.504 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:21:14.507 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 13:23:28.055 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 13:23:28.061 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 13:23:28.062 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 13:23:28.158 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 13:23:28.234 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 13:23:28.247 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 13:23:28.511 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82834 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 13:23:28.511 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: prod
+2020-06-01 13:23:29.191 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 13:23:29.193 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 13:23:29.222 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 13:23:29.841 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 13:25:39.417 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 13:25:39.424 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 13:25:39.425 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 13:25:39.546 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 13:25:39.644 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 13:25:39.662 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 13:25:39.971 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82870 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 13:25:39.972 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: prod
+2020-06-01 13:25:40.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 13:25:40.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 13:25:40.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-01 13:25:41.656 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 13:26:09.511 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 13:26:09.517 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 13:26:09.518 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 13:26:09.610 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 13:26:09.687 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 13:26:09.698 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 13:26:09.952 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82879 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 13:26:09.952 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 13:26:10.638 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 13:26:10.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 13:26:10.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 13:26:11.318 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 13:26:11.741 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 13:26:13.262 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 13:26:13.364 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f379b116-490c-4638-ad2a-9a417b4367f2
+
+2020-06-01 13:26:13.549 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@632241f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@516195cf, org.springframework.security.web.header.HeaderWriterFilter@d70e9a, org.springframework.security.web.authentication.logout.LogoutFilter@496cedbb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26ca12a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ff0e6d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64bba0eb, org.springframework.security.web.session.SessionManagementFilter@14a1769d, org.springframework.security.web.access.ExceptionTranslationFilter@36211bbc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b3857e2]
+2020-06-01 13:26:13.921 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:26:14.820 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 13:26:14.847 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 13:26:14.881 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 13:26:15.075 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 13:26:15.130 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 13:26:15.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 13:26:15.157 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 5.432 seconds (JVM running for 6.265)
+2020-06-01 13:26:17.699 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:26:17.708 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 13:36:26.440 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 13:36:26.448 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 13:36:26.449 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 13:36:26.564 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 13:36:26.652 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 13:36:26.668 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 13:36:26.946 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 82991 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 13:36:26.947 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 13:36:27.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 13:36:27.853 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 13:36:27.895 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-06-01 13:36:28.587 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 13:36:30.329 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 13:36:31.866 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 13:36:31.945 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9775b424-2273-43ff-9012-8b5e35195c49
+
+2020-06-01 13:36:32.093 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@632241f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@516195cf, org.springframework.security.web.header.HeaderWriterFilter@d70e9a, org.springframework.security.web.authentication.logout.LogoutFilter@496cedbb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26ca12a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ff0e6d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64bba0eb, org.springframework.security.web.session.SessionManagementFilter@14a1769d, org.springframework.security.web.access.ExceptionTranslationFilter@36211bbc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b3857e2]
+2020-06-01 13:36:32.450 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:36:33.311 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 13:36:33.337 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 13:36:33.367 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 13:36:33.543 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 13:36:33.598 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 13:36:33.605 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 13:36:33.624 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 6.924 seconds (JVM running for 7.857)
+2020-06-01 13:36:36.078 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取寡妇的升级打怪日常成功
+2020-06-01 13:36:37.220 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取系统之拯救网瘾少年成功
+2020-06-01 13:36:37.971 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取快穿之实习判官系统成功
+2020-06-01 13:36:38.978 [main] INFO  com.nine.one.yuedu.read.cp.impl.XiaoMaoServiceImpl - 抓取斩妖行动1286成功
+2020-06-01 13:36:40.221 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 13:36:40.230 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 14:01:59.429 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 14:01:59.437 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 14:01:59.438 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 14:01:59.563 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 14:01:59.661 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 14:01:59.678 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 14:01:59.972 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 83260 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 14:01:59.973 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 14:02:00.963 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 14:02:00.967 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 14:02:01.008 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-06-01 14:02:01.897 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 14:02:02.413 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 14:02:04.106 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 14:02:04.201 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e0034164-82fb-42df-bb03-d130b7000c83
+
+2020-06-01 14:02:04.372 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25a290ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e98032e, org.springframework.security.web.header.HeaderWriterFilter@3c28181b, org.springframework.security.web.authentication.logout.LogoutFilter@26bb92e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@591be8aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33751d49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37d0d373, org.springframework.security.web.session.SessionManagementFilter@6b3f4bd8, org.springframework.security.web.access.ExceptionTranslationFilter@3c60c681, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2120bed]
+2020-06-01 14:02:04.755 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 14:02:05.605 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 14:02:05.632 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 14:02:05.666 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 14:02:05.898 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 14:02:05.973 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 14:02:05.981 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 14:02:06.003 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 6.285 seconds (JVM running for 7.335)
+2020-06-01 14:02:07.469 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 14:02:07.479 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 15:03:04.239 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 83982 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 15:03:04.243 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 15:03:05.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 15:03:05.048 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 15:03:05.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-06-01 15:03:05.544 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 15:03:05.552 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 15:03:05.553 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 15:03:05.553 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 15:03:05.628 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 15:03:05.629 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1350 ms
+2020-06-01 15:03:05.805 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 15:03:07.381 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 15:03:09.668 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 15:03:09.718 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fba57e0b-8db1-415f-baf7-76cb8e701a8b
+
+2020-06-01 15:03:09.797 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18d47df0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b37df8e, org.springframework.security.web.header.HeaderWriterFilter@373afd6c, org.springframework.security.web.authentication.logout.LogoutFilter@2199e845, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b351446, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@241fbec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28393e82, org.springframework.security.web.session.SessionManagementFilter@3e26482, org.springframework.security.web.access.ExceptionTranslationFilter@2415e4c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ee88e21]
+2020-06-01 15:03:09.927 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 15:03:10.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 15:03:10.326 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 15:03:10.350 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 15:03:10.493 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 15:03:10.537 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 15:03:10.542 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 15:03:10.557 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 15:03:10.584 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 15:03:10.586 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 6.674 seconds (JVM running for 7.272)
+2020-06-01 15:03:28.013 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 15:03:28.014 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 15:03:28.021 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-01 15:05:20.324 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 15:05:20.330 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 15:05:23.355 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 84009 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 15:05:23.357 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 15:05:24.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 15:05:24.084 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 15:05:24.113 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-06-01 15:05:24.498 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 15:05:24.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 15:05:24.505 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 15:05:24.506 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 15:05:24.564 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 15:05:24.564 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1173 ms
+2020-06-01 15:05:24.710 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 15:05:26.380 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 15:05:27.260 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 15:05:27.304 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 72951b71-1894-4221-a77e-2d666f773a0d
+
+2020-06-01 15:05:27.365 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cffd3fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@26582ca, org.springframework.security.web.header.HeaderWriterFilter@29f3c438, org.springframework.security.web.authentication.logout.LogoutFilter@2f9a10df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c3158e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a1b36a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14b31e37, org.springframework.security.web.session.SessionManagementFilter@643ba1ed, org.springframework.security.web.access.ExceptionTranslationFilter@6f6cc7da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24876a7e]
+2020-06-01 15:05:27.477 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 15:05:27.793 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 15:05:27.804 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 15:05:27.826 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 15:05:27.960 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 15:05:28.018 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 15:05:28.024 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 15:05:28.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 15:05:28.068 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 15:05:28.071 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.988 seconds (JVM running for 5.505)
+2020-06-01 15:05:32.098 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 15:05:32.098 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 15:05:32.103 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-01 17:01:06.160 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 17:01:06.193 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 17:01:10.075 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 85215 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 17:01:10.077 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 17:01:10.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 17:01:10.760 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 17:01:10.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 17:01:11.146 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 17:01:11.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 17:01:11.152 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 17:01:11.152 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 17:01:11.204 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 17:01:11.204 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1069 ms
+2020-06-01 17:01:11.344 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 17:01:13.535 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 17:01:14.370 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 17:01:14.413 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 529a6366-5cc2-44a8-8954-661b5e4a174e
+
+2020-06-01 17:01:14.473 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@613f7eb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@65be88ae, org.springframework.security.web.header.HeaderWriterFilter@2f054f70, org.springframework.security.web.authentication.logout.LogoutFilter@1f10fec6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70ede57d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4dad8ec0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@565aa4ac, org.springframework.security.web.session.SessionManagementFilter@59096b66, org.springframework.security.web.access.ExceptionTranslationFilter@3cdff901, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e50df2e]
+2020-06-01 17:01:14.593 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 17:01:14.913 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 17:01:14.923 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 17:01:14.943 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 17:01:15.067 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 17:01:15.106 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 17:01:15.110 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 17:01:15.122 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 17:01:15.145 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 17:01:15.148 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.441 seconds (JVM running for 6.002)
+2020-06-01 17:02:04.639 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 17:02:04.639 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 17:02:04.644 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-01 17:04:23.676 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 17:04:23.681 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 17:04:28.378 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 85271 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 17:04:28.380 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 17:04:29.060 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 17:04:29.062 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 17:04:29.097 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-06-01 17:04:29.529 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 17:04:29.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 17:04:29.535 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 17:04:29.536 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 17:04:29.592 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 17:04:29.592 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1178 ms
+2020-06-01 17:04:29.740 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 17:04:29.983 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 17:04:30.890 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 17:04:30.930 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8dc4643a-7947-4735-ba12-ed524e632219
+
+2020-06-01 17:04:30.987 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28ee0a3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f363abd, org.springframework.security.web.header.HeaderWriterFilter@6401188a, org.springframework.security.web.authentication.logout.LogoutFilter@1213ffbc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4017fe2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a1691c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2dd1086, org.springframework.security.web.session.SessionManagementFilter@5fed9976, org.springframework.security.web.access.ExceptionTranslationFilter@30a7653e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7675c171]
+2020-06-01 17:04:31.094 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 17:04:31.408 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 17:04:31.419 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 17:04:31.440 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 17:04:31.572 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 17:04:31.614 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 17:04:31.619 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 17:04:31.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 17:04:31.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 17:04:31.661 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.568 seconds (JVM running for 4.12)
+2020-06-01 17:04:51.028 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 17:04:51.029 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 17:04:51.033 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-01 17:07:21.355 [http-nio-9004-exec-5] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:08:10.078 [http-nio-9004-exec-6] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:08:24.282 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:12:33.072 [http-nio-9004-exec-9] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:12:40.913 [http-nio-9004-exec-10] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:14:45.118 [http-nio-9004-exec-6] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:14:45.730 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:14:46.185 [http-nio-9004-exec-8] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:14:48.768 [http-nio-9004-exec-9] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:14:49.149 [http-nio-9004-exec-10] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 17:17:21.673 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 17:17:21.678 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 17:17:25.187 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 85459 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 17:17:25.189 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 17:17:25.875 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 17:17:25.877 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 17:17:25.906 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-01 17:17:26.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 17:17:26.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 17:17:26.352 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 17:17:26.352 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 17:17:26.410 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 17:17:26.411 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1187 ms
+2020-06-01 17:17:26.560 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 17:17:28.641 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 17:17:30.747 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 17:17:30.782 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4b16b088-9636-49ff-8b7a-f6cb1fa2a85a
+
+2020-06-01 17:17:30.835 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2afdf6b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f23203, org.springframework.security.web.header.HeaderWriterFilter@19ae2ee5, org.springframework.security.web.authentication.logout.LogoutFilter@d5e575c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e91af20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31efacad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30922f8d, org.springframework.security.web.session.SessionManagementFilter@f723cdb, org.springframework.security.web.access.ExceptionTranslationFilter@5e1a5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b5ac0c1]
+2020-06-01 17:17:30.939 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 17:17:31.244 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 17:17:31.255 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 17:17:31.275 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 17:17:31.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 17:17:31.435 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 17:17:31.439 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 17:17:31.451 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 17:17:31.475 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 17:17:31.477 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 6.539 seconds (JVM running for 7.048)
+2020-06-01 17:17:39.245 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 17:17:39.245 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 17:17:39.250 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-01 18:01:37.996 [http-nio-9004-exec-5] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 18:03:06.667 [http-nio-9004-exec-10] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 虽然话是这么说，但是萧莫寒的眼中却始终带着一丝犹豫。
+他现在已经认清楚了自己的心，那就是不爱夏梦璇了，可是想到她的病，又有些于心不忍，觉得自己这样的冷漠是不是有些太冷酷了一些。
+但，同情不是爱情，这个道理，萧莫寒还是懂得。
+挂断电话之后，夏梦璇知道，自己的下一步计划必须要实施了。
+要在最短的时间里嫁给萧莫寒，跟他结婚。
+只有成为了萧莫寒的太太，他才可以安心，否则的话，这样每天提心吊胆的日子，她真的过够了。
+想到这里，夏梦璇心中有了决定。
+她直接下楼告诉父母，萧莫寒晚上会过来吃饭，并且委婉的提醒父母该催婚的时候就要催婚。
+听到萧莫寒要来吃饭的消息，夏家爸妈很高兴，对于这个未来女婿，他们当然是非常满意的，心里也十分着急的想要促成这段婚事。
+跟父母敲定之后，夏梦璇露出一个满意的笑容。
+时间很快到了晚上，萧莫寒果然准时出现在了夏家的门口。
+听到门铃声，夏梦璇立刻催促着用人去开门。
+“管家，开门，一定是莫寒来了。”
+佣人跑去开门，果然看到了萧莫寒站在门外，夏父夏母赶紧把人迎接进来。
+“伯父，伯母，晚上好。”
+身穿着蓝色西装的萧莫寒人高马大的站在门口，手里捧着一束娇艳的鲜花。
+“莫寒来了啊，快进来……”
+夏父夏母看到萧莫寒出现，立刻露出热情的笑容。
+萧莫寒把手里的鲜花递给他们，“抱歉，来晚了。”
+“不晚，不晚，一点都不晚。”
+夏母称赞道，“真是好漂亮的花啊，梦璇，你快来看看，这是莫寒送给你的。”
+“伯母说笑了。”
+萧莫寒赶紧说道，“这束花是我专门买来送给您的，梦璇的以后再送。”
+刚刚刘秘书已经给他来电话了，关于三年前的事调查已经有了一些眉目，相信很快就可以水落石出。
+所以萧莫寒决定，当务之急，是无论如何先稳住夏梦璇他们，不能打草惊蛇。
+夏母方雅琴笑的眉不见眼的，“哎哟，这个花是送给我的么？那我真的是太喜欢了，你夏叔叔，好几年都没有送过花给我了，还是莫寒你贴心。”
+说完，就欢喜的接过玫瑰花，交给佣人，让他们细心的保管起来。
+“我错了……”夏正国笑呵呵的说道，“等着下次我一定会送给和女儿一人一束花。”
+夏梦璇一听，立刻撒娇的抱住他，晃了晃身体说道，“这可是爸爸你说的，可不能食言而肥哦。”
+“好好好……”
+“莫寒他们都在，到时候帮我作证。”夏梦璇说着，一边用一双美目含羞带怯的看着萧莫寒。
+“恩，我帮忙作证。”
+萧莫寒冷淡的回应着，但是心里的温度却是异常的冷漠。
+看着眼前这一大家子的互动，似乎夏言心的死对于他们来说并不算什么，但是，萧莫寒心里却是清楚的，夏言心明明是她们的家人啊。
+可是他们似乎把夏言心给遗忘了。
+更何况，夏言心的死跟夏梦璇脱不了关系，她是为了给夏梦璇捐肾才死在手术台上的，可是这群人居然连一点怜悯之心都不给她。
+还有夏梦璇，看她的身体和起色都很不错，根本没有半点病人的样子。
+看到这里，萧莫寒心里对她仅有的愧疚也都烟消云散了。
+夏言心也是他们的亲人啊，可是这群人的表现实在是太令人心寒了。
+三年前的事情萧莫寒还没有查清楚，但是就算那件事是夏言心的错，稀里糊涂的抢走了夏梦璇的男朋友，可是她也早就得到了惩罚了啊。
+全家跟他断绝来往，还被自己冷嘲热讽的对待了三年多。
+这样的惩罚难道还不够？
+现在夏言心尸骨未寒，可是这一家人却像是忘了夏言心的存在一样，和和美美的准备着晚餐，毫不愧疚，也毫不伤心。
+萧莫寒看着眼前其乐融融的一家三口，觉得自己似乎看错人了，他们根本不是他以为中的那么善良。
+过去的自己似乎是被蒙蔽的了，所以才会错的离谱，错把坏人当好人。
+眼前这一家三口表现的越是幸福，萧莫寒的心中就越发觉得凄凉，为了夏言心，也为自己曾经的盲目。
+如果，如果他能早点注意到这些细节问题，早点认清自己的心，那么也许事情的结局就会变得不一样。
+夏言心也不会死的那么惨。
+这一切，都是他的盲目自大造成的。
+所以现在他唯一的补偿就是查清楚三年前到底发生了什么事，把真相找出来。
+“好了，爸爸妈妈，我们不要耽误时间了……”
+夏梦璇走过来，一把抱住了萧莫寒的胳膊，笑着是说到，“我们赶紧过去吃饭吧，莫寒肚子都饿了。”
+“恩，是啊，先吃饭吧。”
+夏梦璇一走过来抓住自己的胳膊，他就觉得浑身僵硬。
+“是啊，是啊，先去吃饭去吃饭。”
+夏母笑呵呵的说道，几个人一起往餐厅走去。
+“莫寒，你最近工作很忙么？怎么不经常来看望梦璇和阿姨了。”方雅琴笑着问道。
+“是有点工作要忙。”萧莫寒简单的回答道。
+“不要太注重工作，要多注意身体。”方雅琴关心的说道，“看你的样子都瘦了，今天一定要多吃点，以后要是工作累了，就来这里，阿姨做饭给你吃。。”
+“好。”
+萧莫寒点点头。
+方雅琴往他的碗里夹菜，对于这个未来女婿，她可真是越看越满意。
+当时夏言心那个死丫头插足抢走了萧莫寒，方雅琴可真是恨不得直接把那丫头片子给撕碎了。
+不过，好在老天有眼，不是自己的强也抢不走，所以萧莫寒的心这么多年还是一直在夏梦璇的身上。
+善恶到头终有报，夏言心那个贱丫头终于死了。
+这次，萧莫寒可是她铁板钉钉的女婿了，方雅琴当然觉得高兴。
+听着方雅琴关心的话语，萧莫寒疏离的点点头，“谢谢伯母，那我就打扰了。”
+
+
+2020-06-01 18:03:14.362 [http-nio-9004-exec-3] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - **
+三个人和和美美的吃了一顿饭，就像是真正的一家三口那样。
+虽然说夏言心还没有完全原谅自己，但是能有这一顿温馨平静的午餐时间。
+萧莫寒就已经很满足了。
+而他也没有想到，自己居然会这么容易就满足。
+只要看着眼前的自己的女人和自己的儿子，能够坐在对面，一起吃顿饭就够了。
+哪怕他的女人依然没有原谅他，对他冷言冷语的。
+但是萧莫寒就是觉得心里很平静，好像只要这样看着夏言心和夏小晨，就是他莫大的幸福。
+“吃饱了吧……”
+最后，萧莫寒主动去结了账，很自然的替夏言心拿过包包，温柔的问道。
+“吃饱了！”
+还没等夏言心回答，就听到夏小晨中气十足的回答声。
+“小晨好可爱。”
+萧莫寒忍不住大笑起来，想要把夏小晨抱在怀里狠狠的亲几口，但是看着旁边夏言心一脸虎视眈眈的模样，他只好硬生生的按压下这股冲动来。
+“言心，你吃饱了么？”萧莫寒温柔的看向夏言心问道。
+“萧莫寒，你别耍这些花招了。”
+夏言心却丝毫不领他的情，而是直接说道，“你不用在这里跟我打这些亲情牌，演这些温情脉脉的戏码，我不会上当的。”
+萧莫寒想说，对你我从来不是演戏，我只是想补偿你。
+但是他也知道这些话说出来，夏言心恐怕也不会轻易，唯有闭嘴。
+剩下的就让时间来证明吧。
+“妈妈……”
+夏小晨明显的感觉到了两人之间僵硬的气氛，聪明的打破了沉默说道，“我们不是要去外公外婆家么，怎么还不走。”
+“马上就可以出发了。”
+萧莫寒一把抱起夏小晨，把他举的高高的，笑着说道，“小晨你很想见到外公外婆么。”
+“恩。”
+“那我们马上就去见他们好不好。”
+“好。”
+“真乖。”
+看着那张与自己相似的小脸，萧莫寒忍不住笑的更加开心了。
+这就是他的儿子啊，骨子里留的是跟他一样的血液。
+这种血缘关系的感觉真的很奇妙，明明他没有跟夏小晨相处过，但是他却本能的想要亲近这个儿子。
+夏小晨呢，就更不必说了。
+他本来就不怕生，跟林逸飞也能好好的相处。
+但是他没跟萧莫寒见过面，却非常亲近对方，这种亲近甚至是跟林逸飞的亲近完全不同的那种。
+大概就是血缘关系的作用吧。
+看到这爷俩那么亲近，夏言心皱了皱眉，她并不想让夏小晨跟萧莫寒太熟。
+毕竟她和萧莫寒是不会在一起的了，将来两个人早晚会分开，如果感情太身后到时候只怕会伤害到夏小晨。
+夏言心想要开口阻止，可是当她看到那爷俩脸上一模一样的开心笑容时，又忍不住把难听的话给咽了下去。
+暂且就让他们珍惜下这来之不易的天伦之乐吧。
+那边萧莫寒似乎是察觉到了夏言心的想法，所以并没有说什么，只是默默的抱着夏小晨，对夏言心笑笑说道，“那我们走吧，伯父伯母他们在等着了。”
+“恩。”
+夏言心点点头，几个人上车，往夏家别墅的方向驶去。
+这边，傅佩如和夏宏远得到萧莫寒传来的消息之后，就早早的等在了家门口，迎接着自己多年不见的女儿。
+当看到萧莫寒的车子出现，傅佩如忍不住往前走了几步，迎接上去。
+就连夏宏远也微微激动起来。
+看到夏言心出现，依然是记忆中女儿哪张娇媚的脸蛋，只是看起来瘦了些，却还是活生生的人，傅佩如的眼泪一下子就掉下来了。
+“言心，我可怜的女儿，你终于回来了。”
+“妈……”
+看到多年不见的父母那熟悉的容颜，以及鬓角的白发，夏言心也忍不住湿润了眼眶。
+只是，当年被赶出去的那一幕幕还在眼前浮现，让她有些近乡情怯。
+爸妈已经原谅她了么？
+还是说，她的死亡让父母意识到了，只要人活着就好，实际上根本就没有原谅自己？
+夏言心有些不太敢上前去。
+“言心，你怎么了？”
+看到夏言心眼底的怯弱，傅佩茹心中一痛，走上前去抓着她的手说道，“是妈妈啊，你不认识妈妈了么？”
+“妈……”
+夏言心清了清嗓子，终于叫了一声妈。
+“爸！”
+“哎哎！”
+这久违的一声，两个人之间相隔了五年的时间。
+傅佩如一下子就激动起来了，眼泪猛地夺眶而出，“我可怜的女儿，你受苦了。”
+夏言心也是眼睛通红。
+就在这时，夏言心的身后突然窜出一个小脑袋，宠着傅佩如和夏宏远虎头虎脑的笑着，“外公，外婆。”
+“这、这是……”
+夏家二老震惊的看着眼前突然看着的小包子，又看看夏言心。
+“言心，怎么有个小孩子叫我和你爸爸外公外婆啊。”
+傅佩如有些不敢相信自己的眼睛，可是夏小晨那古灵精怪的小模样却是一直都存在着的。
+让她有些高兴，又有些忐忑，“言心，你结婚了？”
+如果真的结婚了，那可是一件大事啊。
+“我……”
+夏言心还没回答，这个问题就让萧莫寒皱眉了，她的女人，怎么可能跟别的男人结婚呢。
+于是直接打断了几个人的对话说道，“伯父伯母，外面风大，你们有什么话还是进去里面说吧，还有夏小晨也累了，让她早点休息。”
+“哦，好的，好的。”傅佩如愣愣的点点头。
+原来这孩子叫夏小晨啊，是跟自己女儿姓的，那……
+傅佩如的眼睛终于从夏言心的脸上挪到了萧莫寒的脸上，可是在看到两人相似的五官时，又忍不住瞪大了眼睛。
+难道这突然冒出来的外孙是……
+是萧莫寒的种？
+要不然的话，怎么会长得如此相像？
+“爸妈，我们先进去吧。”夏言心也发现了父母的眼神，生怕他们当场就问出来，到时候自己回答也不是，不回答也不是，于是赶紧打断了二老的谈话。
+“我们进去说。”
+“好好，进去说，进去说。”傅佩如连连点头。
+一家人齐齐的往里走，倒是把萧莫寒给冷落到一边了。
+
+
+2020-06-01 18:03:18.593 [http-nio-9004-exec-6] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - **1
+三个人和和美美的吃了一顿饭，就像是真正的一家三口那样。
+虽然说夏言心还没有完全原谅自己，但是能有这一顿温馨平静的午餐时间。
+萧莫寒就已经很满足了。
+而他也没有想到，自己居然会这么容易就满足。
+只要看着眼前的自己的女人和自己的儿子，能够坐在对面，一起吃顿饭就够了。
+哪怕他的女人依然没有原谅他，对他冷言冷语的。
+但是萧莫寒就是觉得心里很平静，好像只要这样看着夏言心和夏小晨，就是他莫大的幸福。
+“吃饱了吧……”
+最后，萧莫寒主动去结了账，很自然的替夏言心拿过包包，温柔的问道。
+“吃饱了！”
+还没等夏言心回答，就听到夏小晨中气十足的回答声。
+“小晨好可爱。”
+萧莫寒忍不住大笑起来，想要把夏小晨抱在怀里狠狠的亲几口，但是看着旁边夏言心一脸虎视眈眈的模样，他只好硬生生的按压下这股冲动来。
+“言心，你吃饱了么？”萧莫寒温柔的看向夏言心问道。
+“萧莫寒，你别耍这些花招了。”
+夏言心却丝毫不领他的情，而是直接说道，“你不用在这里跟我打这些亲情牌，演这些温情脉脉的戏码，我不会上当的。”
+萧莫寒想说，对你我从来不是演戏，我只是想补偿你。
+但是他也知道这些话说出来，夏言心恐怕也不会轻易，唯有闭嘴。
+剩下的就让时间来证明吧。
+“妈妈……”
+夏小晨明显的感觉到了两人之间僵硬的气氛，聪明的打破了沉默说道，“我们不是要去外公外婆家么，怎么还不走。”
+“马上就可以出发了。”
+萧莫寒一把抱起夏小晨，把他举的高高的，笑着说道，“小晨你很想见到外公外婆么。”
+“恩。”
+“那我们马上就去见他们好不好。”
+“好。”
+“真乖。”
+看着那张与自己相似的小脸，萧莫寒忍不住笑的更加开心了。
+这就是他的儿子啊，骨子里留的是跟他一样的血液。
+这种血缘关系的感觉真的很奇妙，明明他没有跟夏小晨相处过，但是他却本能的想要亲近这个儿子。
+夏小晨呢，就更不必说了。
+他本来就不怕生，跟林逸飞也能好好的相处。
+但是他没跟萧莫寒见过面，却非常亲近对方，这种亲近甚至是跟林逸飞的亲近完全不同的那种。
+大概就是血缘关系的作用吧。
+看到这爷俩那么亲近，夏言心皱了皱眉，她并不想让夏小晨跟萧莫寒太熟。
+毕竟她和萧莫寒是不会在一起的了，将来两个人早晚会分开，如果感情太身后到时候只怕会伤害到夏小晨。
+夏言心想要开口阻止，可是当她看到那爷俩脸上一模一样的开心笑容时，又忍不住把难听的话给咽了下去。
+暂且就让他们珍惜下这来之不易的天伦之乐吧。
+那边萧莫寒似乎是察觉到了夏言心的想法，所以并没有说什么，只是默默的抱着夏小晨，对夏言心笑笑说道，“那我们走吧，伯父伯母他们在等着了。”
+“恩。”
+夏言心点点头，几个人上车，往夏家别墅的方向驶去。
+这边，傅佩如和夏宏远得到萧莫寒传来的消息之后，就早早的等在了家门口，迎接着自己多年不见的女儿。
+当看到萧莫寒的车子出现，傅佩如忍不住往前走了几步，迎接上去。
+就连夏宏远也微微激动起来。
+看到夏言心出现，依然是记忆中女儿哪张娇媚的脸蛋，只是看起来瘦了些，却还是活生生的人，傅佩如的眼泪一下子就掉下来了。
+“言心，我可怜的女儿，你终于回来了。”
+“妈……”
+看到多年不见的父母那熟悉的容颜，以及鬓角的白发，夏言心也忍不住湿润了眼眶。
+只是，当年被赶出去的那一幕幕还在眼前浮现，让她有些近乡情怯。
+爸妈已经原谅她了么？
+还是说，她的死亡让父母意识到了，只要人活着就好，实际上根本就没有原谅自己？
+夏言心有些不太敢上前去。
+“言心，你怎么了？”
+看到夏言心眼底的怯弱，傅佩茹心中一痛，走上前去抓着她的手说道，“是妈妈啊，你不认识妈妈了么？”
+“妈……”
+夏言心清了清嗓子，终于叫了一声妈。
+“爸！”
+“哎哎！”
+这久违的一声，两个人之间相隔了五年的时间。
+傅佩如一下子就激动起来了，眼泪猛地夺眶而出，“我可怜的女儿，你受苦了。”
+夏言心也是眼睛通红。
+就在这时，夏言心的身后突然窜出一个小脑袋，宠着傅佩如和夏宏远虎头虎脑的笑着，“外公，外婆。”
+“这、这是……”
+夏家二老震惊的看着眼前突然看着的小包子，又看看夏言心。
+“言心，怎么有个小孩子叫我和你爸爸外公外婆啊。”
+傅佩如有些不敢相信自己的眼睛，可是夏小晨那古灵精怪的小模样却是一直都存在着的。
+让她有些高兴，又有些忐忑，“言心，你结婚了？”
+如果真的结婚了，那可是一件大事啊。
+“我……”
+夏言心还没回答，这个问题就让萧莫寒皱眉了，她的女人，怎么可能跟别的男人结婚呢。
+于是直接打断了几个人的对话说道，“伯父伯母，外面风大，你们有什么话还是进去里面说吧，还有夏小晨也累了，让她早点休息。”
+“哦，好的，好的。”傅佩如愣愣的点点头。
+原来这孩子叫夏小晨啊，是跟自己女儿姓的，那……
+傅佩如的眼睛终于从夏言心的脸上挪到了萧莫寒的脸上，可是在看到两人相似的五官时，又忍不住瞪大了眼睛。
+难道这突然冒出来的外孙是……
+是萧莫寒的种？
+要不然的话，怎么会长得如此相像？
+“爸妈，我们先进去吧。”夏言心也发现了父母的眼神，生怕他们当场就问出来，到时候自己回答也不是，不回答也不是，于是赶紧打断了二老的谈话。
+“我们进去说。”
+“好好，进去说，进去说。”傅佩如连连点头。
+一家人齐齐的往里走，倒是把萧莫寒给冷落到一边了。
+
+
+2020-06-01 18:03:20.302 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 18:05:02.509 [http-nio-9004-exec-2] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - “大事情”我感受到一种莫名其妙，并且这种莫名其妙是自己的大学舍友告诉自己的，自己心中像是打翻了五味瓶一样，实际上在自己心目中，大学毕业后，所有的室友都匆匆忙忙的回了老家，有的回家嫁人了，有的留在了城市，比如自己和任小智，自己自己都不说了，因为自己本身就是城市里的人，而任小智却不同，任小智是农村的女孩，但是在大学中，他就发誓这辈子一定要留在城市，一定要通过自己的努力让家庭过上好日子，等到自己父母年龄大了，就把父母接到城市里，这个一直是任小智的梦想。
+我非常看重这个女孩的骨气，所以大学的时候经常会帮助他，如果任小智有困难，没钱的话，自己就会给她买饭，可以这样说，方雯雯和我，以及现在的任小智，他们三个人是出了名的姐妹花，只要你在校园里见到他们三人中其中一个女孩，那么另一个女孩一定就在附近。
+我接着道：“小智，发生了什么事情，是不是最近缺钱了，如果取钱了给我说，我帮你”为什么现在毛林林现在这么有底气，因为毛林林已经不再是当初的那个女孩了，首先他已经和那个渣男彻底解除了婚姻，婚姻中的共同财产，毛林林或多或少的拿到了不少，并且现在他胜任的是国华集团的总裁。所以现在钱对于他来说，并不是件困哪的事情，他知道任小智这个女孩，可能是缺钱了，有点不好意思说出口，所以就故意把话茬撩了出来，让任小智知道，不管发生什么事情，总有一个坚强的闺蜜站在他的面前，是这样想的，毛林林也是这样做的。
+“不是，不是，林林，我是想给你说你的是”任小智听到后赶忙去解释道。
+紧接着任小智便道：“林林，你知道吗，现在我们公司准备对国华集团下手了，你要迟早准备了”任小智语气比较紧张，丝毫没有开玩笑的意思。不过这句话一出来，便让毛林林觉得有点难为情了。
+我听得有点一头雾水，便道：“小智，你今天是怎么了，你们公司不是传媒的吗，怎么会对我们下手，我不理解你说的意思”我接着反问着。
+我接着道：“小智，如果你有什么困难的话，及时给姐姐说，姐姐一定会帮助你的”
+任小智两眼包含着泪花，他没有想到在这个时候了，毛林林还是这么顾忌着他，心中非常感动，所以就坚定了他这次要回报给毛林林的恩情，所谓知无不言言无不尽，一定将自己所有知道的东西全部给他说，他才放心，他心里这样想着，也是这样做的。
+任小智赶紧道：“林林，这次我不是跟你开玩笑的，今天我们公司来了一个大客户，他穿着一个性感的吊带衫，非常苗条，然后脸型是瓜子脸，他给我们公司老板说了一个大秘密”任小智害怕毛林林不懂，又重复了这句话。
+我一听任小智的描绘，心中才终于有了想法，便道：“这个女人是不是叫岳婉婉”
+岳婉婉，岳婉婉我不知道，但是我知道，这个女子，我们老板问他喊岳小姐，如果你确认是岳婉婉的话，那么被我们老板叫岳小姐的这个女子就一定是岳婉婉，任小智这样说着。
+我心中大骇，暗忖：“若是真的是这样想的，那么这个人真的是岳婉婉，岳婉婉肯定会对他们不利的，这些天以来，在焦恩泽的介绍下，我大概的了解到了，岳家和焦家已经国华集团的众多股东之间的利益纠葛，他心里跟个明镜一样，又怎么会不知道”
+便道：“小智，你继续说下去，这个女人到达你们公司，到底所谓何事”
+任小智赶紧说道：“这个女子到达我们公司，给我们公司老板说，最近让我们老板多处一些新闻，就是说国华集团的里面出了一个奸细，这个奸细就是你，然后你蛊惑着国华集团的总裁焦恩泽先生，然后你们就合伙想要稀释其他股东人的权力，准备把国华集团变成远东集团的分公司”
+他这样一说，我的心里突然被莫名其妙的揪了一下，然后他不断的问着自己，便道：“这到底是为什么，我们没有这么做，一定是那个女人，那个女人名字叫岳婉婉，从一开始他都对我们居心叵测”
+任小智赶紧道：“林林，你要想想办法，别让焦恩泽先生再继续喝那个远东集团有联系了，根绝我们公司老板做事情的经验，他这些天一定会让所有的人去监视国华集团并且坚持焦恩泽先生的行动，如果查出来焦恩泽和卢家人有来往，恐怕这一次一定要上新闻，所以你们要小心”
+任小智说的口比较干了，然后喝了一口水，接着道：“不过，你放心，这件事情，我一定会帮助你们的，尽量让这类新闻放在放在网上的最小号，让人发现不了，如果出现这种情况的话”任小智说话吞吞吐吐的，他知道自己再公司的地位很低，能做的就是只有这些了，便接着道：“从根本上，你们要解决矛盾，那就是不要让他们拍到，毛林林和焦恩泽以及那些卢家人在一起的场景”
+我点了点头，然后接着道：“嗯，谢谢你，小智，你这样帮助我，我非常感动”瞬间自己的眼泪已经噙满了泪花，他没有想到自从离婚后，原来还有这么一个好闺蜜在为自己着想，他明白现在方雯雯他们现在已经很长时间没有说话了，或许他是突然间明白了吧，因为这些天，他明显已经发现以前的闺蜜渐渐的疏远自己，连最亲爱的方雯雯也不例外，所以他心里非常的忧伤。可是没有办法。
+我点了点头，此时此刻，貌似已经是晚上八点种，他知道这个时候，焦恩泽会准时在给自己的经销商开会，所以他断定焦恩泽现在正在国华集团的办公室里，所以他便匆忙的换洗了自己的衣服，然后接着道：“我要赶紧找焦恩泽，立即把这个话给他带到，要不然焦恩泽一定会去找卢少友”
+因为他明白，卢少友现在是他在金华市是唯一的亲人，并且卢少友一直想要知道自己母亲是一个什么样子的人，所以焦恩泽会准时的开完会后，找卢少友，如果他猜的没错的话，现在任小智所在的传媒公司，现在已经在国华集团的办公楼附近了布置了很多摄像头，假如拍着他们在一起的场景，恐怕焦恩泽就完蛋了，也就是说，焦恩泽这个国华集团的董事长的位置就保不住了。
+
+
+2020-06-01 18:05:09.769 [http-nio-9004-exec-6] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 11“大事情”我感受到一种莫名其妙，并且这种莫名其妙是自己的大学舍友告诉自己的，自己心中像是打翻了五味瓶一样，实际上在自己心目中，大学毕业后，所有的室友都匆匆忙忙的回了老家，有的回家嫁人了，有的留在了城市，比如自己和任小智，自己自己都不说了，因为自己本身就是城市里的人，而任小智却不同，任小智是农村的女孩，但是在大学中，他就发誓这辈子一定要留在城市，一定要通过自己的努力让家庭过上好日子，等到自己父母年龄大了，就把父母接到城市里，这个一直是任小智的梦想。
+我非常看重这个女孩的骨气，所以大学的时候经常会帮助他，如果任小智有困难，没钱的话，自己就会给她买饭，可以这样说，方雯雯和我，以及现在的任小智，他们三个人是出了名的姐妹花，只要你在校园里见到他们三人中其中一个女孩，那么另一个女孩一定就在附近。
+我接着道：“小智，发生了什么事情，是不是最近缺钱了，如果取钱了给我说，我帮你”为什么现在毛林林现在这么有底气，因为毛林林已经不再是当初的那个女孩了，首先他已经和那个渣男彻底解除了婚姻，婚姻中的共同财产，毛林林或多或少的拿到了不少，并且现在他胜任的是国华集团的总裁。所以现在钱对于他来说，并不是件困哪的事情，他知道任小智这个女孩，可能是缺钱了，有点不好意思说出口，所以就故意把话茬撩了出来，让任小智知道，不管发生什么事情，总有一个坚强的闺蜜站在他的面前，是这样想的，毛林林也是这样做的。
+“不是，不是，林林，我是想给你说你的是”任小智听到后赶忙去解释道。
+紧接着任小智便道：“林林，你知道吗，现在我们公司准备对国华集团下手了，你要迟早准备了”任小智语气比较紧张，丝毫没有开玩笑的意思。不过这句话一出来，便让毛林林觉得有点难为情了。
+我听得有点一头雾水，便道：“小智，你今天是怎么了，你们公司不是传媒的吗，怎么会对我们下手，我不理解你说的意思”我接着反问着。
+我接着道：“小智，如果你有什么困难的话，及时给姐姐说，姐姐一定会帮助你的”
+任小智两眼包含着泪花，他没有想到在这个时候了，毛林林还是这么顾忌着他，心中非常感动，所以就坚定了他这次要回报给毛林林的恩情，所谓知无不言言无不尽，一定将自己所有知道的东西全部给他说，他才放心，他心里这样想着，也是这样做的。
+任小智赶紧道：“林林，这次我不是跟你开玩笑的，今天我们公司来了一个大客户，他穿着一个性感的吊带衫，非常苗条，然后脸型是瓜子脸，他给我们公司老板说了一个大秘密”任小智害怕毛林林不懂，又重复了这句话。
+我一听任小智的描绘，心中才终于有了想法，便道：“这个女人是不是叫岳婉婉”
+岳婉婉，岳婉婉我不知道，但是我知道，这个女子，我们老板问他喊岳小姐，如果你确认是岳婉婉的话，那么被我们老板叫岳小姐的这个女子就一定是岳婉婉，任小智这样说着。
+我心中大骇，暗忖：“若是真的是这样想的，那么这个人真的是岳婉婉，岳婉婉肯定会对他们不利的，这些天以来，在焦恩泽的介绍下，我大概的了解到了，岳家和焦家已经国华集团的众多股东之间的利益纠葛，他心里跟个明镜一样，又怎么会不知道”
+便道：“小智，你继续说下去，这个女人到达你们公司，到底所谓何事”
+任小智赶紧说道：“这个女子到达我们公司，给我们公司老板说，最近让我们老板多处一些新闻，就是说国华集团的里面出了一个奸细，这个奸细就是你，然后你蛊惑着国华集团的总裁焦恩泽先生，然后你们就合伙想要稀释其他股东人的权力，准备把国华集团变成远东集团的分公司”
+他这样一说，我的心里突然被莫名其妙的揪了一下，然后他不断的问着自己，便道：“这到底是为什么，我们没有这么做，一定是那个女人，那个女人名字叫岳婉婉，从一开始他都对我们居心叵测”
+任小智赶紧道：“林林，你要想想办法，别让焦恩泽先生再继续喝那个远东集团有联系了，根绝我们公司老板做事情的经验，他这些天一定会让所有的人去监视国华集团并且坚持焦恩泽先生的行动，如果查出来焦恩泽和卢家人有来往，恐怕这一次一定要上新闻，所以你们要小心”
+任小智说的口比较干了，然后喝了一口水，接着道：“不过，你放心，这件事情，我一定会帮助你们的，尽量让这类新闻放在放在网上的最小号，让人发现不了，如果出现这种情况的话”任小智说话吞吞吐吐的，他知道自己再公司的地位很低，能做的就是只有这些了，便接着道：“从根本上，你们要解决矛盾，那就是不要让他们拍到，毛林林和焦恩泽以及那些卢家人在一起的场景”
+我点了点头，然后接着道：“嗯，谢谢你，小智，你这样帮助我，我非常感动”瞬间自己的眼泪已经噙满了泪花，他没有想到自从离婚后，原来还有这么一个好闺蜜在为自己着想，他明白现在方雯雯他们现在已经很长时间没有说话了，或许他是突然间明白了吧，因为这些天，他明显已经发现以前的闺蜜渐渐的疏远自己，连最亲爱的方雯雯也不例外，所以他心里非常的忧伤。可是没有办法。
+我点了点头，此时此刻，貌似已经是晚上八点种，他知道这个时候，焦恩泽会准时在给自己的经销商开会，所以他断定焦恩泽现在正在国华集团的办公室里，所以他便匆忙的换洗了自己的衣服，然后接着道：“我要赶紧找焦恩泽，立即把这个话给他带到，要不然焦恩泽一定会去找卢少友”
+因为他明白，卢少友现在是他在金华市是唯一的亲人，并且卢少友一直想要知道自己母亲是一个什么样子的人，所以焦恩泽会准时的开完会后，找卢少友，如果他猜的没错的话，现在任小智所在的传媒公司，现在已经在国华集团的办公楼附近了布置了很多摄像头，假如拍着他们在一起的场景，恐怕焦恩泽就完蛋了，也就是说，焦恩泽这个国华集团的董事长的位置就保不住了。
+
+
+2020-06-01 18:07:02.668 [http-nio-9004-exec-1] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - “你已经做的很不错了，我父亲常常在我面前夸奖你呢，说你办事牢靠，没有让我们岳家丢脸”说着性感的嘴唇，朝着郑峰微微一笑。
+郑峰只看的神魂颠倒。一时间，一双眼睛直直的看着岳婉婉性感的嘴唇，说不出来一句话。
+这个时候，岳婉婉用一双纤纤玉指，撩动着自己的头发，道：“上次你做的非常好，决不能让毛林林和焦恩泽在一块，这个你懂吗”
+郑峰点了点头，表示默许。
+“现在我父亲，又在金华市收购了一批公司”岳婉婉嘴唇微微翘起，性感的卖弄了一下肩膀。
+便突然接着道：“现在付家的东阳公司，简直是一群废物，做出的东西，每一个能用、”
+“是啊，上次付家的公子来到了办公室，见焦恩泽，被焦恩泽拒之门外，随后要无音讯”郑峰一脸谄媚相，恨不得要立即把自己了解的东西一切都说给岳婉婉知道。
+“你说付占江去见了焦恩泽了”岳婉婉一脸惊讶道。
+“是的，可是焦恩泽始终没有见他”郑峰一脸无奈道：“所以那套设计施工图始终没有得到焦恩泽的认可”
+“我看不是图本身的问题，而是人的问题，可能现在付占江还不知道焦恩泽到底是谁，如果他要是知道了一切，恐怕要疯了”说着突然哈哈大笑了起来。笑声中，一股毛骨悚然的感觉，让人听了不寒而栗。
+只见岳婉婉突然道：“不过，父亲也是对付家有些失望，便又收购了一个公司”
+“什么公司”郑峰迫不及待的问道。
+“米多设计公司，这个公司在金华市有五年，可是五年间一直效益不怎么好，这次我父亲拿出了五百万投资他们公司，就是让他们公司能够多挖掘人才，到时候为我们所用，同时，父亲已经把设计图的任务交给了这个公司，相信这个公司在不久的以后就能拿出成绩，到时候你要在焦恩泽多多美言几句，好让米多公司的设计图能够达到目标，这样我们的第一部目标都达到了，这个你懂吗”
+郑峰频频点头，貌似很懂的样子，道：“属下知道了”
+“这里耳目众多，你还是先走吧，记得一切要小心，别让焦恩泽发现你”岳婉婉小声道。
+郑峰点了点头道：“好的，可……”本来还想说些什么，可是刚要张口，这句话已经被堵塞道喉咙里，他本来想告诉岳婉婉，貌似焦恩泽对他的身份已经有所怀疑，可是刚想说出口，脑海中，又在想，现在岳小姐对我期待很高，若是我把这些我也搞不懂的事情说给他听，他定时以为我办事不牢，认真考虑一下，还是不说为妙。
+说着便抬起头，看了看四周，察觉到没有人后，便小心翼翼的出去了。
+*********
+却说再多米设计公司，我可谓是尽职尽责，也许工作才能让人忘记了所有的烦恼，只有劳动才能让人更踏实，我抬头看了看，觉得四周的同事，好像今天一个比一个不一样。我悄悄的凑在同事面前问道：“今天是个什么情况”
+“今天啊，咱们的钱总，在董事会面前挨批了，所以现在正愁着呢”
+“为什么挨批啊”我有点不解道，便趴在了同事的桌子上连续的问道，同事叹了一口气道：“你还不知道啊，现在不是有个城市之光这个项目，现在在征求设计方案，可是我们的方案屡次得到总公司的否决，没有办法了，今天咱们钱总，貌似又挨批了”
+同事接着道：“现在钱总让所有人都要制作一套设计方案，把这些方案放在一起，一同拿到竞标公司，让国华集团去筛选呢”
+“原来是这个样子啊”我听到国华集团这四个字的时候，心里一阵发堵，也许那个人早已经把我忘了，当时要给你找工作的事情，也只是随便说说，根本没有放在眼里。我不过就是一个小虾米，谁能在意我呢。
+说着我便慵懒的抬气头，缓缓的笑出了声，只是这个笑容是有多么的苦涩，恐怕只有我知道了。
+这期间，虽然我一直在公司工作，但是我唯独没有放弃的就是，离婚，我也一直在找靠谱的律师，这次我也吸取了很多教训，所谓自己动手，丰衣足食，我总不能去麻烦闺蜜方雯雯，况且人家也很忙的。
+我低下头问了问同事道：“我需要设计吗”
+“你看吧，你刚来，设计不设计都行”听着同事的话，貌似很小瞧我，于是我就暗自下了决心，这次我也要参与进来。
+说时迟，那是快，我便走到了电脑旁边，打开设计软件，开始用自己的构思，来在图上表现出来，“城市之光”我仔细的想了想，为什么国华集团会把这个名字叫城市之光呢。我抬起头，望着窗外，只见天空的浮云一直在飘着，热辣辣的阳光，像是一个五彩缤纷的彩虹一般，倾斜的照在楼下的每一处玻璃上，霎时好看。
+心里便暗忖：“是不是，这个城市之光，就是太阳光，也就是大自然的光呢”
+在很多人眼里，只要提到“光”这个字，准会想到，这个光，就是电，毕竟在这个工业化的时代，电气时代的到来，让整个世界变得越来越缤纷，霓虹灯，LED灯，每一个都是炫耀夺目的，可是谁又想到，在我心目中，有比这些更好的看的，那就是大自然的光线，大自然的光线是那么的魅力和柔和，时时刻刻照耀这个世界，他们就像母亲的手掌一样，抚摸着自己孩子，恋恋不舍，又暖暖深情，我为何不借用这些元素呢。
+想到这里，我微微一笑，便把自己的设计方案，写在了电脑上，打开设计软件，做起了图。
+不大一会，快要下班的时候，经理把所有同事设计的稿子，都打印出来了。走到我面前的时候，突然向我瞥了一眼道：“这刚来的实习生，知道什么是设计吗”听经理的话，显然经理是一个高高在上的样子，刚说完，一群同事顿时笑开了锅。
+
+
+2020-06-01 18:07:09.928 [http-nio-9004-exec-7] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 11“你已经做的很不错了，我父亲常常在我面前夸奖你呢，说你办事牢靠，没有让我们岳家丢脸”说着性感的嘴唇，朝着郑峰微微一笑。
+郑峰只看的神魂颠倒。一时间，一双眼睛直直的看着岳婉婉性感的嘴唇，说不出来一句话。
+这个时候，岳婉婉用一双纤纤玉指，撩动着自己的头发，道：“上次你做的非常好，决不能让毛林林和焦恩泽在一块，这个你懂吗”
+郑峰点了点头，表示默许。
+“现在我父亲，又在金华市收购了一批公司”岳婉婉嘴唇微微翘起，性感的卖弄了一下肩膀。
+便突然接着道：“现在付家的东阳公司，简直是一群废物，做出的东西，每一个能用、”
+“是啊，上次付家的公子来到了办公室，见焦恩泽，被焦恩泽拒之门外，随后要无音讯”郑峰一脸谄媚相，恨不得要立即把自己了解的东西一切都说给岳婉婉知道。
+“你说付占江去见了焦恩泽了”岳婉婉一脸惊讶道。
+“是的，可是焦恩泽始终没有见他”郑峰一脸无奈道：“所以那套设计施工图始终没有得到焦恩泽的认可”
+“我看不是图本身的问题，而是人的问题，可能现在付占江还不知道焦恩泽到底是谁，如果他要是知道了一切，恐怕要疯了”说着突然哈哈大笑了起来。笑声中，一股毛骨悚然的感觉，让人听了不寒而栗。
+只见岳婉婉突然道：“不过，父亲也是对付家有些失望，便又收购了一个公司”
+“什么公司”郑峰迫不及待的问道。
+“米多设计公司，这个公司在金华市有五年，可是五年间一直效益不怎么好，这次我父亲拿出了五百万投资他们公司，就是让他们公司能够多挖掘人才，到时候为我们所用，同时，父亲已经把设计图的任务交给了这个公司，相信这个公司在不久的以后就能拿出成绩，到时候你要在焦恩泽多多美言几句，好让米多公司的设计图能够达到目标，这样我们的第一部目标都达到了，这个你懂吗”
+郑峰频频点头，貌似很懂的样子，道：“属下知道了”
+“这里耳目众多，你还是先走吧，记得一切要小心，别让焦恩泽发现你”岳婉婉小声道。
+郑峰点了点头道：“好的，可……”本来还想说些什么，可是刚要张口，这句话已经被堵塞道喉咙里，他本来想告诉岳婉婉，貌似焦恩泽对他的身份已经有所怀疑，可是刚想说出口，脑海中，又在想，现在岳小姐对我期待很高，若是我把这些我也搞不懂的事情说给他听，他定时以为我办事不牢，认真考虑一下，还是不说为妙。
+说着便抬起头，看了看四周，察觉到没有人后，便小心翼翼的出去了。
+*********
+却说再多米设计公司，我可谓是尽职尽责，也许工作才能让人忘记了所有的烦恼，只有劳动才能让人更踏实，我抬头看了看，觉得四周的同事，好像今天一个比一个不一样。我悄悄的凑在同事面前问道：“今天是个什么情况”
+“今天啊，咱们的钱总，在董事会面前挨批了，所以现在正愁着呢”
+“为什么挨批啊”我有点不解道，便趴在了同事的桌子上连续的问道，同事叹了一口气道：“你还不知道啊，现在不是有个城市之光这个项目，现在在征求设计方案，可是我们的方案屡次得到总公司的否决，没有办法了，今天咱们钱总，貌似又挨批了”
+同事接着道：“现在钱总让所有人都要制作一套设计方案，把这些方案放在一起，一同拿到竞标公司，让国华集团去筛选呢”
+“原来是这个样子啊”我听到国华集团这四个字的时候，心里一阵发堵，也许那个人早已经把我忘了，当时要给你找工作的事情，也只是随便说说，根本没有放在眼里。我不过就是一个小虾米，谁能在意我呢。
+说着我便慵懒的抬气头，缓缓的笑出了声，只是这个笑容是有多么的苦涩，恐怕只有我知道了。
+这期间，虽然我一直在公司工作，但是我唯独没有放弃的就是，离婚，我也一直在找靠谱的律师，这次我也吸取了很多教训，所谓自己动手，丰衣足食，我总不能去麻烦闺蜜方雯雯，况且人家也很忙的。
+我低下头问了问同事道：“我需要设计吗”
+“你看吧，你刚来，设计不设计都行”听着同事的话，貌似很小瞧我，于是我就暗自下了决心，这次我也要参与进来。
+说时迟，那是快，我便走到了电脑旁边，打开设计软件，开始用自己的构思，来在图上表现出来，“城市之光”我仔细的想了想，为什么国华集团会把这个名字叫城市之光呢。我抬起头，望着窗外，只见天空的浮云一直在飘着，热辣辣的阳光，像是一个五彩缤纷的彩虹一般，倾斜的照在楼下的每一处玻璃上，霎时好看。
+心里便暗忖：“是不是，这个城市之光，就是太阳光，也就是大自然的光呢”
+在很多人眼里，只要提到“光”这个字，准会想到，这个光，就是电，毕竟在这个工业化的时代，电气时代的到来，让整个世界变得越来越缤纷，霓虹灯，LED灯，每一个都是炫耀夺目的，可是谁又想到，在我心目中，有比这些更好的看的，那就是大自然的光线，大自然的光线是那么的魅力和柔和，时时刻刻照耀这个世界，他们就像母亲的手掌一样，抚摸着自己孩子，恋恋不舍，又暖暖深情，我为何不借用这些元素呢。
+想到这里，我微微一笑，便把自己的设计方案，写在了电脑上，打开设计软件，做起了图。
+不大一会，快要下班的时候，经理把所有同事设计的稿子，都打印出来了。走到我面前的时候，突然向我瞥了一眼道：“这刚来的实习生，知道什么是设计吗”听经理的话，显然经理是一个高高在上的样子，刚说完，一群同事顿时笑开了锅。
+
+
+2020-06-01 18:10:51.587 [http-nio-9004-exec-6] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - “大事情”我感受到一种莫名其妙，并且这种莫名其妙是自己的大学舍友告诉自己的，自己心中像是打翻了五味瓶一样，实际上在自己心目中，大学毕业后，所有的室友都匆匆忙忙的回了老家，有的回家嫁人了，有的留在了城市，比如自己和任小智，自己自己都不说了，因为自己本身就是城市里的人，而任小智却不同，任小智是农村的女孩，但是在大学中，他就发誓这辈子一定要留在城市，一定要通过自己的努力让家庭过上好日子，等到自己父母年龄大了，就把父母接到城市里，这个一直是任小智的梦想。
+我非常看重这个女孩的骨气，所以大学的时候经常会帮助他，如果任小智有困难，没钱的话，自己就会给她买饭，可以这样说，方雯雯和我，以及现在的任小智，他们三个人是出了名的姐妹花，只要你在校园里见到他们三人中其中一个女孩，那么另一个女孩一定就在附近。
+我接着道：“小智，发生了什么事情，是不是最近缺钱了，如果取钱了给我说，我帮你”为什么现在毛林林现在这么有底气，因为毛林林已经不再是当初的那个女孩了，首先他已经和那个渣男彻底解除了婚姻，婚姻中的共同财产，毛林林或多或少的拿到了不少，并且现在他胜任的是国华集团的总裁。所以现在钱对于他来说，并不是件困哪的事情，他知道任小智这个女孩，可能是缺钱了，有点不好意思说出口，所以就故意把话茬撩了出来，让任小智知道，不管发生什么事情，总有一个坚强的闺蜜站在他的面前，是这样想的，毛林林也是这样做的。
+“不是，不是，林林，我是想给你说你的是”任小智听到后赶忙去解释道。
+紧接着任小智便道：“林林，你知道吗，现在我们公司准备对国华集团下手了，你要迟早准备了”任小智语气比较紧张，丝毫没有开玩笑的意思。不过这句话一出来，便让毛林林觉得有点难为情了。
+我听得有点一头雾水，便道：“小智，你今天是怎么了，你们公司不是传媒的吗，怎么会对我们下手，我不理解你说的意思”我接着反问着。
+我接着道：“小智，如果你有什么困难的话，及时给姐姐说，姐姐一定会帮助你的”
+任小智两眼包含着泪花，他没有想到在这个时候了，毛林林还是这么顾忌着他，心中非常感动，所以就坚定了他这次要回报给毛林林的恩情，所谓知无不言言无不尽，一定将自己所有知道的东西全部给他说，他才放心，他心里这样想着，也是这样做的。
+任小智赶紧道：“林林，这次我不是跟你开玩笑的，今天我们公司来了一个大客户，他穿着一个性感的吊带衫，非常苗条，然后脸型是瓜子脸，他给我们公司老板说了一个大秘密”任小智害怕毛林林不懂，又重复了这句话。
+我一听任小智的描绘，心中才终于有了想法，便道：“这个女人是不是叫岳婉婉”
+岳婉婉，岳婉婉我不知道，但是我知道，这个女子，我们老板问他喊岳小姐，如果你确认是岳婉婉的话，那么被我们老板叫岳小姐的这个女子就一定是岳婉婉，任小智这样说着。
+我心中大骇，暗忖：“若是真的是这样想的，那么这个人真的是岳婉婉，岳婉婉肯定会对他们不利的，这些天以来，在焦恩泽的介绍下，我大概的了解到了，岳家和焦家已经国华集团的众多股东之间的利益纠葛，他心里跟个明镜一样，又怎么会不知道”
+便道：“小智，你继续说下去，这个女人到达你们公司，到底所谓何事”
+任小智赶紧说道：“这个女子到达我们公司，给我们公司老板说，最近让我们老板多处一些新闻，就是说国华集团的里面出了一个奸细，这个奸细就是你，然后你蛊惑着国华集团的总裁焦恩泽先生，然后你们就合伙想要稀释其他股东人的权力，准备把国华集团变成远东集团的分公司”
+他这样一说，我的心里突然被莫名其妙的揪了一下，然后他不断的问着自己，便道：“这到底是为什么，我们没有这么做，一定是那个女人，那个女人名字叫岳婉婉，从一开始他都对我们居心叵测”
+任小智赶紧道：“林林，你要想想办法，别让焦恩泽先生再继续喝那个远东集团有联系了，根绝我们公司老板做事情的经验，他这些天一定会让所有的人去监视国华集团并且坚持焦恩泽先生的行动，如果查出来焦恩泽和卢家人有来往，恐怕这一次一定要上新闻，所以你们要小心”
+任小智说的口比较干了，然后喝了一口水，接着道：“不过，你放心，这件事情，我一定会帮助你们的，尽量让这类新闻放在放在网上的最小号，让人发现不了，如果出现这种情况的话”任小智说话吞吞吐吐的，他知道自己再公司的地位很低，能做的就是只有这些了，便接着道：“从根本上，你们要解决矛盾，那就是不要让他们拍到，毛林林和焦恩泽以及那些卢家人在一起的场景”
+我点了点头，然后接着道：“嗯，谢谢你，小智，你这样帮助我，我非常感动”瞬间自己的眼泪已经噙满了泪花，他没有想到自从离婚后，原来还有这么一个好闺蜜在为自己着想，他明白现在方雯雯他们现在已经很长时间没有说话了，或许他是突然间明白了吧，因为这些天，他明显已经发现以前的闺蜜渐渐的疏远自己，连最亲爱的方雯雯也不例外，所以他心里非常的忧伤。可是没有办法。
+我点了点头，此时此刻，貌似已经是晚上八点种，他知道这个时候，焦恩泽会准时在给自己的经销商开会，所以他断定焦恩泽现在正在国华集团的办公室里，所以他便匆忙的换洗了自己的衣服，然后接着道：“我要赶紧找焦恩泽，立即把这个话给他带到，要不然焦恩泽一定会去找卢少友”
+因为他明白，卢少友现在是他在金华市是唯一的亲人，并且卢少友一直想要知道自己母亲是一个什么样子的人，所以焦恩泽会准时的开完会后，找卢少友，如果他猜的没错的话，现在任小智所在的传媒公司，现在已经在国华集团的办公楼附近了布置了很多摄像头，假如拍着他们在一起的场景，恐怕焦恩泽就完蛋了，也就是说，焦恩泽这个国华集团的董事长的位置就保不住了。
+
+
+2020-06-01 18:10:53.611 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-06-01 18:20:28.357 [http-nio-9004-exec-6] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl - 听了沈白的话，我顿时更加气馁了，可虽然气馁，但还是不愿意放弃，翻着大眼睛道：“你等等啊，我好好想想，肯定会有两全其美的办法的！”
+“好了，先别想了，干点应该干的事情吧！”沈白突然暧昧的冲我笑着说道。
+我疑惑的道：“什么应该干的事？”
+沈白脸上的笑容更加暧昧了，他拦腰将我抱起，向床上走去，说道：“咱们成亲以来，还没有圆过洞房呢，正好今天有时间，省得夜长梦多，赶紧把这事儿办了再说！”
+我顿时大羞，脸红到了脖子根，轻微挣扎着道：“你这个坏蛋，瞎说什么呢，在梦里面你都把人家……还嫌不够是不是，大白天的，赶紧把人家放下啦，要是让别人看见，那人家还做不做人了！”
+沈白哈哈笑道：“沫雪，你没听过一句话么，叫做春梦了无痕，这种事情在梦里怎么能算？你放心，我的帅帐，没有我的允许，是不会有人进来的，今天就是我们的洞房花烛夜，沫雪，我要你从今天开始，变成我沈白真正的女人！”
+帐篷的里侧搭着一张行军床，中间用帘子隔开，沈白抱着我，单手打开帘子，然后把我轻轻的放在了床上。
+迎着他那热情如火的目光，我知道此番再难幸免，心中竟然又是害怕又是期待，我不敢看他，闭上了眼睛，蚊蝇似的说道：“坏蛋，你把帘子拉上啊！万一有人进来，看到了怎么办！”
+沈白被我害羞的模样逗的哈哈大笑，在我鼻翼刮了一下，随手把帘子拉上，然后一俯身就吻上了我的唇。
+沈白明显是个中高手，轻啄了两下，随即就把温热的舌头探入了我的口腔。
+我被他挑逗的欲罢不能，一条丁香小舌笨拙的回应着他，而沈白在吻我的同时，松开紧握着我的手，一路向上，竟然攀上了我的峰峦。
+他的动作很是轻柔，我只感觉一阵舒畅，整个人顿时就软成了一团水。
+正在我迷离的档口，忽然感觉腰间一松，天呐，我腰间的束带竟然被沈白一下解了开来。
+随着束带掉落在地，我知道接下来会发生什么了，未经人事的我，顿时就控制不住的微微颤栗起来。
+沈白知道我很紧张，善解人意的他并没有强行突进，而是更加温柔的抚摸亲吻我。
+我的衣衫一件一件掉在地上，沈白的纤细的手掌在我光滑如玉的身体上划过，而他的吻则像冬天里的烈火一般，在我身体的每一寸肌肤上，留下了一个个火热的印痕。
+他一路向下，正要来到那令我颤栗不止的地带时，忽然一个粗豪的声音在后面喊道：“主公，末将铁千石有事禀报！”
+沈白不由得停下手中动作，没好气的道：“什么事？”
+铁千石道：“营寨已经搭建完毕，请问主公可以埋锅做饭了么？”
+沈白登时怒声说道：“难道伙房的事也要我来管么？”
+“这……”铁千石顿时语塞，在外面迟疑着不知道该怎么办才好，沈白无奈，只好说道：“营寨既然已经搭建完毕，那就埋锅做饭吧，还有，此类鸡毛蒜皮的事情以后就不要再向我禀报了！”
+“属下遵命！”铁千石得到命令，心满意足的走了。
+“这个铁千石，真是榆木疙瘩一个！”沈白咕哝了一句，瞧见我睁开了眼睛，摸了摸我的秀发，笑着道：“沫雪，那讨人厌的家伙已经走了，咱们接着来吧！”
+我推拒着他，没好气道：“来什么来啊！我都说大白天的会有人，你还偏偏不信，赶紧起来啦，一会儿再有人来，我看你怎么办！”
+“哼，要是再有人来，我就祭出鬼帝印把他砸成小饼饼！”沈白恶狠狠的说了一句，然后一双魔爪伸向我挺翘的峰峦，同时头一低，就又吻住了我软绵绵的嘴唇。
+“末将前军统领秦英，有事禀报主公！”铁千石走后不久，帐外又突兀的响起了一个粗豪的声音。
+沈白简直快气疯了，他忍着怒气道：“什么事！”
+秦英道：“启禀主公，今晚岗哨已经布置完毕，请问主公以何为号？”
+一听又是鸡毛蒜皮的事情，沈白终于爆发了，他怒声喝道：“滚蛋，有多远就滚多远！”
+秦英一愣，还没弄明白怎么回事，只听沈白又是一声暴喝：“没听明白是不是，滚蛋，有多远就滚多远！”
+秦英顿时恍然大悟，躬身说道：“是，属下明白，今晚暗号是滚蛋，有多远滚多远！”
+秦英心满意足的走了，沈白却更加郁闷了，连发个火都没让对方弄明白，那他这邪火又该往哪儿出？
+看到沈白吃瘪的样子，我拿手挡住雪白的胸脯，无情的嘲笑道：“我的鬼帝大人，你刚才不是说，谁要是再过来，就祭出鬼帝印把他砸成小饼饼么？那刚才前军统领来的时候，你怎么不祭出鬼帝印？莫非是鬼帝大人日理万机，把这事儿忘了不成？”
+被我一番嘲讽，沈白顿时尴尬无比，搔掻头皮，干笑着说道：“对对对，我忘了，我忘了，你说我什么事儿都记得，怎么就把这件事儿给忘了呢？”
+“你堂堂鬼帝，倒还挺会顺着杆子往上爬！”我白了他一眼，随即捡起地上的衣服，要往身上穿。
+“你干嘛？”沈白连忙抓住我的手、
+我瞪圆了眼睛看他，没好气的道：“你说干嘛，赶紧起来啦，一会儿再有来……”
+“再有人来，我就当真祭出鬼帝印，把他砸成小饼饼！”我话未说完，沈白就打断我的话头，迫不及待的在我身上乱亲乱摸。
+我有点儿急了，推着他道：“你还来，不长记性是不是！”
+“放心好啦，不会再有人来得啦！”沈白含着我的一颗蓓蕾，含混不清的说道。
+我拿他没办法，只能任由他在我身上索取，我抱着他的脑袋，感觉被他吸允的十分舒爽，不由得身体紧绷，那快乐一波接一波的袭来，一种似曾相识的感觉终于到来，我啊的一声轻吟，顿时就像八爪鱼似的抱住了他。
+而沈白在我登上快乐巅峰以后，随即也急不可耐的搬开我嫩白的长腿，那高耸如怒龙般的小小白对准，就要开始真正进行那不可描述的事情……
+
+
+2020-06-01 18:21:17.482 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 18:21:17.487 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 18:21:17.489 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 18:21:17.584 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 18:21:17.669 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 18:21:17.683 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14008db3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78a773fd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57c03d88, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16aa8654, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d7fc27, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45ac5f9b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@135606db, org.springframework.test.context.event.EventPublishingTestExecutionListener@518caac3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68034211, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4f74980d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@58594a11, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a3888c1]
+2020-06-01 18:21:17.933 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 86051 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 18:21:17.934 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 18:21:18.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 18:21:18.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 18:21:18.676 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 18:21:19.318 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 18:21:21.701 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 18:21:25.185 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 18:21:25.260 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f5d7d8ef-285f-4faf-96d1-ede657b49aae
+
+2020-06-01 18:21:25.413 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37d0d373, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fe8f2ae, org.springframework.security.web.header.HeaderWriterFilter@73aaec54, org.springframework.security.web.authentication.logout.LogoutFilter@18907af2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61808ecd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@516195cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4052913c, org.springframework.security.web.session.SessionManagementFilter@3e151e1f, org.springframework.security.web.access.ExceptionTranslationFilter@1b3a9ef4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@566fe83c]
+2020-06-01 18:21:25.817 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:21:26.562 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 18:21:26.587 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 18:21:26.620 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 18:21:26.830 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 18:21:26.906 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 18:21:26.914 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 18:21:26.935 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 9.224 seconds (JVM running for 10.029)
+2020-06-01 18:21:27.184 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:21:27.193 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 18:54:58.361 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 18:54:58.367 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 18:54:58.368 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 18:54:58.458 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 18:54:58.535 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 18:54:58.548 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1187c9e8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@127a7a2e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14008db3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@78a773fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57c03d88, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16aa8654, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7fc27, org.springframework.test.context.event.EventPublishingTestExecutionListener@45ac5f9b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@135606db, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@518caac3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@68034211, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f74980d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6c372fe6]
+2020-06-01 18:54:58.784 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 86425 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 18:54:58.785 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 18:54:59.470 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 18:54:59.472 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 18:54:59.499 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-06-01 18:55:00.125 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 18:55:00.527 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 18:55:02.224 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:55:02.245 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 18:55:03.375 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 18:55:03.496 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 033fe0a0-ad94-4ec8-8762-61e902c59bf8
+
+2020-06-01 18:55:03.706 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25a290ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e98032e, org.springframework.security.web.header.HeaderWriterFilter@3c28181b, org.springframework.security.web.authentication.logout.LogoutFilter@26bb92e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@591be8aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33751d49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37d0d373, org.springframework.security.web.session.SessionManagementFilter@6b3f4bd8, org.springframework.security.web.access.ExceptionTranslationFilter@3c60c681, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2120bed]
+2020-06-01 18:55:04.210 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:55:05.339 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 18:55:05.363 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 18:55:05.404 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 18:55:05.657 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 18:55:05.752 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 18:55:05.765 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 18:55:05.795 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 7.219 seconds (JVM running for 8.035)
+2020-06-01 18:55:06.071 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:55:06.080 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 18:55:08.240 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86443 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 18:55:08.242 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 18:55:08.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 18:55:08.905 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 18:55:08.938 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-06-01 18:55:09.340 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 18:55:09.346 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 18:55:09.347 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 18:55:09.347 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 18:55:09.406 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 18:55:09.406 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1121 ms
+2020-06-01 18:55:09.570 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 18:55:09.800 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 18:55:10.696 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 18:55:10.736 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 13bb2f04-c219-4e36-a757-e97fac944d0f
+
+2020-06-01 18:55:10.798 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f9a10df, org.springframework.security.web.context.SecurityContextPersistenceFilter@2415e4c7, org.springframework.security.web.header.HeaderWriterFilter@61608e1a, org.springframework.security.web.authentication.logout.LogoutFilter@4a70d302, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@373afd6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@677ce519, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@773c2214, org.springframework.security.web.session.SessionManagementFilter@3daf03d8, org.springframework.security.web.access.ExceptionTranslationFilter@4b88ca8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22ead351]
+2020-06-01 18:55:10.917 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:55:11.259 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 18:55:11.274 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 18:55:11.304 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 18:55:11.442 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 18:55:11.484 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 18:55:11.488 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 18:55:11.501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 18:55:11.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 18:55:11.528 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.564 seconds (JVM running for 4.165)
+2020-06-01 18:56:25.252 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 18:56:25.253 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 18:56:25.257 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-01 18:57:23.383 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:57:23.390 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 18:57:28.686 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86481 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 18:57:28.688 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 18:57:29.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 18:57:29.384 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 18:57:29.411 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 18:57:29.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 18:57:29.869 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 18:57:29.870 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 18:57:29.870 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 18:57:29.934 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 18:57:29.934 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1217 ms
+2020-06-01 18:57:30.131 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 18:57:30.936 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86483 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 18:57:30.939 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 18:57:31.677 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 18:57:32.669 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 18:57:32.710 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3d905af6-eeb7-491e-a5e7-2da3f534126c
+
+2020-06-01 18:57:32.772 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4001d8c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c48b72c, org.springframework.security.web.header.HeaderWriterFilter@1625789b, org.springframework.security.web.authentication.logout.LogoutFilter@67688110, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62d40e31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3086f480, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fb5aeed, org.springframework.security.web.session.SessionManagementFilter@14b31e37, org.springframework.security.web.access.ExceptionTranslationFilter@71a4f441, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31efacad]
+2020-06-01 18:57:32.879 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:57:33.234 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 18:57:33.249 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 18:57:33.276 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 18:57:33.407 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 18:57:33.449 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 18:57:33.454 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 18:57:33.466 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 18:57:33.489 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 18:57:33.491 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.054 seconds (JVM running for 5.555)
+2020-06-01 18:57:58.313 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:57:58.319 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 18:58:00.671 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86491 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 18:58:00.675 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 18:58:01.374 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 18:58:01.376 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 18:58:01.407 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-06-01 18:58:02.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 18:58:02.021 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 18:58:02.022 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 18:58:02.023 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 18:58:02.170 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 18:58:02.171 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1426 ms
+2020-06-01 18:58:02.312 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 18:58:02.555 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 18:58:03.433 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 18:58:03.475 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 77cdeb78-39da-404e-ba7a-36a20839aa38
+
+2020-06-01 18:58:03.534 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@591e5fd4, org.springframework.security.web.context.SecurityContextPersistenceFilter@775c4054, org.springframework.security.web.header.HeaderWriterFilter@a1cb94, org.springframework.security.web.authentication.logout.LogoutFilter@6ceb11f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@305881b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28b5d5dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bbd76b8, org.springframework.security.web.session.SessionManagementFilter@2c7375da, org.springframework.security.web.access.ExceptionTranslationFilter@6fa3def8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12d44a2a]
+2020-06-01 18:58:03.634 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 18:58:04.005 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 18:58:04.018 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 18:58:04.043 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 18:58:04.181 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 18:58:04.223 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 18:58:04.228 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 18:58:04.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 18:58:04.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 18:58:04.272 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.976 seconds (JVM running for 4.659)
+2020-06-01 18:58:11.245 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 18:58:11.245 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 18:58:11.251 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-01 19:01:38.246 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:01:38.252 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:01:42.375 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86537 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:01:42.388 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 19:01:43.135 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:01:43.137 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:01:43.173 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-06-01 19:01:43.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 19:01:43.596 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:01:43.596 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 19:01:43.596 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 19:01:43.705 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 19:01:43.705 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1275 ms
+2020-06-01 19:01:43.829 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:01:45.630 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:01:46.598 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:01:46.647 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d2807d93-86a1-40d0-b0d1-e20a49957259
+
+2020-06-01 19:01:46.717 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@343d1d25, org.springframework.security.web.context.SecurityContextPersistenceFilter@71d99732, org.springframework.security.web.header.HeaderWriterFilter@3e6acec2, org.springframework.security.web.authentication.logout.LogoutFilter@351ede23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42a05533, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bda01da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@762da62b, org.springframework.security.web.session.SessionManagementFilter@338a4c61, org.springframework.security.web.access.ExceptionTranslationFilter@846b47, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55b62db8]
+2020-06-01 19:01:46.834 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:01:47.254 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:01:47.271 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:01:47.303 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:01:47.459 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:01:47.505 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:01:47.510 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:01:47.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:01:47.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 19:01:47.595 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.528 seconds (JVM running for 6.163)
+2020-06-01 19:02:06.533 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 19:02:06.533 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 19:02:06.538 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-01 19:02:17.178 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:02:17.184 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:02:22.155 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86547 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:02:22.157 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 19:02:22.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:02:22.871 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:02:22.895 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-06-01 19:02:23.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 19:02:23.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:02:23.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 19:02:23.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 19:02:23.316 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 19:02:23.317 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1123 ms
+2020-06-01 19:02:23.478 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:02:23.753 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:02:24.619 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:02:24.659 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 229d4622-816f-4ea7-a6c4-c1b998f40f9b
+
+2020-06-01 19:02:24.715 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72557746, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f5614f9, org.springframework.security.web.header.HeaderWriterFilter@cbd40c1, org.springframework.security.web.authentication.logout.LogoutFilter@457a5b2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c3f1658, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71a4f441, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8c12524, org.springframework.security.web.session.SessionManagementFilter@d653e41, org.springframework.security.web.access.ExceptionTranslationFilter@237add, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e1a5f]
+2020-06-01 19:02:24.813 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:02:25.117 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:02:25.127 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:02:25.148 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:02:25.278 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:02:25.319 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:02:25.324 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:02:25.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:02:25.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 19:02:25.363 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.482 seconds (JVM running for 3.966)
+2020-06-01 19:04:04.086 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:04:04.092 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:04:08.155 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86567 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:04:08.158 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 19:04:08.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:04:08.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:04:08.881 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-01 19:04:09.277 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 19:04:09.284 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:04:09.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 19:04:09.285 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 19:04:09.342 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 19:04:09.343 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1153 ms
+2020-06-01 19:04:09.492 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:04:11.647 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:04:12.459 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:04:12.499 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: eb720ca8-ef1b-402a-9f19-baef2169c305
+
+2020-06-01 19:04:12.556 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8c12524, org.springframework.security.web.context.SecurityContextPersistenceFilter@480cbe2e, org.springframework.security.web.header.HeaderWriterFilter@4fa86cb8, org.springframework.security.web.authentication.logout.LogoutFilter@79d7035, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@110e9982, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24876a7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f723cdb, org.springframework.security.web.session.SessionManagementFilter@3b78c683, org.springframework.security.web.access.ExceptionTranslationFilter@491cafec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31b0f02]
+2020-06-01 19:04:12.646 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:04:12.963 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:04:12.974 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:04:12.995 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:04:13.119 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:04:13.156 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:04:13.161 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:04:13.173 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:04:13.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 19:04:13.198 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.306 seconds (JVM running for 5.958)
+2020-06-01 19:04:21.556 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 19:04:21.556 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 19:04:21.561 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-01 19:06:12.558 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:06:12.565 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:06:15.416 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86598 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:06:15.419 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 19:06:16.085 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:06:16.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:06:16.115 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-01 19:06:16.469 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 19:06:16.474 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:06:16.474 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 19:06:16.474 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 19:06:16.526 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 19:06:16.526 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1073 ms
+2020-06-01 19:06:16.666 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:06:16.910 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:06:18.877 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:06:18.919 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b4f41bae-b2d3-4687-bae3-e14232950e3a
+
+2020-06-01 19:06:18.977 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4962b41e, org.springframework.security.web.context.SecurityContextPersistenceFilter@68af87ad, org.springframework.security.web.header.HeaderWriterFilter@44aa2e13, org.springframework.security.web.authentication.logout.LogoutFilter@5234b61a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9cfc77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15e1f8fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fecf308, org.springframework.security.web.session.SessionManagementFilter@44f0ff2b, org.springframework.security.web.access.ExceptionTranslationFilter@dbddbe3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fffb692]
+2020-06-01 19:06:19.086 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:06:19.433 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:06:19.444 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:06:19.467 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:06:19.603 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:06:19.647 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:06:19.651 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:06:19.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:06:19.689 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 19:06:19.692 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.524 seconds (JVM running for 5.012)
+2020-06-01 19:06:26.901 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 19:06:26.901 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 19:06:26.907 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-01 19:08:55.572 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 19:08:55.578 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 19:08:55.579 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 19:08:55.679 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 19:08:55.763 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 19:08:55.778 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 19:08:56.026 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 86631 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:08:56.027 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 19:08:56.726 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:08:56.729 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:08:56.756 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-06-01 19:08:57.415 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:08:57.848 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:08:59.377 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:08:59.480 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7234a71c-232c-4905-b157-ac957499a218
+
+2020-06-01 19:08:59.646 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37d0d373, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fe8f2ae, org.springframework.security.web.header.HeaderWriterFilter@73aaec54, org.springframework.security.web.authentication.logout.LogoutFilter@18907af2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61808ecd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@516195cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4052913c, org.springframework.security.web.session.SessionManagementFilter@3e151e1f, org.springframework.security.web.access.ExceptionTranslationFilter@1b3a9ef4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@566fe83c]
+2020-06-01 19:08:59.988 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:09:00.708 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:09:00.732 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:09:00.764 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:09:00.947 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:09:01.007 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:09:01.014 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:09:01.031 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 5.224 seconds (JVM running for 6.128)
+2020-06-01 19:09:01.228 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:09:01.237 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:09:27.397 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 19:09:27.403 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 19:09:27.404 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 19:09:27.498 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 19:09:27.581 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 19:09:27.594 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 19:09:27.854 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 86642 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:09:27.855 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 19:09:28.596 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:09:28.598 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:09:28.628 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-01 19:09:29.276 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:09:29.687 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:09:31.183 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:09:31.270 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 65670cf2-3b60-41a2-9675-8e11b0877cd6
+
+2020-06-01 19:09:31.405 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64bba0eb, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eeb14e0, org.springframework.security.web.header.HeaderWriterFilter@5e98032e, org.springframework.security.web.authentication.logout.LogoutFilter@6b6def36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d4ecc67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70d3cdbf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@577bfadb, org.springframework.security.web.session.SessionManagementFilter@10bf1ec9, org.springframework.security.web.access.ExceptionTranslationFilter@7ef41ca2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25a290ee]
+2020-06-01 19:09:31.733 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:09:32.459 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:09:32.481 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:09:32.516 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:09:32.701 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:09:32.769 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:09:32.776 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:09:32.796 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Started ApplicationTests in 5.173 seconds (JVM running for 6.001)
+2020-06-01 19:09:33.094 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:09:33.104 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:11:41.705 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nine.one.yuedu.read.ApplicationTests], using SpringBootContextLoader
+2020-06-01 19:11:41.711 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nine.one.yuedu.read.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-06-01 19:11:41.712 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nine.one.yuedu.read.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-06-01 19:11:41.809 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nine.one.yuedu.read.NineOneYueDuApplication for test class com.nine.one.yuedu.read.ApplicationTests
+2020-06-01 19:11:41.887 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-06-01 19:11:41.899 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68034211, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae]
+2020-06-01 19:11:42.147 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - Starting ApplicationTests on 192.168.0.104 with PID 86661 (started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:11:42.147 [main] INFO  com.nine.one.yuedu.read.ApplicationTests - The following profiles are active: test
+2020-06-01 19:11:42.851 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:11:42.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:11:42.882 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 19:11:43.540 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:11:43.996 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:11:44.941 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:11:44.948 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-01 19:11:49.746 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on 192.168.0.104 with PID 86668 (/Users/wangyuliang/ideaProjects/91yuedu-read/target/classes started by wangyuliang in /Users/wangyuliang/ideaProjects/91yuedu-read)
+2020-06-01 19:11:49.748 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-06-01 19:11:50.400 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 19:11:50.402 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 19:11:50.429 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-01 19:11:50.832 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-06-01 19:11:50.838 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:11:50.839 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 19:11:50.839 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-01 19:11:50.897 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 19:11:50.897 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1111 ms
+2020-06-01 19:11:51.041 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-01 19:11:51.262 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-01 19:11:52.061 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-01 19:11:52.099 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 98a252a2-14a9-4559-8082-afafc55ac552
+
+2020-06-01 19:11:52.150 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72fbf94d, org.springframework.security.web.context.SecurityContextPersistenceFilter@67688110, org.springframework.security.web.header.HeaderWriterFilter@4962b41e, org.springframework.security.web.authentication.logout.LogoutFilter@38883a31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@475f5672, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17222c11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6839203b, org.springframework.security.web.session.SessionManagementFilter@552fee7a, org.springframework.security.web.access.ExceptionTranslationFilter@11c78080, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e5ddfbc]
+2020-06-01 19:11:52.249 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 19:11:52.549 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-01 19:11:52.558 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-01 19:11:52.576 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-01 19:11:52.701 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-06-01 19:11:52.748 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-06-01 19:11:52.752 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-06-01 19:11:52.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-06-01 19:11:52.792 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-06-01 19:11:52.795 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 3.302 seconds (JVM running for 3.78)
+2020-06-01 19:11:58.868 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-01 19:11:58.868 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-01 19:11:58.872 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-02 09:38:17.361 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-02 09:38:17.377 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.WeixinUserMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.WeixinUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="language" jdbcType="VARCHAR" property="language" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="headimgurl" jdbcType="VARCHAR" property="headimgurl" />
+    <result column="privilege" jdbcType="VARCHAR" property="privilege" />
+    <result column="unionid" jdbcType="VARCHAR" property="unionid" />
+    <result column="appid" jdbcType="VARCHAR" property="appid" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="subscribe_time" jdbcType="TIMESTAMP" property="subscribeTime" />
+  </resultMap>
+</mapper>

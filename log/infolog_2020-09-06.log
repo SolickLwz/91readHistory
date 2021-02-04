@@ -1,0 +1,1893 @@
+2020-09-06 13:56:40.068 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 43548 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 13:56:40.073 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 13:56:41.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 13:56:41.027 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 13:56:41.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+2020-09-06 13:56:41.557 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 13:56:41.567 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 13:56:41.567 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 13:56:41.567 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 13:56:41.737 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 13:56:41.742 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1630 ms
+2020-09-06 13:56:41.917 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 13:56:42.487 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 13:56:44.297 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 13:56:44.337 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4c8c43c5-00e9-4425-8d21-c29b53b77641
+
+2020-09-06 13:56:44.417 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38c460e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@1132baa3, org.springframework.security.web.header.HeaderWriterFilter@2094bf3d, org.springframework.security.web.authentication.logout.LogoutFilter@24a04257, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a2546d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7772d266, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a814310, org.springframework.security.web.session.SessionManagementFilter@781dbe44, org.springframework.security.web.access.ExceptionTranslationFilter@57a667c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cc1bf20]
+2020-09-06 13:56:44.497 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 13:56:44.667 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 13:56:44.677 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 13:56:44.708 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 13:56:44.767 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 13:56:44.827 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 13:56:44.867 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 13:56:44.867 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 13:56:44.867 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 13:56:44.877 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 13:56:44.877 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 13:56:44.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 13:56:44.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 13:56:44.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 13:56:44.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 13:56:44.892 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 13:56:44.897 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 13:56:44.897 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 13:56:44.897 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 13:56:44.897 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 13:56:44.937 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 13:56:44.951 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 13:56:44.951 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 13:56:44.951 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 13:56:44.957 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 13:56:44.957 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 13:56:44.977 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 13:56:44.997 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 13:56:44.997 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.522 seconds (JVM running for 6.691)
+2020-09-06 13:58:31.473 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 13:58:31.473 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 13:58:31.473 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-09-06 14:03:30.693 [http-nio-9004-exec-7] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 竟然还有这样的事？
+赵林心中诧异：“那，若是有一天他们要将公司要回去，我们就只能拱手让人？”
+这公司可是他跟着父亲一手壮大的，他怎么能甘心，以至于语气都带着不满。
+“给我跪下！”赵老怒容满面。
+“爸！”赵林颇为无奈，他都这么大人了，竟然还来这一套。
+“跪下！”赵老不怒自威。
+赵林只好听话跪下来。
+“不知你可还记得，在你八岁那年，我们全家遭遇恐怖袭击？”
+赵林点点头，那件事他到现在还是记忆犹新，那段时间他们全家都活在恐慌中，他连学校都不敢去，就这样那些人还是肆无忌惮的差点枪击了母亲。
+不过在三天后，父亲便松了口气告诉他们危机解除了。
+“当时是老爷一直在暗中保护我们，并将那些想要迫害我们的黑暗势力，一网打尽，免了我们个后顾之忧！”
+赵林感到错愕。
+“还有你十三岁夏令营，惹怒了秦淮顾家，顾家势力神秘，我们赵家在顾家眼里根本就如蝼蚁一般，他们非要将你打残去给顾家的小公子赔礼道歉，你可知道事情是怎么解决的？”
+“还是老爷出面，才了结了此事，并要求他们永不犯我们赵家，老爷对我们家，岂止有帮助之情，更有救命之恩！”
+赵林听着心中哑然不语。
+赵老叹了口气，语气缓和了些。
+“我知道你猛然得知这件事会觉得不舒服，毕竟这赵家，你也是付出了不少心思，但是老爷对我们的恩，又岂止是一个赵家能还的起的，总之，既然我们已经认主，但势必不能对主家出言不逊，你刚才的话，我暂且绕过你，若是还有下一次，我决不轻饶，听到了吗？”
+“可是爸，那个老主家到底有什么背景，能治的了秦淮顾家？”赵林大惑不解。
+就现在秦淮顾家也依旧是难以撼动的势力，却能听老爷的话，那这个老爷，怕是不可小觑啊！
+“老爷他，”赵老欲言又止：“其实我也并不是很清楚，你爷爷告诉我，老爷是黑白同吃，并且在哪都有绝对的影响力，不然我们赵家，也不会世代认主，并经年不败，所以，就算有天韩靖真要拿回赵家，我们也只能听命！”
+赵林只能点头：“知道了。”
+心里是真的酸，自己忙活了大半辈子的企业，竟然还不是自家的。
+赵老见状也知道他并非一时就能放好心态的，于是安慰道。
+“不过你放宽心，老爷眼界大的很，我们这点家产，在他老人家眼里，根本算不得什么，而且和小少爷结亲，我们也就是一家人了，自然不用计较这么多。”
+赵林听到这话才算是心里好受些，缓缓的站起来。
+“那这件事我们要不要让雪怡知道？”
+赵老思索一下，说道：“这事谁都不要说，我也不希望用这个来压着雪怡，让他们自由发展吧，不过小少爷的为人应该错不了，雪怡若是能真的跟他好好生活，韩靖绝对不会亏待他。”
+……
+赵雪怡心情有些郁闷。
+今天的事情实在是打了她一个错手不及到现在她都难以接受自己不久之后将会嫁人的事实。
+电话铃突然响起，一看是自己经纪人吴姐。
+“喂？”
+“雪怡小姐，这营销号爆出你要结婚的消息是不是真的，网络上都传的沸沸扬扬了，需不需要我们立刻公关澄清？”
+赵雪怡沉默了半晌，才说道：“不用，我之前不是接了几部剧，现在再帮我联系一下，我要继续拍摄。”
+吴姐闻言暗暗心惊，这是承认了要结婚的事实？那还要演戏干嘛？
+不过她还没有胆量多问，应了声好，便挂了电话。
+之前因为爷爷病重，她停止了一切商业活动，可现在，她却是急需要一份工作来逃避。
+她并非是看不起韩靖，在她眼里众人平等，只是她实在是没办法接受和一个素未谋面的陌生人结婚。
+她想要的婚姻，应该是两厢情愿的，并不是这种硬被凑到一起的。
+赵雪怡叹了口气，就听到了敲门声。
+门打开，保姆端了杯热牛奶：“小小姐，老爷让你将这杯牛奶送到姑爷的房里。”
+听到姑爷这个词，赵雪怡蹙眉不悦：“你送过去就好了，非要我去干嘛？”
+保姆和善的笑笑：“怕是要让小小姐和姑爷好好的相处。”
+赵老的话她不能不听，心里憋屈的厉害，但还是无奈接了过去。
+“行了，我去送，你下去吧。”
+赵雪怡敲响客房的门，得到里面的允许推门而入，一进去就看到裸着上半身古铜色皮肤的韩靖。
+她慌忙转过身，语气羞愤：“你干嘛不穿衣服？”
+韩靖看了看自己下半身围着的浴巾，茫然道：“我围了浴巾，没有光着。”
+“上半身也穿好！”
+韩靖笑了：“怕什么，你马上就是我媳妇了，有什么看不得的。”
+不过还是乖乖穿好了衣服，媳妇害羞嘛，可以理解。
+赵雪怡实在被他这后脸皮搞的面红耳赤，正要说话，就看到韩靖一张笑脸已经来到她面前。
+俗话说伸手不打笑脸人，赵雪怡就算再有脾气，现在也只能隐忍不发。
+“这是热牛奶你喝了吧。”
+韩靖笑着接过：“多谢媳妇。”
+喝了口之后才感叹道：“媳妇，下次我从山上给你带下来一点我家老爷子存放的牛奶，营养价值可比这个高多了，都是我们自家养的，绝对没安全问题。”
+“你们还养牛？”
+“对，不仅有牛，我还驯服了一头狼，为了驯服他，我可是付出了不少代价，可凶悍了，除了我和爷爷，谁都不敢碰它，不过你是我媳妇，它肯定也会乖乖听你的话。”
+赵雪怡想到那是一头狼，就身子颤了一下，岔开了话题：“你没有带换洗的衣服？”
+他现在穿的还是之前的衣服。
+韩靖闻言有些尴尬：“不是，我的衣服都是这样的，我家老爷子买的。”
+赵雪怡一言难尽：“行了，明日我去棚里，你也去，给你买两身换洗的衣服。”
+韩靖有些意外，感叹道：“多谢媳妇，有了媳妇就是好。”
+赵雪怡实在是听不下去了，媳妇？
+哼！
+
+2020-09-06 14:04:49.671 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 148828 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 14:04:49.671 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 14:04:50.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 14:04:50.530 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 14:04:50.577 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-09-06 14:04:50.968 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 14:04:50.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 14:04:50.968 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 14:04:50.968 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 14:04:51.124 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 14:04:51.124 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1422 ms
+2020-09-06 14:04:51.233 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 14:04:52.561 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 14:04:54.233 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 14:04:54.280 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1b3f1b3f-3d29-4e9b-bd88-d1c85ca0fd73
+
+2020-09-06 14:04:54.342 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71567f33, org.springframework.security.web.context.SecurityContextPersistenceFilter@55bf35e5, org.springframework.security.web.header.HeaderWriterFilter@46cf8c07, org.springframework.security.web.authentication.logout.LogoutFilter@5f6494c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@179ee36b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65036e8d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71369e1a, org.springframework.security.web.session.SessionManagementFilter@4bbf38b8, org.springframework.security.web.access.ExceptionTranslationFilter@5cc1bf20, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3962ec84]
+2020-09-06 14:04:54.420 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 14:04:54.576 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 14:04:54.592 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 14:04:54.623 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 14:04:54.686 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 14:04:54.748 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 14:04:54.779 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 14:04:54.779 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 14:04:54.779 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 14:04:54.795 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 14:04:54.795 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 14:04:54.795 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 14:04:54.795 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 14:04:54.795 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 14:04:54.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 14:04:54.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 14:04:54.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 14:04:54.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 14:04:54.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 14:04:54.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 14:04:54.860 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 14:04:54.860 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 14:04:54.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 14:04:54.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 14:04:54.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 14:04:54.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 14:04:54.891 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 14:04:54.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 14:04:54.907 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.542 seconds (JVM running for 6.58)
+2020-09-06 14:05:01.319 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 14:05:01.319 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 14:05:01.319 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-09-06 16:31:23.552 [http-nio-9004-exec-9] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 云城，左岸别墅区。
+韩靖在外面走走瞧瞧，一路感叹，他已经走了最少有10里地，腿都快断了。只见车不见人。
+终于看见一个人影，韩靖冲上去，“这位大姐，你们这里6栋在什么地方？”
+女人不悦抬头：“一点眼力劲都没有，你看着可比我大多了，你是来找人的吗？”
+韩靖露出一口大白牙：“不是，有一家姓赵的，请我来看病。”
+女人狐疑的打量着韩靖，一身工地搬砖的绿色衬衫，上面还有没洗干净的白漆点子，头上戴着一顶农村下地戴的遮阳帽，肩上扛着一个还带缝补的黄色包裹，一看就是个乡巴佬。
+她在别墅区当社区护士，地界儿小，可见过的医生没有上千也有几百，从没见过他这样的。
+只当是来戏弄自己的，语气不善：“这里可是云城最好的别墅区，社区医疗技术和人才都是最上乘的，哪家人这么想不开，让你一个乡下来的看病，别捣乱了，一边去。”
+紧接着就有人打电话过来询问什么，女人接着电话忙了起来，韩靖也不好再打扰，只能边走边找。
+他是今天刚刚被爷爷扔下山，说是有个姓赵的老头性命垂危，就在左岸别墅区，让他过来救治。
+没多久迎面走来一个大妈，韩靖学聪明了，说自己是来探病的，大妈果然带他找到了6栋，却又一次碰到了那个女人。
+“喂，你是怎么进来的，这里可是别墅区，你看你身上脏的，要是给这里的人带来细菌感染怎么办？”
+韩靖有些窘迫。
+大妈对小护士的态度有些不满：“人家这是来找人的，你这是什么语气？”
+小护士挨了训，怒瞪了韩靖一眼：“他根本就是骗人的，刚才在路边，他跟我说是来行医的，就他这样的，怎么可能会治病！”
+韩靖急道，“是赵家请我过来的。”
+韩靖一路上的车费就已经将身上的钱花光了，而且是赵家主动找上门来的，爷爷说没钱了他们会报销的。
+大妈端详着韩靖：“你说的赵家，可是赵林？”
+韩靖思索了一下点头：“没错，是叫这个名字。”
+“既然如此，那你在这里稍等，我帮你问一下。”
+韩靖笑道：“那就多谢了。”
+小护士顿时急了：“姐，你怎么还帮着他，他别是来招摇撞骗的！”
+大妈小声道：“老爷子怕是过不了今天了，家属的想法我们需要尊重，至于能不能救活，那就跟咱们无关了。”
+小护士觉得有理，点了点头。
+很快，一个中气十足的人走过来：“您就是韩靖韩先生？”
+“没错。”
+来人神色稍缓：“韩先生，还请这边来，希望还能来得及。”
+话音刚落就急不可耐的拉着韩靖往房间走。
+……
+房间门口。
+一众医学院士默不作声，还有一众亲朋好友将门口挤的水泄不通。
+病人名叫赵峰，赵氏集团在他手里辉煌了二十多年，在全球商界榜上有名，自然也是这云城业界大佬。
+赵峰重病不起的消息迅速传便商界，有人恐慌，有人等待，不一而足。
+院士束手无策，只剩下一个最为极端的手法，只是一旦失败，谁也不想承担这样的后果。
+赵林匆匆拉着韩靖要进房间。
+院士李福云急忙将人拦下：“赵先生，这里是我们为赵家特建的无菌室，还请赵先生能尊重我们的成果。”
+赵林被迫停下：“治好父亲的人就在眼前，让开。”
+李福云随意瞥了眼韩靖，劝道：“我知道家属着急，我们现在已经制定出方案，总还是有一线希望的，你可不能乱来。”
+“对呀，这人一看就是个乡巴佬，可不能拿赵老的生命开玩笑。”
+“还是听听李院士的意见吧。”
+七嘴八舌，场面开始嘈杂。
+赵林却是皱眉，沉声道：“父亲找来的人，定然有他的用意，还是听父亲的安排吧。”
+随后对韩靖道：“韩先生，请您一定要救我父亲。”
+韩靖点头：“我来就是治病的，不过我有我的规矩，至于报酬，爷爷是早和赵老爷子商量好的。”
+确有其事。
+赵林缄默，半晌，对身后一女孩招手：“雪怡，过来。”
+女孩一身活力休闲装，高扎起马尾，面容冶丽，脸色有些苍白。
+“若你能治好父亲，以后你就是我赵家女婿。”
+女婿？
+这话一出所有人都震惊了。
+赵雪怡是谁？赵氏集团的千金，还是当红流量小花，就算没有这么雄厚的背景加身，只凭着她那出色的容貌都足以让富家贵胄的追求者前仆后继。
+一看就土得掉渣，结果要将多少人心中的女神嫁给这种乡野村夫？
+就连韩靖都不知道有这回事，爷爷只说让他救人，不想还给自己娶一个媳妇？
+韩靖看着赵雪怡，是个俊俏的婆娘，早知道有这么漂亮的媳妇，他还用得着惦记镇上的那些寡妇？
+嘿，老爷子这事干的漂亮！
+赵雪怡被他赤裸裸的目光吓到，急忙缩到赵林身后，恼道。
+“爸，你胡说八道什么呀，我见都没见过他，怎么能随意嫁人？”
+就连李福云的关门弟子闻言再也沉不住气跳出来：“赵叔，这事简直太草率了，这毕竟事关雪怡的幸福。”
+赵林打断两人的话：“他们确实有这个规矩，而且这是一开始你爷爷就答应下来的，你若是不同意，就只能将人送回去。”
+这意思，就是不救了？
+赵雪怡心中烦乱，任谁突然知道自己要嫁给一个不相干的人都没办法接受，可她必须救爷爷，不然……
+“除了这个条件，什么都可以，或许你要钱，或者是其它的，只要我们能做到！”
+韩靖为这条件心动了下，可还是摇头：“规矩不可破，我也没办法，你只有应与不应，不应，我立刻走，但你若是应了，就没有悔改的余地，否则后果难料。”
+鸿蒙无上医一派，约定既成，只能遵守，若有反悔，必将反噬！
+这话已然有了威胁的意味。
+“哼，这是哪里来野蛮的规定，不知道你爷爷是何名讳？”
+韩靖态度平和：“爷爷说并非所有人都有资格知道他的名讳。”
+这话实在让人不爽。
+李福云冷哼道：“乡下有乡下的规矩，城里有城里的规矩，还请你立刻离开这里！”
+他的关门弟子已经迫不及待的要去叫安保了。
+赵林脸色已经黑了，正想据理力争，房间里的护士突然惊慌道。
+“不好了，病人没了心跳……”
+
+2020-09-06 16:33:49.217 [http-nio-9004-exec-9] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 云城，左岸别墅区。
+韩靖在外面走走瞧瞧，一路感叹，他已经走了最少有10里地，腿都快断了。只见车不见人。
+终于看见一个人影，韩靖冲上去，“这位大姐，你们这里6栋在什么地方？”
+女人不悦抬头：“一点眼力劲都没有，你看着可比我大多了，你是来找人的吗？”
+韩靖露出一口大白牙：“不是，有一家姓赵的，请我来看病。”
+女人狐疑的打量着韩靖，一身工地搬砖的绿色衬衫，上面还有没洗干净的白漆点子，头上戴着一顶农村下地戴的遮阳帽，肩上扛着一个还带缝补的黄色包裹，一看就是个乡巴佬。
+她在别墅区当社区护士，地界儿小，可见过的医生没有上千也有几百，从没见过他这样的。
+只当是来戏弄自己的，语气不善：“这里可是云城最好的别墅区，社区医疗技术和人才都是最上乘的，哪家人这么想不开，让你一个乡下来的看病，别捣乱了，一边去。”
+紧接着就有人打电话过来询问什么，女人接着电话忙了起来，韩靖也不好再打扰，只能边走边找。
+他是今天刚刚被爷爷扔下山，说是有个姓赵的老头性命垂危，就在左岸别墅区，让他过来救治。
+没多久迎面走来一个大妈，韩靖学聪明了，说自己是来探病的，大妈果然带他找到了6栋，却又一次碰到了那个女人。
+“喂，你是怎么进来的，这里可是别墅区，你看你身上脏的，要是给这里的人带来细菌感染怎么办？”
+韩靖有些窘迫。
+大妈对小护士的态度有些不满：“人家这是来找人的，你这是什么语气？”
+小护士挨了训，怒瞪了韩靖一眼：“他根本就是骗人的，刚才在路边，他跟我说是来行医的，就他这样的，怎么可能会治病！”
+韩靖急道，“是赵家请我过来的。”
+韩靖一路上的车费就已经将身上的钱花光了，而且是赵家主动找上门来的，爷爷说没钱了他们会报销的。
+大妈端详着韩靖：“你说的赵家，可是赵林？”
+韩靖思索了一下点头：“没错，是叫这个名字。”
+“既然如此，那你在这里稍等，我帮你问一下。”
+韩靖笑道：“那就多谢了。”
+小护士顿时急了：“姐，你怎么还帮着他，他别是来招摇撞骗的！”
+大妈小声道：“老爷子怕是过不了今天了，家属的想法我们需要尊重，至于能不能救活，那就跟咱们无关了。”
+小护士觉得有理，点了点头。
+很快，一个中气十足的人走过来：“您就是韩靖韩先生？”
+“没错。”
+来人神色稍缓：“韩先生，还请这边来，希望还能来得及。”
+话音刚落就急不可耐的拉着韩靖往房间走。
+……
+房间门口。
+一众医学院士默不作声，还有一众亲朋好友将门口挤的水泄不通。
+病人名叫赵峰，赵氏集团在他手里辉煌了二十多年，在全球商界榜上有名，自然也是这云城业界大佬。
+赵峰重病不起的消息迅速传便商界，有人恐慌，有人等待，不一而足。
+院士束手无策，只剩下一个最为极端的手法，只是一旦失败，谁也不想承担这样的后果。
+赵林匆匆拉着韩靖要进房间。
+院士李福云急忙将人拦下：“赵先生，这里是我们为赵家特建的无菌室，还请赵先生能尊重我们的成果。”
+赵林被迫停下：“治好父亲的人就在眼前，让开。”
+李福云随意瞥了眼韩靖，劝道：“我知道家属着急，我们现在已经制定出方案，总还是有一线希望的，你可不能乱来。”
+“对呀，这人一看就是个乡巴佬，可不能拿赵老的生命开玩笑。”
+“还是听听李院士的意见吧。”
+七嘴八舌，场面开始嘈杂。
+赵林却是皱眉，沉声道：“父亲找来的人，定然有他的用意，还是听父亲的安排吧。”
+随后对韩靖道：“韩先生，请您一定要救我父亲。”
+韩靖点头：“我来就是治病的，不过我有我的规矩，至于报酬，爷爷是早和赵老爷子商量好的。”
+确有其事。
+赵林缄默，半晌，对身后一女孩招手：“雪怡，过来。”
+女孩一身活力休闲装，高扎起马尾，面容冶丽，脸色有些苍白。
+“若你能治好父亲，以后你就是我赵家女婿。”
+女婿？
+这话一出所有人都震惊了。
+赵雪怡是谁？赵氏集团的千金，还是当红流量小花，就算没有这么雄厚的背景加身，只凭着她那出色的容貌都足以让富家贵胄的追求者前仆后继。
+一看就土得掉渣，结果要将多少人心中的女神嫁给这种乡野村夫？
+就连韩靖都不知道有这回事，爷爷只说让他救人，不想还给自己娶一个媳妇？
+韩靖看着赵雪怡，是个俊俏的婆娘，早知道有这么漂亮的媳妇，他还用得着惦记镇上的那些寡妇？
+嘿，老爷子这事干的漂亮！
+赵雪怡被他赤裸裸的目光吓到，急忙缩到赵林身后，恼道。
+“爸，你胡说八道什么呀，我见都没见过他，怎么能随意嫁人？”
+就连李福云的关门弟子闻言再也沉不住气跳出来：“赵叔，这事简直太草率了，这毕竟事关雪怡的幸福。”
+赵林打断两人的话：“他们确实有这个规矩，而且这是一开始你爷爷就答应下来的，你若是不同意，就只能将人送回去。”
+这意思，就是不救了？
+赵雪怡心中烦乱，任谁突然知道自己要嫁给一个不相干的人都没办法接受，可她必须救爷爷，不然……
+“除了这个条件，什么都可以，或许你要钱，或者是其它的，只要我们能做到！”
+韩靖为这条件心动了下，可还是摇头：“规矩不可破，我也没办法，你只有应与不应，不应，我立刻走，但你若是应了，就没有悔改的余地，否则后果难料。”
+鸿蒙无上医一派，约定既成，只能遵守，若有反悔，必将反噬！
+这话已然有了威胁的意味。
+“哼，这是哪里来野蛮的规定，不知道你爷爷是何名讳？”
+韩靖态度平和：“爷爷说并非所有人都有资格知道他的名讳。”
+这话实在让人不爽。
+李福云冷哼道：“乡下有乡下的规矩，城里有城里的规矩，还请你立刻离开这里！”
+他的关门弟子已经迫不及待的要去叫安保了。
+赵林脸色已经黑了，正想据理力争，房间里的护士突然惊慌道。
+“不好了，病人没了心跳……”
+
+2020-09-06 16:33:59.298 [http-nio-9004-exec-5] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 云城，左岸别墅区。
+韩靖在外面走走瞧瞧，一路感叹，他已经走了最少有10里地，腿都快断了。只见车不见人。
+终于看见一个人影，韩靖冲上去，“这位大姐，你们这里6栋在什么地方？”
+女人不悦抬头：“一点眼力劲都没有，你看着可比我大多了，你是来找人的吗？”
+韩靖露出一口大白牙：“不是，有一家姓赵的，请我来看病。”
+女人狐疑的打量着韩靖，一身工地搬砖的绿色衬衫，上面还有没洗干净的白漆点子，头上戴着一顶农村下地戴的遮阳帽，肩上扛着一个还带缝补的黄色包裹，一看就是个乡巴佬。
+她在别墅区当社区护士，地界儿小，可见过的医生没有上千也有几百，从没见过他这样的。
+只当是来戏弄自己的，语气不善：“这里可是云城最好的别墅区，社区医疗技术和人才都是最上乘的，哪家人这么想不开，让你一个乡下来的看病，别捣乱了，一边去。”
+紧接着就有人打电话过来询问什么，女人接着电话忙了起来，韩靖也不好再打扰，只能边走边找。
+他是今天刚刚被爷爷扔下山，说是有个姓赵的老头性命垂危，就在左岸别墅区，让他过来救治。
+没多久迎面走来一个大妈，韩靖学聪明了，说自己是来探病的，大妈果然带他找到了6栋，却又一次碰到了那个女人。
+“喂，你是怎么进来的，这里可是别墅区，你看你身上脏的，要是给这里的人带来细菌感染怎么办？”
+韩靖有些窘迫。
+大妈对小护士的态度有些不满：“人家这是来找人的，你这是什么语气？”
+小护士挨了训，怒瞪了韩靖一眼：“他根本就是骗人的，刚才在路边，他跟我说是来行医的，就他这样的，怎么可能会治病！”
+韩靖急道，“是赵家请我过来的。”
+韩靖一路上的车费就已经将身上的钱花光了，而且是赵家主动找上门来的，爷爷说没钱了他们会报销的。
+大妈端详着韩靖：“你说的赵家，可是赵林？”
+韩靖思索了一下点头：“没错，是叫这个名字。”
+“既然如此，那你在这里稍等，我帮你问一下。”
+韩靖笑道：“那就多谢了。”
+小护士顿时急了：“姐，你怎么还帮着他，他别是来招摇撞骗的！”
+大妈小声道：“老爷子怕是过不了今天了，家属的想法我们需要尊重，至于能不能救活，那就跟咱们无关了。”
+小护士觉得有理，点了点头。
+很快，一个中气十足的人走过来：“您就是韩靖韩先生？”
+“没错。”
+来人神色稍缓：“韩先生，还请这边来，希望还能来得及。”
+话音刚落就急不可耐的拉着韩靖往房间走。
+……
+房间门口。
+一众医学院士默不作声，还有一众亲朋好友将门口挤的水泄不通。
+病人名叫赵峰，赵氏集团在他手里辉煌了二十多年，在全球商界榜上有名，自然也是这云城业界大佬。
+赵峰重病不起的消息迅速传便商界，有人恐慌，有人等待，不一而足。
+院士束手无策，只剩下一个最为极端的手法，只是一旦失败，谁也不想承担这样的后果。
+赵林匆匆拉着韩靖要进房间。
+院士李福云急忙将人拦下：“赵先生，这里是我们为赵家特建的无菌室，还请赵先生能尊重我们的成果。”
+赵林被迫停下：“治好父亲的人就在眼前，让开。”
+李福云随意瞥了眼韩靖，劝道：“我知道家属着急，我们现在已经制定出方案，总还是有一线希望的，你可不能乱来。”
+“对呀，这人一看就是个乡巴佬，可不能拿赵老的生命开玩笑。”
+“还是听听李院士的意见吧。”
+七嘴八舌，场面开始嘈杂。
+赵林却是皱眉，沉声道：“父亲找来的人，定然有他的用意，还是听父亲的安排吧。”
+随后对韩靖道：“韩先生，请您一定要救我父亲。”
+韩靖点头：“我来就是治病的，不过我有我的规矩，至于报酬，爷爷是早和赵老爷子商量好的。”
+确有其事。
+赵林缄默，半晌，对身后一女孩招手：“雪怡，过来。”
+女孩一身活力休闲装，高扎起马尾，面容冶丽，脸色有些苍白。
+“若你能治好父亲，以后你就是我赵家女婿。”
+女婿？
+这话一出所有人都震惊了。
+赵雪怡是谁？赵氏集团的千金，还是当红流量小花，就算没有这么雄厚的背景加身，只凭着她那出色的容貌都足以让富家贵胄的追求者前仆后继。
+一看就土得掉渣，结果要将多少人心中的女神嫁给这种乡野村夫？
+就连韩靖都不知道有这回事，爷爷只说让他救人，不想还给自己娶一个媳妇？
+韩靖看着赵雪怡，是个俊俏的婆娘，早知道有这么漂亮的媳妇，他还用得着惦记镇上的那些寡妇？
+嘿，老爷子这事干的漂亮！
+赵雪怡被他赤裸裸的目光吓到，急忙缩到赵林身后，恼道。
+“爸，你胡说八道什么呀，我见都没见过他，怎么能随意嫁人？”
+就连李福云的关门弟子闻言再也沉不住气跳出来：“赵叔，这事简直太草率了，这毕竟事关雪怡的幸福。”
+赵林打断两人的话：“他们确实有这个规矩，而且这是一开始你爷爷就答应下来的，你若是不同意，就只能将人送回去。”
+这意思，就是不救了？
+赵雪怡心中烦乱，任谁突然知道自己要嫁给一个不相干的人都没办法接受，可她必须救爷爷，不然……
+“除了这个条件，什么都可以，或许你要钱，或者是其它的，只要我们能做到！”
+韩靖为这条件心动了下，可还是摇头：“规矩不可破，我也没办法，你只有应与不应，不应，我立刻走，但你若是应了，就没有悔改的余地，否则后果难料。”
+鸿蒙无上医一派，约定既成，只能遵守，若有反悔，必将反噬！
+这话已然有了威胁的意味。
+“哼，这是哪里来野蛮的规定，不知道你爷爷是何名讳？”
+韩靖态度平和：“爷爷说并非所有人都有资格知道他的名讳。”
+这话实在让人不爽。
+李福云冷哼道：“乡下有乡下的规矩，城里有城里的规矩，还请你立刻离开这里！”
+他的关门弟子已经迫不及待的要去叫安保了。
+赵林脸色已经黑了，正想据理力争，房间里的护士突然惊慌道。
+“不好了，病人没了心跳……”
+
+2020-09-06 16:45:11.447 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 106824 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 16:45:11.449 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 16:45:12.299 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 16:45:12.300 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 16:45:12.351 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-09-06 16:45:12.750 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 16:45:12.756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 16:45:12.757 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 16:45:12.757 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 16:45:12.918 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 16:45:12.918 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1438 ms
+2020-09-06 16:45:13.040 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 16:45:14.037 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 16:45:15.865 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 16:45:15.906 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: aa061716-6014-4acd-9ebf-518c6289180a
+
+2020-09-06 16:45:15.964 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34aa8b61, org.springframework.security.web.context.SecurityContextPersistenceFilter@16d41725, org.springframework.security.web.header.HeaderWriterFilter@67763ebe, org.springframework.security.web.authentication.logout.LogoutFilter@c5e69a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25533bba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56c0a61e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d7b001b, org.springframework.security.web.session.SessionManagementFilter@36551e97, org.springframework.security.web.access.ExceptionTranslationFilter@25567581, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@987a0bb]
+2020-09-06 16:45:16.042 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 16:45:16.198 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 16:45:16.210 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 16:45:16.232 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 16:45:16.288 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 16:45:16.349 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 16:45:16.386 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 16:45:16.387 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 16:45:16.389 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 16:45:16.396 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 16:45:16.397 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 16:45:16.399 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 16:45:16.399 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 16:45:16.400 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 16:45:16.406 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 16:45:16.407 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 16:45:16.408 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 16:45:16.409 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 16:45:16.410 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 16:45:16.411 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 16:45:16.449 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 16:45:16.458 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 16:45:16.463 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 16:45:16.464 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 16:45:16.470 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 16:45:16.471 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 16:45:16.485 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 16:45:16.507 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 16:45:16.509 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.371 seconds (JVM running for 6.391)
+2020-09-06 18:06:46.873 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 18:06:46.873 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 18:06:46.878 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-06 18:22:02.775 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 4580 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 18:22:02.777 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 18:22:03.556 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 18:22:03.557 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 18:22:03.607 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-09-06 18:22:03.983 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 18:22:03.989 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 18:22:03.989 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 18:22:03.990 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 18:22:04.138 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 18:22:04.138 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1305 ms
+2020-09-06 18:22:04.246 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 18:22:05.063 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 18:22:06.736 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 18:22:06.777 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ec471599-c23f-4638-97ee-cd989b88d3b8
+
+2020-09-06 18:22:06.832 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec9f8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@43c39321, org.springframework.security.web.header.HeaderWriterFilter@5844a2d1, org.springframework.security.web.authentication.logout.LogoutFilter@4e67cfe1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d0d120b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b91d9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e0f9528, org.springframework.security.web.session.SessionManagementFilter@60b1ff3b, org.springframework.security.web.access.ExceptionTranslationFilter@401317a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1544ded3]
+2020-09-06 18:22:06.906 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 18:22:07.058 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 18:22:07.070 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 18:22:07.093 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 18:22:07.150 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 18:22:07.206 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 18:22:07.241 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 18:22:07.242 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 18:22:07.243 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 18:22:07.250 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 18:22:07.251 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 18:22:07.253 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 18:22:07.254 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 18:22:07.255 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 18:22:07.261 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 18:22:07.262 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 18:22:07.263 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 18:22:07.264 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 18:22:07.265 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 18:22:07.266 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 18:22:07.306 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 18:22:07.315 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 18:22:07.320 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 18:22:07.320 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 18:22:07.326 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 18:22:07.326 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 18:22:07.341 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 18:22:07.359 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 18:22:07.361 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.885 seconds (JVM running for 5.863)
+2020-09-06 18:22:44.853 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 18:22:44.853 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 18:22:44.858 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-06 18:23:14.843 [http-nio-9004-exec-4] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 众人顿时心慌意乱。
+李福云一把推开韩靖重进房间，对里面的护士喊道：“立刻准备心肺复苏。”
+门外的医生一拥而上，韩靖刚想进去看下情况，就被人挡住了。
+这人正好是刚才李福云的关门弟子冯年，面色不悦。
+“不要在这里捣乱，哪来的滚哪去！”
+韩靖远远的看了眼病人的神色，淡然道。
+“五分钟，这是你们最后的期限，超过五分钟，连我都回天乏力。”
+就急救的李福云听到这话心中焦躁，就赵老现在的情况，能挺过三分钟都不太可能。
+里面不停的传来医生紧绷的声音，在房间外面的人更是心惊胆战。
+时间在不断的流逝，明明只有几分钟的时间，却格外漫长。
+只有韩靖好整以暇的靠着墙，精确的把握时间。
+“还有四分钟。”
+像是一道催命符。
+赵林心中一颤，恳求道：“韩先生，先救人要紧。”
+韩靖没说话，只是目光落在赵雪怡身上。
+赵雪怡脸上出现惊慌，目光不断的在房间和韩靖之间游离，里面再一次传出失败声，她才咬了咬牙，狠下心道。
+“你先救人。”
+冯年顿时急了：“雪怡，你不要冲动，这事情并非没有转圜的余地……”
+赵雪怡的神色有些动摇，转而盯着房间的情况，李福云显然已经无力回天，声音变的急切起来。
+“时间不等人，我答应了行不行。”
+韩靖看着众人纷纷望向他，这才动身。
+冯年依旧是寸步不让，韩靖银针一闪，刺进冯年的腰，冯年瞬间瘫软在地。
+“没点眼力劲。”
+韩靖吐槽了一句，走进房间，先是在赵老的缺盆，天门，檀中，轻轻一点。
+随后掌下似乎又什么力量在牵引，赵老的身子随着他的动作而动作。
+李福云看着难言震惊：“这难道就是传说中的阴阳还魂术？”
+韩靖扬眉笑道：“难得还有识货的。”
+话音未落，心跳仪里嘀嘀的直线声，变得有序起来。
+“行了，你们帮不上什么忙，都出去吧。”韩靖对着众人摆摆手。
+冯年腰膝酸软的站起来，刚想说话，便被李福云直接拦下：“我们先出去，这里他一个人可以。”
+刚走出房间，李福云震惊的神色还没有散去，感叹道：“竟然真的有阴阳回魂术。”
+赵林听到后疑惑的问：“李医生，那个阴阳回魂术是什么？”
+“阴阳回魂术是一种古老秘术，传闻可以让濒临死亡的人迅速醒转过来，我也只是在古书记载中得知，本以为只是一种传说，没想到竟然是真是存在的，还真是让我大开眼界。”
+李福云有些激动：“赵先生，这位韩先生，你从哪里找来的？”
+赵林摇头：“我不清楚，是父亲让我找的人，他能救活我父亲吗？”
+“能，里面的人可是有古医传承，想必一定有过人的本事。”李福云一脸肯定。
+冯年呆呆的听着，他一直喜欢赵雪怡，可自己这个身份，根本配不上她，里面那个乡巴佬，自然更没有资格！
+他手握成拳，心中不甘，犹豫良久，才走到拐角处，电话拨了出去。
+……
+房间里。
+韩靖手握着孔翎针，精准又老辣的在穴位上点刺，将体内的生门打开，运针五分钟，取针，喂他吞下一颗黑色药丸，病人已经可以自主吞咽，心跳也逐渐和缓。
+再次运针帮他将药丸的药效激发到最大，让他充分吸收。
+过了一会，赵老慢慢打开了眼睛，神色还有些恍惚。
+“你是……小少爷？”
+“少爷？”韩靖疑惑，他看起来像是少爷吗？
+赵老有些虚弱的点头。
+“是，我们赵家世代为鸿蒙无上医的追随者，却因为二十年前的意外，老爷带着小少爷和世外断了联系，之前我还能联系到老爷，后来便连我也找不到你们人了，我一直暗中查找老爷，却一无所获，知道这段时间我感觉体力愈发不济，才抱着最后一点希望发出了暗号，没想到竟然得到了回应。”
+“原来如此。”韩靖了然的点头：“那这婚事……”
+赵老轻笑道：“这是老爷二十年前许诺的，我们赵家能和主家结亲，是我们高攀。”
+高攀？怕是在外人眼里，他才是高攀。
+“好了，你现在先恢复一下体力，有什么事稍后再说，我这次救你，却也只能延缓你两年生命，生死轮回，是自然之规律，我们亦不能破坏。”韩靖认真道。
+赵老慢慢坐起来：“多谢小少爷了。”
+两年时间，够他做好多事情了。
+……
+大概半个小时过后，房间的门突然开了。
+赵老安然的从里面走出来，让一众人惊掉了下巴。
+“他竟然真的救活了赵老？”导诊台的小护士一脸的难以置信。
+大妈也异常惊诧：“难怪都说国医深不可测，千百年的传承并非没有道理。”
+“真是便宜他了，救了人，还能娶千万人心中的女神，还有赵家这背景，啧啧！”
+大妈倒是不以为然：“还真难说是便宜了谁，看人家这个医术，就不是一般人。”
+冯年呼吸急促起来，这显然对他来说是最坏的结果，他无意识的紧紧握着手机，不断的看着上面的时间。
+赵雪怡欣喜若狂的冲过来：“爷爷，真的太好了，我就知道你会没事的。”
+赵老脸上带着淡淡的笑意：“不用担心，我还没看到你结婚生子呢？”
+结婚？
+赵雪怡看了眼站在赵老身旁的韩靖，面容僵硬起来。
+这些院士医生更是大跌眼镜，明明之前他们检测赵老的器官都呈衰竭之相，在这么短的时间之内，赵老就直接下地了？
+李福云意外是意外，但是好在心里有了底，感慨道：“赵老真是大人有大福。”
+赵老淡笑：“还是要多谢李医生吊着我的命，不然那我怕是早一命呜呼了。”
+“我也只是尽我所能，倒是这位韩先生，真是我不识庐山真面目，之前的事，还请韩先生海涵。”
+韩靖推辞：“不敢，只是你身上的香薰倒是个好东西，不知道能不能讨了去？”
+
+2020-09-06 18:40:43.270 [http-nio-9004-exec-4] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 众人顿时心慌意乱。
+李福云一把推开韩靖重进房间，对里面的护士喊道：“立刻准备心肺复苏。”
+门外的医生一拥而上，韩靖刚想进去看下情况，就被人挡住了。
+这人正好是刚才李福云的关门弟子冯年，面色不悦。
+“不要在这里捣乱，哪来的滚哪去！”
+韩靖远远的看了眼病人的神色，淡然道。
+“五分钟，这是你们最后的期限，超过五分钟，连我都回天乏力。”
+就急救的李福云听到这话心中焦躁，就赵老现在的情况，能挺过三分钟都不太可能。
+里面不停的传来医生紧绷的声音，在房间外面的人更是心惊胆战。
+时间在不断的流逝，明明只有几分钟的时间，却格外漫长。
+只有韩靖好整以暇的靠着墙，精确的把握时间。
+“还有四分钟。”
+像是一道催命符。
+赵林心中一颤，恳求道：“韩先生，先救人要紧。”
+韩靖没说话，只是目光落在赵雪怡身上。
+赵雪怡脸上出现惊慌，目光不断的在房间和韩靖之间游离，里面再一次传出失败声，她才咬了咬牙，狠下心道。
+“你先救人。”
+冯年顿时急了：“雪怡，你不要冲动，这事情并非没有转圜的余地……”
+赵雪怡的神色有些动摇，转而盯着房间的情况，李福云显然已经无力回天，声音变的急切起来。
+“时间不等人，我答应了行不行。”
+韩靖看着众人纷纷望向他，这才动身。
+冯年依旧是寸步不让，韩靖银针一闪，刺进冯年的腰，冯年瞬间瘫软在地。
+“没点眼力劲。”
+韩靖吐槽了一句，走进房间，先是在赵老的缺盆，天门，檀中，轻轻一点。
+随后掌下似乎又什么力量在牵引，赵老的身子随着他的动作而动作。
+李福云看着难言震惊：“这难道就是传说中的阴阳还魂术？”
+韩靖扬眉笑道：“难得还有识货的。”
+话音未落，心跳仪里嘀嘀的直线声，变得有序起来。
+“行了，你们帮不上什么忙，都出去吧。”韩靖对着众人摆摆手。
+冯年腰膝酸软的站起来，刚想说话，便被李福云直接拦下：“我们先出去，这里他一个人可以。”
+刚走出房间，李福云震惊的神色还没有散去，感叹道：“竟然真的有阴阳回魂术。”
+赵林听到后疑惑的问：“李医生，那个阴阳回魂术是什么？”
+“阴阳回魂术是一种古老秘术，传闻可以让濒临死亡的人迅速醒转过来，我也只是在古书记载中得知，本以为只是一种传说，没想到竟然是真是存在的，还真是让我大开眼界。”
+李福云有些激动：“赵先生，这位韩先生，你从哪里找来的？”
+赵林摇头：“我不清楚，是父亲让我找的人，他能救活我父亲吗？”
+“能，里面的人可是有古医传承，想必一定有过人的本事。”李福云一脸肯定。
+冯年呆呆的听着，他一直喜欢赵雪怡，可自己这个身份，根本配不上她，里面那个乡巴佬，自然更没有资格！
+他手握成拳，心中不甘，犹豫良久，才走到拐角处，电话拨了出去。
+……
+房间里。
+韩靖手握着孔翎针，精准又老辣的在穴位上点刺，将体内的生门打开，运针五分钟，取针，喂他吞下一颗黑色药丸，病人已经可以自主吞咽，心跳也逐渐和缓。
+再次运针帮他将药丸的药效激发到最大，让他充分吸收。
+过了一会，赵老慢慢打开了眼睛，神色还有些恍惚。
+“你是……小少爷？”
+“少爷？”韩靖疑惑，他看起来像是少爷吗？
+赵老有些虚弱的点头。
+“是，我们赵家世代为鸿蒙无上医的追随者，却因为二十年前的意外，老爷带着小少爷和世外断了联系，之前我还能联系到老爷，后来便连我也找不到你们人了，我一直暗中查找老爷，却一无所获，知道这段时间我感觉体力愈发不济，才抱着最后一点希望发出了暗号，没想到竟然得到了回应。”
+“原来如此。”韩靖了然的点头：“那这婚事……”
+赵老轻笑道：“这是老爷二十年前许诺的，我们赵家能和主家结亲，是我们高攀。”
+高攀？怕是在外人眼里，他才是高攀。
+“好了，你现在先恢复一下体力，有什么事稍后再说，我这次救你，却也只能延缓你两年生命，生死轮回，是自然之规律，我们亦不能破坏。”韩靖认真道。
+赵老慢慢坐起来：“多谢小少爷了。”
+两年时间，够他做好多事情了。
+……
+大概半个小时过后，房间的门突然开了。
+赵老安然的从里面走出来，让一众人惊掉了下巴。
+“他竟然真的救活了赵老？”导诊台的小护士一脸的难以置信。
+大妈也异常惊诧：“难怪都说国医深不可测，千百年的传承并非没有道理。”
+“真是便宜他了，救了人，还能娶千万人心中的女神，还有赵家这背景，啧啧！”
+大妈倒是不以为然：“还真难说是便宜了谁，看人家这个医术，就不是一般人。”
+冯年呼吸急促起来，这显然对他来说是最坏的结果，他无意识的紧紧握着手机，不断的看着上面的时间。
+赵雪怡欣喜若狂的冲过来：“爷爷，真的太好了，我就知道你会没事的。”
+赵老脸上带着淡淡的笑意：“不用担心，我还没看到你结婚生子呢？”
+结婚？
+赵雪怡看了眼站在赵老身旁的韩靖，面容僵硬起来。
+这些院士医生更是大跌眼镜，明明之前他们检测赵老的器官都呈衰竭之相，在这么短的时间之内，赵老就直接下地了？
+李福云意外是意外，但是好在心里有了底，感慨道：“赵老真是大人有大福。”
+赵老淡笑：“还是要多谢李医生吊着我的命，不然那我怕是早一命呜呼了。”
+“我也只是尽我所能，倒是这位韩先生，真是我不识庐山真面目，之前的事，还请韩先生海涵。”
+韩靖推辞：“不敢，只是你身上的香薰倒是个好东西，不知道能不能讨了去？”
+
+2020-09-06 18:41:43.873 [http-nio-9004-exec-1] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 云城，左岸别墅区。
+韩靖在外面走走瞧瞧，一路感叹，他已经走了最少有10里地，腿都快断了。只见车不见人。
+终于看见一个人影，韩靖冲上去，“这位大姐，你们这里6栋在什么地方？”
+女人不悦抬头：“一点眼力劲都没有，你看着可比我大多了，你是来找人的吗？”
+韩靖露出一口大白牙：“不是，有一家姓赵的，请我来看病。”
+女人狐疑的打量着韩靖，一身工地搬砖的绿色衬衫，上面还有没洗干净的白漆点子，头上戴着一顶农村下地戴的遮阳帽，肩上扛着一个还带缝补的黄色包裹，一看就是个乡巴佬。
+她在别墅区当社区护士，地界儿小，可见过的医生没有上千也有几百，从没见过他这样的。
+只当是来戏弄自己的，语气不善：“这里可是云城最好的别墅区，社区医疗技术和人才都是最上乘的，哪家人这么想不开，让你一个乡下来的看病，别捣乱了，一边去。”
+紧接着就有人打电话过来询问什么，女人接着电话忙了起来，韩靖也不好再打扰，只能边走边找。
+他是今天刚刚被爷爷扔下山，说是有个姓赵的老头性命垂危，就在左岸别墅区，让他过来救治。
+没多久迎面走来一个大妈，韩靖学聪明了，说自己是来探病的，大妈果然带他找到了6栋，却又一次碰到了那个女人。
+“喂，你是怎么进来的，这里可是别墅区，你看你身上脏的，要是给这里的人带来细菌感染怎么办？”
+韩靖有些窘迫。
+大妈对小护士的态度有些不满：“人家这是来找人的，你这是什么语气？”
+小护士挨了训，怒瞪了韩靖一眼：“他根本就是骗人的，刚才在路边，他跟我说是来行医的，就他这样的，怎么可能会治病！”
+韩靖急道，“是赵家请我过来的。”
+韩靖一路上的车费就已经将身上的钱花光了，而且是赵家主动找上门来的，爷爷说没钱了他们会报销的。
+大妈端详着韩靖：“你说的赵家，可是赵林？”
+韩靖思索了一下点头：“没错，是叫这个名字。”
+“既然如此，那你在这里稍等，我帮你问一下。”
+韩靖笑道：“那就多谢了。”
+小护士顿时急了：“姐，你怎么还帮着他，他别是来招摇撞骗的！”
+大妈小声道：“老爷子怕是过不了今天了，家属的想法我们需要尊重，至于能不能救活，那就跟咱们无关了。”
+小护士觉得有理，点了点头。
+很快，一个中气十足的人走过来：“您就是韩靖韩先生？”
+“没错。”
+来人神色稍缓：“韩先生，还请这边来，希望还能来得及。”
+话音刚落就急不可耐的拉着韩靖往房间走。
+……
+房间门口。
+一众医学院士默不作声，还有一众亲朋好友将门口挤的水泄不通。
+病人名叫赵峰，赵氏集团在他手里辉煌了二十多年，在全球商界榜上有名，自然也是这云城业界大佬。
+赵峰重病不起的消息迅速传便商界，有人恐慌，有人等待，不一而足。
+院士束手无策，只剩下一个最为极端的手法，只是一旦失败，谁也不想承担这样的后果。
+赵林匆匆拉着韩靖要进房间。
+院士李福云急忙将人拦下：“赵先生，这里是我们为赵家特建的无菌室，还请赵先生能尊重我们的成果。”
+赵林被迫停下：“治好父亲的人就在眼前，让开。”
+李福云随意瞥了眼韩靖，劝道：“我知道家属着急，我们现在已经制定出方案，总还是有一线希望的，你可不能乱来。”
+“对呀，这人一看就是个乡巴佬，可不能拿赵老的生命开玩笑。”
+“还是听听李院士的意见吧。”
+七嘴八舌，场面开始嘈杂。
+赵林却是皱眉，沉声道：“父亲找来的人，定然有他的用意，还是听父亲的安排吧。”
+随后对韩靖道：“韩先生，请您一定要救我父亲。”
+韩靖点头：“我来就是治病的，不过我有我的规矩，至于报酬，爷爷是早和赵老爷子商量好的。”
+确有其事。
+赵林缄默，半晌，对身后一女孩招手：“雪怡，过来。”
+女孩一身活力休闲装，高扎起马尾，面容冶丽，脸色有些苍白。
+“若你能治好父亲，以后你就是我赵家女婿。”
+女婿？
+这话一出所有人都震惊了。
+赵雪怡是谁？赵氏集团的千金，还是当红流量小花，就算没有这么雄厚的背景加身，只凭着她那出色的容貌都足以让富家贵胄的追求者前仆后继。
+一看就土得掉渣，结果要将多少人心中的女神嫁给这种乡野村夫？
+就连韩靖都不知道有这回事，爷爷只说让他救人，不想还给自己娶一个媳妇？
+韩靖看着赵雪怡，是个俊俏的婆娘，早知道有这么漂亮的媳妇，他还用得着惦记镇上的那些寡妇？
+嘿，老爷子这事干的漂亮！
+赵雪怡被他赤裸裸的目光吓到，急忙缩到赵林身后，恼道。
+“爸，你胡说八道什么呀，我见都没见过他，怎么能随意嫁人？”
+就连李福云的关门弟子闻言再也沉不住气跳出来：“赵叔，这事简直太草率了，这毕竟事关雪怡的幸福。”
+赵林打断两人的话：“他们确实有这个规矩，而且这是一开始你爷爷就答应下来的，你若是不同意，就只能将人送回去。”
+这意思，就是不救了？
+赵雪怡心中烦乱，任谁突然知道自己要嫁给一个不相干的人都没办法接受，可她必须救爷爷，不然……
+“除了这个条件，什么都可以，或许你要钱，或者是其它的，只要我们能做到！”
+韩靖为这条件心动了下，可还是摇头：“规矩不可破，我也没办法，你只有应与不应，不应，我立刻走，但你若是应了，就没有悔改的余地，否则后果难料。”
+鸿蒙无上医一派，约定既成，只能遵守，若有反悔，必将反噬！
+这话已然有了威胁的意味。
+“哼，这是哪里来野蛮的规定，不知道你爷爷是何名讳？”
+韩靖态度平和：“爷爷说并非所有人都有资格知道他的名讳。”
+这话实在让人不爽。
+李福云冷哼道：“乡下有乡下的规矩，城里有城里的规矩，还请你立刻离开这里！”
+他的关门弟子已经迫不及待的要去叫安保了。
+赵林脸色已经黑了，正想据理力争，房间里的护士突然惊慌道。
+“不好了，病人没了心跳……”
+
+2020-09-06 18:42:03.313 [http-nio-9004-exec-8] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 
+2020-09-06 19:17:49.614 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 91588 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 19:17:49.617 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 19:17:50.441 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 19:17:50.443 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 19:17:50.493 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-09-06 19:17:50.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 19:17:50.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 19:17:50.880 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 19:17:50.880 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 19:17:51.033 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 19:17:51.033 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1387 ms
+2020-09-06 19:17:51.140 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 19:17:51.687 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 19:17:53.372 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 19:17:53.411 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f2a98142-315a-4772-a525-e11cee1ffc48
+
+2020-09-06 19:17:53.467 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a209918, org.springframework.security.web.context.SecurityContextPersistenceFilter@36551e97, org.springframework.security.web.header.HeaderWriterFilter@25567581, org.springframework.security.web.authentication.logout.LogoutFilter@50f4b83d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16d41725, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@446b64b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cae5fa7, org.springframework.security.web.session.SessionManagementFilter@65036e8d, org.springframework.security.web.access.ExceptionTranslationFilter@4e67cfe1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ee96866]
+2020-09-06 19:17:53.545 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 19:17:53.697 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 19:17:53.709 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 19:17:53.730 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 19:17:53.788 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 19:17:53.848 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 19:17:53.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 19:17:53.888 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 19:17:53.889 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 19:17:53.896 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 19:17:53.897 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 19:17:53.899 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 19:17:53.900 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 19:17:53.901 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 19:17:53.906 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 19:17:53.907 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 19:17:53.908 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 19:17:53.909 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 19:17:53.910 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 19:17:53.911 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 19:17:53.949 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 19:17:53.957 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 19:17:53.962 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 19:17:53.963 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 19:17:53.968 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 19:17:53.969 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 19:17:53.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 19:17:54.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 19:17:54.005 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.704 seconds (JVM running for 5.685)
+2020-09-06 19:17:58.029 [http-nio-9004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 19:17:58.030 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 19:17:58.037 [http-nio-9004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-09-06 19:18:07.723 [http-nio-9004-exec-10] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 李福云稍有犹豫，还是从里面便衣口袋里拿出一个香囊。
+“韩先生还真是眼睛独到，这里面可是珍珠粉和檀香木炼制的香料，用来镇心安神的，不过韩先生要是想要，我也就只能忍痛割爱了，就当结交韩先生这个人了。”
+说罢将香囊递给韩靖，韩靖面不改色的接过，里面名贵的药材何止这两种，安神效果确实不错。
+韩靖毫无心理负担的收下：“那就多谢前辈了。”
+“媳妇，我看你气色不好，应该是没有好好睡觉的缘故，你将这个香囊每天戴在身上，可以让你能有个好睡眠。”
+这下旁人看韩靖的眼神更是无语了，还真是没见过这么厚颜无耻之人了，竟然拿着别人的东西转眼就将要过来的香囊递给了赵雪怡。。
+赵雪怡脸上一阵青一阵红，有些羞恼，这还没结婚呢，就直接叫上媳妇了。
+当即起了性子，没有理会。
+还是赵老从中圆场：“雪怡，愣着干嘛，韩靖是为了你着想。”
+在外面赵老自然不会透露出他们和韩靖的关系，于是直呼其名。
+赵雪怡闻言咬唇，只好慢吞吞的接过来：“谢谢。”
+韩靖笑出一口大白牙：“媳妇，不用跟我这么客气。”
+赵雪怡僵着脸色没说话。
+“既然韩先生不怪罪了，不知道李某能不能请韩先生来坐诊，我也想讨教一二。”
+“抱歉，我们有我们的规矩，医术从不外传。”韩靖直接拒绝道。
+“那至少可以来帮忙接诊一下吧。”
+韩靖依旧摇头：“我救人之事，全都是爷爷在安排，没有爷爷的命令，不可随意救人。”
+他们鸿蒙无上医一派有严苛的规矩，非濒死之人不救，十天只救一人，不计报酬，出手却必定达成一诺。
+一连被拒绝两次，话语还这么直白，赵老见李福云脸色不调好，赶紧安抚了一下岔开话题。
+“李先生，他们确实有规矩，还是不要为难了，你看我这身体是不是能够出院了？”
+李福云既生气又无奈：“赵老身边有贵人相助，哪还能有什么大碍，现在可以去办出院手续。”
+没人再在意韩靖，慰问的慰问，办手续的办手续，他整个人无人问津。
+索性就坐在长廊的椅子上百无聊赖。
+“你很得意？”
+阴阳怪气的声音从身后传来。
+韩靖回头，看到冯年扭曲着一张脸，阴鸷的看着他。
+“你别想癞蛤蟆吃天鹅肉了，就算你真的救活了赵老，也不可能娶雪怡，就你这副穷酸样，连站在她身边的资格都没有！”
+韩靖瞬间嚣张的挑眉，语言粗陋：“有你球事，咸吃萝卜淡操心，我警告你，将你对我媳妇的非分之想给我收起来，不然我将你手脚筋都挑断。”
+韩靖从来都是直白的性子，对看不惯的人，自然是要怼回去。
+冯年顿时气的满脸通红：“你有什么可嚣张的，我告诉你，云城陈家陈楚泽听说过吗？他可是对雪怡一直穷追不舍，我劝你还是赶紧滚回你乡下去，不然，这几天就是你的末日。”
+韩靖丝毫没有别吓到：“那个什么陈家的人，也觊觎我媳妇？”
+冯年冷哼一声：“陈家可不是你这个乡巴佬能惹得起的家族，那可是云城武道霸主，陈楚泽可是不达目的不罢休的人，你要是执迷不悟，说不定哪天就横死街头了。”
+冯年说罢就看到赵老爷子从房间里出来，这才不甘心的离开。
+韩靖心中却是危机密布，娘嘞，这媳妇也太抢手了吧。
+手续办完之后，他们坐电梯离开。
+韩靖看着自家媳妇，长的确实好看。
+“媳妇，是不是很多人惦记你啊？”
+赵雪怡被问得一愣，还有今天不过是第一次见面，他怎么这般不羞不躁，内心简直要暴走了。
+赵老解释道：“这个你放心，雪怡确实很多人追求，但是绝对清白，没有不干不净的男女关系。”
+赵雪怡脸上羞红：“爷爷，你跟他说这个干吗？”
+韩靖不怎么在意这件事：“哦，这个没关系，我媳妇可比我们山上一枝花不知道漂亮了多少倍，不过要是谁敢动我媳妇的心思，看我不揍的他半身瘫痪。”
+“……”
+赵雪怡无语望天，再怎么说她也是千万人心中的女神，怎么到他这里，竟和他们的村上一枝花比较了。
+赵老倒是笑眯眯的宽慰孙女：“韩靖这是刚出山，自然没见过什么人，也不懂这些人情世故，别太计较。”
+要不是看他傻里傻气，不太通人情世故，还有爷爷在这里，她早就好好教训他了。
+刚走到别墅区门口，就看到停了一列拉风又嚣张的兰博基尼。
+中间簇拥着一辆布加迪，一位身着蓝色西装的青年，靠在车门上。
+看到他们出来，那青年瞬间上前。
+“恭贺赵老康复出院，楚泽特意为赵老定了餐厅洗扫病气，还请赵老一定要赏光。”
+来者正是云城陈家陈楚泽！
+赵老自然知道陈楚泽对自己孙女的心思，于是开口：“还是改天吧。”
+陈楚泽皮笑肉不笑：“这怎么能改天，雪怡，我们先上车，我还叫了你最喜欢的那个小提琴家助兴。”
+说着就要对赵雪怡动手动脚，没碰到赵雪怡的衣服，就被一阵无形的力量制止。
+陈楚泽面露诧异。
+“云城陈家？”韩靖散漫开口：“抱歉，我是山里来的，没听说过，不过我这个人性子急，要是谁敢碰我老婆，我也是不介意让人领教一下我们山里人的厉害。”
+陈楚泽不屑的嗤笑，连跟他说句话都觉得掉价。
+冯年早就等着这一幕了，看到这里当场叫嚣起来。
+“陈少爷，这个小子不知天高地厚，竟然还妄想娶雪怡小姐，你可一定要给他点厉害瞧瞧！”
+陈楚泽嘴角嘲讽的勾起：“小子，和我争女人，可要掂量掂量自己多少斤两！”
+
+2020-09-06 19:19:48.419 [http-nio-9004-exec-7] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-06 19:28:02.832 [http-nio-9004-exec-3] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-06 19:28:10.523 [http-nio-9004-exec-10] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl -     七月酒店九层9011房间内，女子身穿黑色修身蕾丝裙，手中持一杯红酒，立在落地窗边。
+
+    男人走至她身后，从背后环抱住她：“在想什么？”
+
+    “没什么。”女子将酒杯放在一旁，转身用双手缠住他的脖子，“齐玥，我们结婚吧。”
+
+    齐玥身形一滞，扯开脖子上的手，退后一步：“络络，你知道，我暂时不能给你婚姻。”
+
+    荆络轻咬嘴唇，轻叹了一口气：“那就分手吧。齐玥，我27了，我耗不起。”
+
+    “不。”齐玥上前，吻上她的唇，“不分手，再给我两年。我保证，两年后，我一定跟你登记结婚。”
+
+    美丽的誓言就像是一场美丽的烟火，瞬间便消散了。荆络将他推开，眼眸渐渐湿润：“齐玥，别自欺欺人了。两年，哪怕十年，你都不会娶我。”
+
+    在一起十年，最大的缺点，就是对彼此太过了解。齐玥是什么性子，荆络再清楚不过。
+
+    从最熟悉不过的房间醒来，荆络有些累。孙晓宇和她说过，她这辈子最大的错，就是和齐玥纠缠。一直，纠缠了十年。
+
+    翻开报纸，齐玥和赵艺的绯闻占据了头版头条。狗仔偷拍的很好，赵艺在闹，而齐玥满是宠溺。
+
+    荆络记得，齐玥看她的时候，从不会露出这样的表情。从一开始在一块儿，荆络就缺了一样东西。女人该有的，撒娇。
+
+    手机铃声响起，将报纸合上，接起电话：“喂，什么事？”
+
+    “我亲爱的大作家，你的小说再不更新，我可就要被主编给打死了。”
+
+    自从荆络进了这一行，孙晓宇就是她的责编。也只有她，能够惯着她这个脾气。她们是合作伙伴，更是好友。
+
+    “孙晓宇，祝我分手快乐吧。”
+
+    此言一出，电话那头就传来了惊叫声：“什么！你和大明星分手了？天哪，这就是个劲爆新闻啊。你等等，我给报社打个电话。”
+
+    “你要是敢打，网站的坑你来填。”
+
+    这是孙晓宇的死脉，她是编辑，写稿却不擅长：“得得得，开玩笑。怎么样？出去喝一杯？”
+
+    “好啊，晚上七点，夜色酒吧。”
+
+    和孙晓宇约好，荆络就剩下了长长的一天。打开网站，小说的点击很好，催更很多，可荆络却是一个字也写不出来。
+
+    这篇小说是根据她和齐玥之间的事情改编的，之前的设定是大团圆结局。可如今，现实已经崩塌，小说又该如何团圆？
+
+    合上电脑，荆络围上围巾，出了门。陆城的冬天很冷，冷到离开暖气根本没有人愿意出门。
+
+    荆络走到江边，找了一个凳子坐下来。一对情侣从她面前走过，女孩撒娇说着冷，一旁的男孩宠溺的笑着，将她的手塞到了自己的袋子里。
+
+    这大概是正常的情侣之间应该有的状态，可在她和齐玥之间，却是永远都不可能的事情。
+
+    “你撞了人就想跑，我告诉你，你这叫肇事逃匿，你等着，我马上就报警。”
+
+    嘈杂声传来，荆络转身，便看到两个男人正在争执。看状况，应该是开车的人撞了人，那人要索赔。
+
+    行人没有走不远处的人行横道，只要车没有超速，就是行人全责。之所以急着打电话，是恶人先告状。
+
+    荆络回过头，并不打算多管闲事。
+
+    “我告诉你，你今天绝对跑不了。我倒是要看看，现在撞了人还不用负责人了。”
+
+    身后的吵闹还没有结束，荆络觉得聒噪，起身走到两人面前：“你确定要报警吗？”
+
+    荆络轻笑，扬了扬手中的手机：“我可以帮你，不过，等警察来了，我会照实告诉他我看到的一切。”
+
+    将行人上下打量一圈，荆络轻拧眉头：“你应该，没有被撞吧？碰瓷，现在判的挺厉害的。”
+
+    行人轻抿嘴唇，脸色十分慌乱：“你胡说八道什么？我哪里碰瓷了？”
+
+    “不单我看到了，那里还有两个人也看到了。你要是坚持报警，我会请他们一起来作证的。怎么样？还要报警吗？”
+
+    “不用了，不用。”行人看了一眼男人，转身快速离开。
+
+    “真是不经吓。”荆络转过身，看向男人，“不用谢，我只是觉得有点烦。不过，开这么招摇的车，也怪不得有人凑上来撞。”
+
+    男人轻转头，伸手一把捏住荆络的下巴：“谁说要谢你了？”
+
+    荆络瘪嘴，一把打开男人的手：“我帮了你，你难道不应该谢我吗？也是，这种能用钱解决的事情，你应该也不需要帮忙。”
+
+    说完话，荆络转身就走。她最看不起暴发户，有钱还非得出来显摆，生怕别人不知道。
+
+    回到家中，孙晓宇的电话就打了进来：“喂，要不要来接你？”
+
+    “要。”荆络扯开围巾，语气不佳，“孙晓宇，我今天真是沾上狗屎了。”
+
+    荆络的脾气一贯不好，孙晓宇瘪瘪嘴，转了方向：“怎么？碰上齐玥了？”
+
+    提到齐玥，荆络脸色略微一沉：“好好的，提他干什么？”
+
+    “怎么？你们还真打算分手了？络络，17岁到27岁，最好的十年都给他了。你和他分了手，打算怎么办？”
+
+    孙晓宇说的不错，最好的十年都给了他，荆络的确不应该跟他分手。可面对看不见的未来，荆络想要的是一份婚姻。
+
+    “能怎么办？像我这种大龄剩女，除了相亲，还有第二个出路吗？不说了，到酒吧再说。”
+
+    荆络换了一身衣服，走到楼下，孙晓宇的车刚好到了她面前。上了车，荆络才感觉暖和一点：“来的这么慢，差评。”
+
+    “刚刚好，好吗？”孙晓宇开了车，“你说说，就你这个臭脾气，除了我有谁能忍得了你？”
+
+    荆络轻笑一声，转眸看向她：“别忘了，我可是你的衣食父母。我们两个，算是各取所需。”
+
+    孙晓宇轻咳一声，摆了摆手：“得得得，我就不跟你斗嘴了，反正也斗不过你。不过络络，都十年了，怎么忽然就分手了？十年的感情，你不觉得可惜吗？”
+
+    荆络收敛了笑容，转头看向窗外：“是啊，真可惜。”
+2020-09-06 19:28:15.848 [http-nio-9004-exec-4] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-06 19:28:25.561 [http-nio-9004-exec-1] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl -     蔺情比她高些，此刻她居高临下地瞪着女人，女人悻然，有苦说不出。
+
+    唐靳宇将女人拉过，“最好这是第一次也是最后一次，你好自为之！”说完他牵着女人就要走。
+
+    那女人还不依不饶，扭来扭去之际臀部那块布料就这么被撑破，露出星星点点的已经结痂的伤口，店员都惊呆了不敢作声，蔺情心里暗爽，贱人自有天收，亘古不变！
+
+    大概唐靳宇觉得丢人，脸色更臭，硬是把她扛了出去。
+
+    “大家看着，以后别让这俩人进中药堂，脏死了。”蔺情耸耸肩。
+
+    店员你看看我我看看你，心里默默给老板点了个赞。这种渣婊就是欠收拾，一时得意还以为一世得利，迟早有一天被打脸！
+
+    再看看那走远了的男人的背影，渣男属性。
+
+    唐靳宇前脚刚走，没过多久那负责人也来了，她小跑着出去迎接。
+
+    “您好您好，您就是张负责人吧，欢迎！”蔺情微弓着腰，礼貌性地伸出右手。
+
+    张姓男人手里拿着手提包，面前的女人恭恭敬敬，待她冲他笑时，男人心里一惊！
+
+    这不就是唐总的……老婆？！
+
+    唐靳宇这几年在管理唐氏，免不了和机关人员打些交道。吃饭喝酒时他曾提起过这女人是他老婆，但每次带在身边的，却是不同的面孔。
+
+    “你好！”
+
+    蔺情招呼着他坐下，给他泡了壶茶。
+
+    他看向女人化着淡妆的脸，两腮微粉，眼眸明亮，虽说长相极好，白白净净的，但女人全身散发出的清冷之气让男人望而却步，他有点明白为何唐副总不将她带在身边了，男人大抵还是喜欢热情如火的女人的。
+
+    而眼前的女人显然没带有风骚韵致。
+
+    不过既然她是陆家的人，这中药堂是她开的，他也没必要与陆家人对着干。
+
+    男人问了问一些中药堂的销售情况方面的问题，蔺情都如实回答。没过多久他就借着还有事要先走的由头，匆匆离开了。
+
+    蔺情将负责人送走后，狐疑地挠挠头，这人在电话里一直强调中药堂列在搬迁范围内，还要求在一个月内必须完成搬迁，否则就强制拆。但他今天来态度却有所改变，还说要传承中华优秀传统文化，决定保留中药堂。
+
+    既然这样，她决定去找找中药堂附近的房子了，盘算着抽空还得再过清灵苑一趟，把余下的东西给打包走。
+
+    宁家宜踏入中药堂时，蔺情正盯着屏幕看的入迷。
+
+    高跟鞋把木地板踩得嗒嗒响，蔺情这才抬头看到熟悉的人。
+
+    “你怎么下班啦？”蔺情看看时间，发现自己问的有些多余，大中午的确实该下班了。
+
+    宁家宜把包包放在柜台上，将手中的麻辣烫放下，这才看到她手上缠着的白纱布。
+
+    “咨询中心没咨询的病人了，不下班干嘛！手上的伤怎么弄的？”
+
+    蔺情甩了甩手，“不碍事，划的！”受不住麻辣烫的香味，她迫不及待地嘬了一口汤，担心这味道太重，她又将门窗给打开。
+
+    转身之际，脚步顿了顿，白大褂的一角被扯住。
+
+    低头……
+
+    一截白嫩嫩的小胳膊。
+
+    “漂亮阿姨，你有药药嘛？”穿着淡蓝色t恤短裤的小家伙扯扯她的白大褂一角，声音软糯软糯的。
+
+    女人低头，小小的人儿眼巴巴的仰望自己，那双眼眸乌溜溜的，小嘴粉粉嫩嫩，脸也圆嘟嘟红润润，头上唏嘘的一撮毛随风飘动。
+
+    这哪儿来的小萌娃啊，这么可爱！
+
+    她蹲下，将小家伙抱起来，“来，告诉阿姨，你要买什么药药？”
+
+    门口停泊的一辆奥迪车内，助理的视线一直在药堂内小少爷的身上，只见他被穿着白大褂的女人抱着朝里走，尽管只是一个背影，那女人露出的一截纤细的小腿白得晃眼。
+
+    “陆总，小少爷安全进入药堂！”
+
+    “嗯。”
+
+    坐在后座的男人长腿交叠，视线不曾离开过笔记本屏幕一刻，手指还灵活地打着什么。
+
+    助理可不像男人这般沉着冷静，小少爷才三岁，陆总就这么放心地让他去买药？
+
+    恐怕只有自家上司才干得出来吧！
+
+    他又转头看看后座的男人，身着白色衬衫和黑色西裤，优雅矜贵，长指灵活地敲击键盘，一丝不苟的男人还真迷人。
+
+    “怎么了？”男人嘴唇微动，依然盯紧屏幕。
+
+    “陆总……您的腹部……渗血了！”他指了指男人腹部的点点暗红。
+
+    男人面容沉静，今早上跑步去了，伤口被扯着，所以他才让陆谦尘去买药。
+
+    透过车窗，大大的“中药堂”三个字被刻在木质牌匾上。
+
+    中药堂内，小家伙躺在柔软的沙发里，宁家宜揉着小家伙白藕似的小腿，小家伙笑个不停，时不时打喷嚏，好辣啊！
+
+    宁家宜看出小家伙的不适，将麻辣烫的封口给封住，辛辣味才淡了一些。手机响了，她出去接了电话……
+
+    “快来，小家伙，这是药单子！”
+
+    陆谦尘飞快跑到柜台前，奈何柜台太高，他垫着脚依然够不着。
+
+    蔺情直接将单子塞到小家伙手里，他从裤子口袋里掏出皱巴巴的一张百元大钞，被汗浸得泛着潮。
+
+    她转身找钱的空档，小家伙赖在沙发上不肯走。
+
+    蔺情把找零的钱放在小家伙的口袋，“快回去吧，别让家人担心。”谁家的父母这么放心地让三岁大的小不点来买药，看他买的都是些包扎要用的，应该挺急的吧。
+
+    “哎呀，粑粑说他身体棒棒，不用着急的啦……”
+
+    推门而入的陆致深听到自家儿子说的话，前半句确实说的对，后半句……合着他就不担心担心自己老子？
+
+    蔺情还蹲着，听闻门被推开，入眼的是一双黑色手工皮鞋，一尘不染。顺着修长的西装裤腿，腹部有触目的红，再往上，男人正巧也低着头看向自己。
+
+    他这个方向正好可以看到她宽大的白大褂下，浅色吊带边露出的黑色蕾丝将那处包得恰好……
+
+    她不自知，笑了笑，看看小家伙扒着男人的腿，大概就是他爸爸了吧。
+
+    “先生，你好，请问有什么需要？”
+
+    男人这才看清这张脸，言笑晏晏的，这女人……看样子是忘记了他。
+
+    他将儿子手上的药给拿走，转而递给蔺情，“嗯，包扎。”
+
+    蔺情愣了愣，这是中药堂好吧，卖药还带帮包扎的？
+
+    她手指了指旁边男科医院的方向，示意他可以去那儿解决。
+
+    陆致深长腿迈开，拉开柜台前的高脚凳坐下，一袋子的药就掷在柜台上，“医生不就是救死扶伤的？”潜台词就是：你不帮我包扎？
+
+    蔺情嘴角抽搐，她只是个卖药的，卖中药的。
+
+    “是啊是啊漂亮阿姨，粑粑肚子上被戳出血了哎……”小家伙倒是吭声了。
+
+    她抚额，小家伙一脸期待地看着她。
+
+    蔺情无奈，手伸向他腰间时却被他挡住，“我不习惯在大庭广众之下……脱裤子。”
+
+    她看看这个点吃饭的店员都准备回来了，她想了想，“算了算了，你跟我上来。”看这一身高级货的男人矜贵着呢，有钱人就是难搞定。
+
+    到了休息室，蔺情将他的衬衫给往上翻了翻，男人腰间的皮带金属搭扣怎么都解不开，可真急死她。
+
+    陆致深看着她明明着急却装作一脸平淡的样子，解个皮带就这么难？昨晚她倒是会摸，摸着他那儿去了，这会儿又笨拙的。
+
+    他按住那双手，挪了挪，轻轻按压搭扣一角，“喀——”的一声，开了。她这才缩着手，想起他就不能自己解开么，自己也真是蠢。
+
+    伤口的血渗的原来的白纱布湿了一大片，她将旧的纱布换下，伤口再次裂开，她又重新涂着药……
+
+    她不注意，陆致深的眸光流连在她胸前的丰润上，女人肤白，那处的风光美妙……
+
+    蔺情仔细涂着药，他可快受不住了，只看了那么一会儿，陆小二就又有抬头的趋势，“你就不能快点？”
+
+    这不耐烦的，她以为是他疼，又吹了吹，“还疼吗？你忍忍，快了！”
+
+    细腻的气吹在肌肤上，有些痒，但刺激，伤口是不疼，别的地方倒忍的难受……
+
+    蔺情抬头看，顺着他幽深的目光，她低头，这才发现自己胸前露出一大片春光，她今天洗澡后随意在白大褂下穿了件小吊带，白大褂宽松，她这一弯腰，难免走光。
+
+    难怪男人的语气有些隐忍，想到这，她站直，手中的棉签用力摁在伤口处，男人闷哼。
+
+    “满意了？帮打个广告给个好评呗！”放下棉签，她缠上新的白纱布，看着男人额角冒出一层细密的汗，心里满意。
+
+    陆致深长臂一伸，扣紧那楚腰，“满意，蔺药师的服务一流。”说着又恶作剧似地挠了挠。
+
+    蔺情扭了扭身子，攥紧拳就是一打，被身手敏捷的男人躲开，小拳擦过男人的敏感处，隔着布料都能感觉到涨热。她转身去开门。
+
+    陆致深嘴角上扬，系好皮带后跟着下楼。
+
+    他朝窝在沙发上的小家伙勾了勾手，小家伙立刻飞奔过去，“漂亮阿姨我们走咯，再见！”
+
+    蔺情挥挥手，小家伙还是很可爱的。
+
+    挂掉电话的宁家宜向中药堂走，小家伙的身旁多了个身形伟岸的男人。
+
+    男人个子高，跨一步顶得小家伙走好几步，他特地放慢了脚步。
+
+    宁家宜总觉得哪儿不太对劲……
+2020-09-06 19:28:27.948 [http-nio-9004-exec-6] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-06 19:28:30.485 [http-nio-9004-exec-2] INFO  c.n.one.yuedu.read.service.impl.ChapterServiceImpl -     蔺情比她高些，此刻她居高临下地瞪着女人，女人悻然，有苦说不出。
+
+    唐靳宇将女人拉过，“最好这是第一次也是最后一次，你好自为之！”说完他牵着女人就要走。
+
+    那女人还不依不饶，扭来扭去之际臀部那块布料就这么被撑破，露出星星点点的已经结痂的伤口，店员都惊呆了不敢作声，蔺情心里暗爽，贱人自有天收，亘古不变！
+
+    大概唐靳宇觉得丢人，脸色更臭，硬是把她扛了出去。
+
+    “大家看着，以后别让这俩人进中药堂，脏死了。”蔺情耸耸肩。
+
+    店员你看看我我看看你，心里默默给老板点了个赞。这种渣婊就是欠收拾，一时得意还以为一世得利，迟早有一天被打脸！
+
+    再看看那走远了的男人的背影，渣男属性。
+
+    唐靳宇前脚刚走，没过多久那负责人也来了，她小跑着出去迎接。
+
+    “您好您好，您就是张负责人吧，欢迎！”蔺情微弓着腰，礼貌性地伸出右手。
+
+    张姓男人手里拿着手提包，面前的女人恭恭敬敬，待她冲他笑时，男人心里一惊！
+
+    这不就是唐总的……老婆？！
+
+    唐靳宇这几年在管理唐氏，免不了和机关人员打些交道。吃饭喝酒时他曾提起过这女人是他老婆，但每次带在身边的，却是不同的面孔。
+
+    “你好！”
+
+    蔺情招呼着他坐下，给他泡了壶茶。
+
+    他看向女人化着淡妆的脸，两腮微粉，眼眸明亮，虽说长相极好，白白净净的，但女人全身散发出的清冷之气让男人望而却步，他有点明白为何唐副总不将她带在身边了，男人大抵还是喜欢热情如火的女人的。
+
+    而眼前的女人显然没带有风骚韵致。
+
+    不过既然她是陆家的人，这中药堂是她开的，他也没必要与陆家人对着干。
+
+    男人问了问一些中药堂的销售情况方面的问题，蔺情都如实回答。没过多久他就借着还有事要先走的由头，匆匆离开了。
+
+    蔺情将负责人送走后，狐疑地挠挠头，这人在电话里一直强调中药堂列在搬迁范围内，还要求在一个月内必须完成搬迁，否则就强制拆。但他今天来态度却有所改变，还说要传承中华优秀传统文化，决定保留中药堂。
+
+    既然这样，她决定去找找中药堂附近的房子了，盘算着抽空还得再过清灵苑一趟，把余下的东西给打包走。
+
+    宁家宜踏入中药堂时，蔺情正盯着屏幕看的入迷。
+
+    高跟鞋把木地板踩得嗒嗒响，蔺情这才抬头看到熟悉的人。
+
+    “你怎么下班啦？”蔺情看看时间，发现自己问的有些多余，大中午的确实该下班了。
+
+    宁家宜把包包放在柜台上，将手中的麻辣烫放下，这才看到她手上缠着的白纱布。
+
+    “咨询中心没咨询的病人了，不下班干嘛！手上的伤怎么弄的？”
+
+    蔺情甩了甩手，“不碍事，划的！”受不住麻辣烫的香味，她迫不及待地嘬了一口汤，担心这味道太重，她又将门窗给打开。
+
+    转身之际，脚步顿了顿，白大褂的一角被扯住。
+
+    低头……
+
+    一截白嫩嫩的小胳膊。
+
+    “漂亮阿姨，你有药药嘛？”穿着淡蓝色t恤短裤的小家伙扯扯她的白大褂一角，声音软糯软糯的。
+
+    女人低头，小小的人儿眼巴巴的仰望自己，那双眼眸乌溜溜的，小嘴粉粉嫩嫩，脸也圆嘟嘟红润润，头上唏嘘的一撮毛随风飘动。
+
+    这哪儿来的小萌娃啊，这么可爱！
+
+    她蹲下，将小家伙抱起来，“来，告诉阿姨，你要买什么药药？”
+
+    门口停泊的一辆奥迪车内，助理的视线一直在药堂内小少爷的身上，只见他被穿着白大褂的女人抱着朝里走，尽管只是一个背影，那女人露出的一截纤细的小腿白得晃眼。
+
+    “陆总，小少爷安全进入药堂！”
+
+    “嗯。”
+
+    坐在后座的男人长腿交叠，视线不曾离开过笔记本屏幕一刻，手指还灵活地打着什么。
+
+    助理可不像男人这般沉着冷静，小少爷才三岁，陆总就这么放心地让他去买药？
+
+    恐怕只有自家上司才干得出来吧！
+
+    他又转头看看后座的男人，身着白色衬衫和黑色西裤，优雅矜贵，长指灵活地敲击键盘，一丝不苟的男人还真迷人。
+
+    “怎么了？”男人嘴唇微动，依然盯紧屏幕。
+
+    “陆总……您的腹部……渗血了！”他指了指男人腹部的点点暗红。
+
+    男人面容沉静，今早上跑步去了，伤口被扯着，所以他才让陆谦尘去买药。
+
+    透过车窗，大大的“中药堂”三个字被刻在木质牌匾上。
+
+    中药堂内，小家伙躺在柔软的沙发里，宁家宜揉着小家伙白藕似的小腿，小家伙笑个不停，时不时打喷嚏，好辣啊！
+
+    宁家宜看出小家伙的不适，将麻辣烫的封口给封住，辛辣味才淡了一些。手机响了，她出去接了电话……
+
+    “快来，小家伙，这是药单子！”
+
+    陆谦尘飞快跑到柜台前，奈何柜台太高，他垫着脚依然够不着。
+
+    蔺情直接将单子塞到小家伙手里，他从裤子口袋里掏出皱巴巴的一张百元大钞，被汗浸得泛着潮。
+
+    她转身找钱的空档，小家伙赖在沙发上不肯走。
+
+    蔺情把找零的钱放在小家伙的口袋，“快回去吧，别让家人担心。”谁家的父母这么放心地让三岁大的小不点来买药，看他买的都是些包扎要用的，应该挺急的吧。
+
+    “哎呀，粑粑说他身体棒棒，不用着急的啦……”
+
+    推门而入的陆致深听到自家儿子说的话，前半句确实说的对，后半句……合着他就不担心担心自己老子？
+
+    蔺情还蹲着，听闻门被推开，入眼的是一双黑色手工皮鞋，一尘不染。顺着修长的西装裤腿，腹部有触目的红，再往上，男人正巧也低着头看向自己。
+
+    他这个方向正好可以看到她宽大的白大褂下，浅色吊带边露出的黑色蕾丝将那处包得恰好……
+
+    她不自知，笑了笑，看看小家伙扒着男人的腿，大概就是他爸爸了吧。
+
+    “先生，你好，请问有什么需要？”
+
+    男人这才看清这张脸，言笑晏晏的，这女人……看样子是忘记了他。
+
+    他将儿子手上的药给拿走，转而递给蔺情，“嗯，包扎。”
+
+    蔺情愣了愣，这是中药堂好吧，卖药还带帮包扎的？
+
+    她手指了指旁边男科医院的方向，示意他可以去那儿解决。
+
+    陆致深长腿迈开，拉开柜台前的高脚凳坐下，一袋子的药就掷在柜台上，“医生不就是救死扶伤的？”潜台词就是：你不帮我包扎？
+
+    蔺情嘴角抽搐，她只是个卖药的，卖中药的。
+
+    “是啊是啊漂亮阿姨，粑粑肚子上被戳出血了哎……”小家伙倒是吭声了。
+
+    她抚额，小家伙一脸期待地看着她。
+
+    蔺情无奈，手伸向他腰间时却被他挡住，“我不习惯在大庭广众之下……脱裤子。”
+
+    她看看这个点吃饭的店员都准备回来了，她想了想，“算了算了，你跟我上来。”看这一身高级货的男人矜贵着呢，有钱人就是难搞定。
+
+    到了休息室，蔺情将他的衬衫给往上翻了翻，男人腰间的皮带金属搭扣怎么都解不开，可真急死她。
+
+    陆致深看着她明明着急却装作一脸平淡的样子，解个皮带就这么难？昨晚她倒是会摸，摸着他那儿去了，这会儿又笨拙的。
+
+    他按住那双手，挪了挪，轻轻按压搭扣一角，“喀——”的一声，开了。她这才缩着手，想起他就不能自己解开么，自己也真是蠢。
+
+    伤口的血渗的原来的白纱布湿了一大片，她将旧的纱布换下，伤口再次裂开，她又重新涂着药……
+
+    她不注意，陆致深的眸光流连在她胸前的丰润上，女人肤白，那处的风光美妙……
+
+    蔺情仔细涂着药，他可快受不住了，只看了那么一会儿，陆小二就又有抬头的趋势，“你就不能快点？”
+
+    这不耐烦的，她以为是他疼，又吹了吹，“还疼吗？你忍忍，快了！”
+
+    细腻的气吹在肌肤上，有些痒，但刺激，伤口是不疼，别的地方倒忍的难受……
+
+    蔺情抬头看，顺着他幽深的目光，她低头，这才发现自己胸前露出一大片春光，她今天洗澡后随意在白大褂下穿了件小吊带，白大褂宽松，她这一弯腰，难免走光。
+
+    难怪男人的语气有些隐忍，想到这，她站直，手中的棉签用力摁在伤口处，男人闷哼。
+
+    “满意了？帮打个广告给个好评呗！”放下棉签，她缠上新的白纱布，看着男人额角冒出一层细密的汗，心里满意。
+
+    陆致深长臂一伸，扣紧那楚腰，“满意，蔺药师的服务一流。”说着又恶作剧似地挠了挠。
+
+    蔺情扭了扭身子，攥紧拳就是一打，被身手敏捷的男人躲开，小拳擦过男人的敏感处，隔着布料都能感觉到涨热。她转身去开门。
+
+    陆致深嘴角上扬，系好皮带后跟着下楼。
+
+    他朝窝在沙发上的小家伙勾了勾手，小家伙立刻飞奔过去，“漂亮阿姨我们走咯，再见！”
+
+    蔺情挥挥手，小家伙还是很可爱的。
+
+    挂掉电话的宁家宜向中药堂走，小家伙的身旁多了个身形伟岸的男人。
+
+    男人个子高，跨一步顶得小家伙走好几步，他特地放慢了脚步。
+
+    宁家宜总觉得哪儿不太对劲……
+2020-09-06 19:28:32.341 [http-nio-9004-exec-9] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-06 22:09:47.061 [http-nio-9004-exec-3] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-06 22:46:26.745 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 88480 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 22:46:26.747 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 22:46:27.595 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 22:46:27.597 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 22:46:27.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+2020-09-06 22:46:28.048 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 22:46:28.054 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 22:46:28.055 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 22:46:28.055 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 22:46:28.215 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 22:46:28.215 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1437 ms
+2020-09-06 22:46:28.326 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 22:46:29.097 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 22:46:30.910 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 22:46:30.963 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 20561466-130c-4bcd-96c7-aa47fd5956c5
+
+2020-09-06 22:46:31.021 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25567581, org.springframework.security.web.context.SecurityContextPersistenceFilter@20ffb8d5, org.springframework.security.web.header.HeaderWriterFilter@4861cca9, org.springframework.security.web.authentication.logout.LogoutFilter@611c3eae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57e03347, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ee92e7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@179ee36b, org.springframework.security.web.session.SessionManagementFilter@7282af25, org.springframework.security.web.access.ExceptionTranslationFilter@687eb455, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@dc59ec2]
+2020-09-06 22:46:31.098 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 22:46:31.255 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 22:46:31.268 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 22:46:31.290 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 22:46:31.357 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 22:46:31.429 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 22:46:31.471 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 22:46:31.473 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 22:46:31.474 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 22:46:31.482 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 22:46:31.483 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 22:46:31.485 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 22:46:31.487 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 22:46:31.489 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 22:46:31.495 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 22:46:31.496 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 22:46:31.497 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 22:46:31.499 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 22:46:31.500 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 22:46:31.501 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 22:46:31.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 22:46:31.554 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 22:46:31.559 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 22:46:31.560 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 22:46:31.565 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 22:46:31.566 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 22:46:31.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 22:46:31.599 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 22:46:31.601 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 5.157 seconds (JVM running for 6.16)
+2020-09-06 22:46:37.949 [http-nio-9004-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 22:46:37.950 [http-nio-9004-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 22:46:37.954 [http-nio-9004-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-09-06 22:46:50.803 [http-nio-9004-exec-3] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 12
+2020-09-06 23:52:08.284 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Starting NineOneYueDuApplication on LAPTOP-VRL8D1D5 with PID 120344 (D:\JXTC\91yuedu-read\target\classes started by asus in D:\JXTC\91yuedu-read)
+2020-09-06 23:52:08.288 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - The following profiles are active: test
+2020-09-06 23:52:09.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-06 23:52:09.084 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-06 23:52:09.134 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-09-06 23:52:09.514 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2020-09-06 23:52:09.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2020-09-06 23:52:09.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-06 23:52:09.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-09-06 23:52:09.676 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-06 23:52:09.677 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1336 ms
+2020-09-06 23:52:09.786 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-06 23:52:10.484 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-06 23:52:12.134 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-06 23:52:12.179 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5d315b39-5da5-44e3-bd68-e6ee0a335ec2
+
+2020-09-06 23:52:12.250 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b6c2be6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7345f97d, org.springframework.security.web.header.HeaderWriterFilter@2edb2f8b, org.springframework.security.web.authentication.logout.LogoutFilter@56b1e527, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66020d69, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6615237, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25533bba, org.springframework.security.web.session.SessionManagementFilter@6cdbe5ec, org.springframework.security.web.access.ExceptionTranslationFilter@307c59ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3dc39459]
+2020-09-06 23:52:12.327 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-06 23:52:12.478 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-06 23:52:12.490 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-06 23:52:12.512 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-06 23:52:12.567 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdUsingGET_1
+2020-09-06 23:52:12.625 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMaxChapterIdUsingGET_1
+2020-09-06 23:52:12.662 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookInfoUsingPOST_1
+2020-09-06 23:52:12.665 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delBookInfoByIdUsingDELETE_1
+2020-09-06 23:52:12.667 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downBookByIdUsingGET_1
+2020-09-06 23:52:12.674 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findBookInfoByIdUsingGET_1
+2020-09-06 23:52:12.674 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_1
+2020-09-06 23:52:12.676 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookInfo4PageAndParamUsingGET_1
+2020-09-06 23:52:12.677 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateBookInfoUsingPUT_1
+2020-09-06 23:52:12.678 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_1
+2020-09-06 23:52:12.684 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_1
+2020-09-06 23:52:12.686 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addChapterUsingPOST_2
+2020-09-06 23:52:12.687 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delChapterByIdUsingDELETE_1
+2020-09-06 23:52:12.688 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterInfoByBookIdAndChapterIdUsingGET_1
+2020-09-06 23:52:12.689 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterListByBookIdPageAndSortUsingGET_1
+2020-09-06 23:52:12.690 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateChapterUsingPUT_1
+2020-09-06 23:52:12.729 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addBookUsingPOST_1
+2020-09-06 23:52:12.738 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingGET_2
+2020-09-06 23:52:12.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadHeadUsingPOST_2
+2020-09-06 23:52:12.744 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_1
+2020-09-06 23:52:12.750 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getBookUsingGET_1
+2020-09-06 23:52:12.750 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getChapterUsingGET_2
+2020-09-06 23:52:12.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2020-09-06 23:52:12.784 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2020-09-06 23:52:12.786 [main] INFO  com.nine.one.yuedu.read.NineOneYueDuApplication - Started NineOneYueDuApplication in 4.798 seconds (JVM running for 5.775)
+2020-09-06 23:55:42.109 [http-nio-9004-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-06 23:55:42.109 [http-nio-9004-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-06 23:55:42.115 [http-nio-9004-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-09-06 23:56:14.310 [http-nio-9004-exec-3] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 文本上传成功了
+2020-09-06 23:57:52.661 [http-nio-9004-exec-3] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 文本上传成功了
+2020-09-06 23:59:26.358 [http-nio-9004-exec-8] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-07 00:05:22.652 [http-nio-9004-exec-4] INFO  c.n.o.yuedu.read.service.impl.BookInfoServiceImpl - 分页查询的数据为:
+2020-09-07 00:05:45.783 [http-nio-9004-exec-1] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 　　　在一片乌漆嘛黑的混沌中，白含笑不知自己该往何处走……
+
+　“我不是应该去投胎吗？”白含笑小声嘀咕着，然后在脑子里呼叫着微微，可半天都没得到回应。
+
+　白君含僵在原地，心里琢磨着，不对啊，她又没有被渣男陷害，又不是特种兵，她一小老百姓怎就会遇上这事了？
+
+　突然，在她的耳边响起一阵棍棒敲打声，女人的咒骂声，以及妇人的哭泣声……
+
+　白含笑低头蹙眉。
+
+　待她再抬眼时，发现自己面前突然多出一抹光芒来。
+
+　白含笑嘴里小声念叨着，我要是靠近它，我该不会就要……
+
+　“对！没错，就是你想的那个。”
+
+　一个声音突然从四周传来，就在白含笑还在四处寻找声音的来源时，她感觉有人在她背后猛地踹了一脚！
+
+　“走你！”背后那人一边使劲一边从牙齿里挤出这二字。
+
+　还没来得及惊叫，白含笑就被一股巨大的怪力吸了过去！
+
+　待她再次睁眼，看到的就是残破漏风的屋顶。
+
+　“还真是……”穿越啊！
+
+　“嗷！”
+
+　白含笑想要坐起身，可稍稍一动身体就传来剧痛，让她疼得脸色苍白，倒吸了一口冷气。
+
+　一直守在床边的妇人听到声音，立马倒了一碗温水送到她眼前。
+
+　白含笑嗓子沙哑干渴的厉害，本能的把嘴凑了上去。
+
+　这身子虚得厉害，就连做吞咽的动作都很勉强。
+
+　妇人左手扶着碗，右手半抱着她，小心翼翼的喂着水。
+
+　不得吧！她还真穿了，按理说人死后不是该投胎嘛？
+
+　白含笑边想边喝水，三心二意下竟不小心被水给呛了。
+
+　妇人在一旁担心的道：“含笑别急，慢点……”
+
+　含笑！？
+
+　这两个字如同电流一般从耳朵窜入，顺着神经刺入大脑。
+
+　白含笑想起了在地府时，排队领孟婆汤时，碰见的那个阳寿未尽的少女……
+
+　难道她这是代替了那个少女回到了她的现世？
+
+　白含笑幽怨的蹙起眉，抬眼看向了一旁对她很是关切的妇人身上。
+
+　妇人一身古装，面色憔悴的厉害，三十出头的年纪头发却白了许多……
+
+　“娘……”白含笑试探性地叫道。
+
+　可这“娘”字还没说出口，就被妇人捂住了嘴。
+
+　她顺着妇人惊恐的眼神看向门口……
+
+　一阵嘈杂的脚步声从屋外传来，不一会儿，门就被人从外面踹开。
+
+　一个刺耳的女声响起：“本小姐就知道你这贱蹄子是装死！”
+
+　屋内的白含笑微微挑眉，瞬间就来了兴致。
+
+　好就都没人敢这么和她说话了！
+
+　白含笑抿着嘴角，看向门口十几岁的少女。
+
+　少女同样穿着一身古装，头上的首饰繁多，插在一起活像只四处耀武扬威的刺猬。
+
+　少女站在门口，一脸鄙夷的看着白含笑，跟在她身后的两个丫鬟也是态度嚣张跋扈。
+
+　原主现在可能已经死了，现在用她身体的是来自22世纪的白含笑！
+
+　虽无父无母，但是她天资聪颖，长大后更是叱咤商业，横扫各界，要不是过劳猝死，现在首都北城的那片开发区就都归她头上了！
+
+　她一个新时代新型女青年，才不会因为小毛孩的几句话就动怒？
+
+　少女一袭绯色长裙，手中拿着一团金线绣的团扇掩住自己的口鼻，双眼充满了毫不掩饰的厌恶和嫌弃。
+
+　她冲着屋内翻了个白眼，语气轻蔑道：“哝！你的药，母亲发话了，你必须活到成亲那天……”
+2020-09-07 00:27:08.197 [http-nio-9004-exec-3] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 云城，左岸别墅区。
+韩靖在外面走走瞧瞧，一路感叹，他已经走了最少有10里地，腿都快断了。只见车不见人。
+终于看见一个人影，韩靖冲上去，“这位大姐，你们这里6栋在什么地方？”
+女人不悦抬头：“一点眼力劲都没有，你看着可比我大多了，你是来找人的吗？”
+韩靖露出一口大白牙：“不是，有一家姓赵的，请我来看病。”
+女人狐疑的打量着韩靖，一身工地搬砖的绿色衬衫，上面还有没洗干净的白漆点子，头上戴着一顶农村下地戴的遮阳帽，肩上扛着一个还带缝补的黄色包裹，一看就是个乡巴佬。
+她在别墅区当社区护士，地界儿小，可见过的医生没有上千也有几百，从没见过他这样的。
+只当是来戏弄自己的，语气不善：“这里可是云城最好的别墅区，社区医疗技术和人才都是最上乘的，哪家人这么想不开，让你一个乡下来的看病，别捣乱了，一边去。”
+紧接着就有人打电话过来询问什么，女人接着电话忙了起来，韩靖也不好再打扰，只能边走边找。
+他是今天刚刚被爷爷扔下山，说是有个姓赵的老头性命垂危，就在左岸别墅区，让他过来救治。
+没多久迎面走来一个大妈，韩靖学聪明了，说自己是来探病的，大妈果然带他找到了6栋，却又一次碰到了那个女人。
+“喂，你是怎么进来的，这里可是别墅区，你看你身上脏的，要是给这里的人带来细菌感染怎么办？”
+韩靖有些窘迫。
+大妈对小护士的态度有些不满：“人家这是来找人的，你这是什么语气？”
+小护士挨了训，怒瞪了韩靖一眼：“他根本就是骗人的，刚才在路边，他跟我说是来行医的，就他这样的，怎么可能会治病！”
+韩靖急道，“是赵家请我过来的。”
+韩靖一路上的车费就已经将身上的钱花光了，而且是赵家主动找上门来的，爷爷说没钱了他们会报销的。
+大妈端详着韩靖：“你说的赵家，可是赵林？”
+韩靖思索了一下点头：“没错，是叫这个名字。”
+“既然如此，那你在这里稍等，我帮你问一下。”
+韩靖笑道：“那就多谢了。”
+小护士顿时急了：“姐，你怎么还帮着他，他别是来招摇撞骗的！”
+大妈小声道：“老爷子怕是过不了今天了，家属的想法我们需要尊重，至于能不能救活，那就跟咱们无关了。”
+小护士觉得有理，点了点头。
+很快，一个中气十足的人走过来：“您就是韩靖韩先生？”
+“没错。”
+来人神色稍缓：“韩先生，还请这边来，希望还能来得及。”
+话音刚落就急不可耐的拉着韩靖往房间走。
+……
+房间门口。
+一众医学院士默不作声，还有一众亲朋好友将门口挤的水泄不通。
+病人名叫赵峰，赵氏集团在他手里辉煌了二十多年，在全球商界榜上有名，自然也是这云城业界大佬。
+赵峰重病不起的消息迅速传便商界，有人恐慌，有人等待，不一而足。
+院士束手无策，只剩下一个最为极端的手法，只是一旦失败，谁也不想承担这样的后果。
+赵林匆匆拉着韩靖要进房间。
+院士李福云急忙将人拦下：“赵先生，这里是我们为赵家特建的无菌室，还请赵先生能尊重我们的成果。”
+赵林被迫停下：“治好父亲的人就在眼前，让开。”
+李福云随意瞥了眼韩靖，劝道：“我知道家属着急，我们现在已经制定出方案，总还是有一线希望的，你可不能乱来。”
+“对呀，这人一看就是个乡巴佬，可不能拿赵老的生命开玩笑。”
+“还是听听李院士的意见吧。”
+七嘴八舌，场面开始嘈杂。
+赵林却是皱眉，沉声道：“父亲找来的人，定然有他的用意，还是听父亲的安排吧。”
+随后对韩靖道：“韩先生，请您一定要救我父亲。”
+韩靖点头：“我来就是治病的，不过我有我的规矩，至于报酬，爷爷是早和赵老爷子商量好的。”
+确有其事。
+赵林缄默，半晌，对身后一女孩招手：“雪怡，过来。”
+女孩一身活力休闲装，高扎起马尾，面容冶丽，脸色有些苍白。
+“若你能治好父亲，以后你就是我赵家女婿。”
+女婿？
+这话一出所有人都震惊了。
+赵雪怡是谁？赵氏集团的千金，还是当红流量小花，就算没有这么雄厚的背景加身，只凭着她那出色的容貌都足以让富家贵胄的追求者前仆后继。
+一看就土得掉渣，结果要将多少人心中的女神嫁给这种乡野村夫？
+就连韩靖都不知道有这回事，爷爷只说让他救人，不想还给自己娶一个媳妇？
+韩靖看着赵雪怡，是个俊俏的婆娘，早知道有这么漂亮的媳妇，他还用得着惦记镇上的那些寡妇？
+嘿，老爷子这事干的漂亮！
+赵雪怡被他赤裸裸的目光吓到，急忙缩到赵林身后，恼道。
+“爸，你胡说八道什么呀，我见都没见过他，怎么能随意嫁人？”
+就连李福云的关门弟子闻言再也沉不住气跳出来：“赵叔，这事简直太草率了，这毕竟事关雪怡的幸福。”
+赵林打断两人的话：“他们确实有这个规矩，而且这是一开始你爷爷就答应下来的，你若是不同意，就只能将人送回去。”
+这意思，就是不救了？
+赵雪怡心中烦乱，任谁突然知道自己要嫁给一个不相干的人都没办法接受，可她必须救爷爷，不然……
+“除了这个条件，什么都可以，或许你要钱，或者是其它的，只要我们能做到！”
+韩靖为这条件心动了下，可还是摇头：“规矩不可破，我也没办法，你只有应与不应，不应，我立刻走，但你若是应了，就没有悔改的余地，否则后果难料。”
+鸿蒙无上医一派，约定既成，只能遵守，若有反悔，必将反噬！
+这话已然有了威胁的意味。
+“哼，这是哪里来野蛮的规定，不知道你爷爷是何名讳？”
+韩靖态度平和：“爷爷说并非所有人都有资格知道他的名讳。”
+这话实在让人不爽。
+李福云冷哼道：“乡下有乡下的规矩，城里有城里的规矩，还请你立刻离开这里！”
+他的关门弟子已经迫不及待的要去叫安保了。
+赵林脸色已经黑了，正想据理力争，房间里的护士突然惊慌道。
+“不好了，病人没了心跳……”
+
+2020-09-07 00:27:36.930 [http-nio-9004-exec-7] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 云城，左岸别墅区。
+韩靖在外面走走瞧瞧，一路感叹，他已经走了最少有10里地，腿都快断了。只见车不见人。
+终于看见一个人影，韩靖冲上去，“这位大姐，你们这里6栋在什么地方？”
+女人不悦抬头：“一点眼力劲都没有，你看着可比我大多了，你是来找人的吗？”
+韩靖露出一口大白牙：“不是，有一家姓赵的，请我来看病。”
+女人狐疑的打量着韩靖，一身工地搬砖的绿色衬衫，上面还有没洗干净的白漆点子，头上戴着一顶农村下地戴的遮阳帽，肩上扛着一个还带缝补的黄色包裹，一看就是个乡巴佬。
+她在别墅区当社区护士，地界儿小，可见过的医生没有上千也有几百，从没见过他这样的。
+只当是来戏弄自己的，语气不善：“这里可是云城最好的别墅区，社区医疗技术和人才都是最上乘的，哪家人这么想不开，让你一个乡下来的看病，别捣乱了，一边去。”
+紧接着就有人打电话过来询问什么，女人接着电话忙了起来，韩靖也不好再打扰，只能边走边找。
+他是今天刚刚被爷爷扔下山，说是有个姓赵的老头性命垂危，就在左岸别墅区，让他过来救治。
+没多久迎面走来一个大妈，韩靖学聪明了，说自己是来探病的，大妈果然带他找到了6栋，却又一次碰到了那个女人。
+“喂，你是怎么进来的，这里可是别墅区，你看你身上脏的，要是给这里的人带来细菌感染怎么办？”
+韩靖有些窘迫。
+大妈对小护士的态度有些不满：“人家这是来找人的，你这是什么语气？”
+小护士挨了训，怒瞪了韩靖一眼：“他根本就是骗人的，刚才在路边，他跟我说是来行医的，就他这样的，怎么可能会治病！”
+韩靖急道，“是赵家请我过来的。”
+韩靖一路上的车费就已经将身上的钱花光了，而且是赵家主动找上门来的，爷爷说没钱了他们会报销的。
+大妈端详着韩靖：“你说的赵家，可是赵林？”
+韩靖思索了一下点头：“没错，是叫这个名字。”
+“既然如此，那你在这里稍等，我帮你问一下。”
+韩靖笑道：“那就多谢了。”
+小护士顿时急了：“姐，你怎么还帮着他，他别是来招摇撞骗的！”
+大妈小声道：“老爷子怕是过不了今天了，家属的想法我们需要尊重，至于能不能救活，那就跟咱们无关了。”
+小护士觉得有理，点了点头。
+很快，一个中气十足的人走过来：“您就是韩靖韩先生？”
+“没错。”
+来人神色稍缓：“韩先生，还请这边来，希望还能来得及。”
+话音刚落就急不可耐的拉着韩靖往房间走。
+……
+房间门口。
+一众医学院士默不作声，还有一众亲朋好友将门口挤的水泄不通。
+病人名叫赵峰，赵氏集团在他手里辉煌了二十多年，在全球商界榜上有名，自然也是这云城业界大佬。
+赵峰重病不起的消息迅速传便商界，有人恐慌，有人等待，不一而足。
+院士束手无策，只剩下一个最为极端的手法，只是一旦失败，谁也不想承担这样的后果。
+赵林匆匆拉着韩靖要进房间。
+院士李福云急忙将人拦下：“赵先生，这里是我们为赵家特建的无菌室，还请赵先生能尊重我们的成果。”
+赵林被迫停下：“治好父亲的人就在眼前，让开。”
+李福云随意瞥了眼韩靖，劝道：“我知道家属着急，我们现在已经制定出方案，总还是有一线希望的，你可不能乱来。”
+“对呀，这人一看就是个乡巴佬，可不能拿赵老的生命开玩笑。”
+“还是听听李院士的意见吧。”
+七嘴八舌，场面开始嘈杂。
+赵林却是皱眉，沉声道：“父亲找来的人，定然有他的用意，还是听父亲的安排吧。”
+随后对韩靖道：“韩先生，请您一定要救我父亲。”
+韩靖点头：“我来就是治病的，不过我有我的规矩，至于报酬，爷爷是早和赵老爷子商量好的。”
+确有其事。
+赵林缄默，半晌，对身后一女孩招手：“雪怡，过来。”
+女孩一身活力休闲装，高扎起马尾，面容冶丽，脸色有些苍白。
+“若你能治好父亲，以后你就是我赵家女婿。”
+女婿？
+这话一出所有人都震惊了。
+赵雪怡是谁？赵氏集团的千金，还是当红流量小花，就算没有这么雄厚的背景加身，只凭着她那出色的容貌都足以让富家贵胄的追求者前仆后继。
+一看就土得掉渣，结果要将多少人心中的女神嫁给这种乡野村夫？
+就连韩靖都不知道有这回事，爷爷只说让他救人，不想还给自己娶一个媳妇？
+韩靖看着赵雪怡，是个俊俏的婆娘，早知道有这么漂亮的媳妇，他还用得着惦记镇上的那些寡妇？
+嘿，老爷子这事干的漂亮！
+赵雪怡被他赤裸裸的目光吓到，急忙缩到赵林身后，恼道。
+“爸，你胡说八道什么呀，我见都没见过他，怎么能随意嫁人？”
+就连李福云的关门弟子闻言再也沉不住气跳出来：“赵叔，这事简直太草率了，这毕竟事关雪怡的幸福。”
+赵林打断两人的话：“他们确实有这个规矩，而且这是一开始你爷爷就答应下来的，你若是不同意，就只能将人送回去。”
+这意思，就是不救了？
+赵雪怡心中烦乱，任谁突然知道自己要嫁给一个不相干的人都没办法接受，可她必须救爷爷，不然……
+“除了这个条件，什么都可以，或许你要钱，或者是其它的，只要我们能做到！”
+韩靖为这条件心动了下，可还是摇头：“规矩不可破，我也没办法，你只有应与不应，不应，我立刻走，但你若是应了，就没有悔改的余地，否则后果难料。”
+鸿蒙无上医一派，约定既成，只能遵守，若有反悔，必将反噬！
+这话已然有了威胁的意味。
+“哼，这是哪里来野蛮的规定，不知道你爷爷是何名讳？”
+韩靖态度平和：“爷爷说并非所有人都有资格知道他的名讳。”
+这话实在让人不爽。
+李福云冷哼道：“乡下有乡下的规矩，城里有城里的规矩，还请你立刻离开这里！”
+他的关门弟子已经迫不及待的要去叫安保了。
+赵林脸色已经黑了，正想据理力争，房间里的护士突然惊慌道。
+“不好了，病人没了心跳……”
+
+2020-09-07 00:29:35.483 [http-nio-9004-exec-4] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 李福云稍有犹豫，还是从里面便衣口袋里拿出一个香囊。
+“韩先生还真是眼睛独到，这里面可是珍珠粉和檀香木炼制的香料，用来镇心安神的，不过韩先生要是想要，我也就只能忍痛割爱了，就当结交韩先生这个人了。”
+说罢将香囊递给韩靖，韩靖面不改色的接过，里面名贵的药材何止这两种，安神效果确实不错。
+韩靖毫无心理负担的收下：“那就多谢前辈了。”
+“媳妇，我看你气色不好，应该是没有好好睡觉的缘故，你将这个香囊每天戴在身上，可以让你能有个好睡眠。”
+这下旁人看韩靖的眼神更是无语了，还真是没见过这么厚颜无耻之人了，竟然拿着别人的东西转眼就将要过来的香囊递给了赵雪怡。。
+赵雪怡脸上一阵青一阵红，有些羞恼，这还没结婚呢，就直接叫上媳妇了。
+当即起了性子，没有理会。
+还是赵老从中圆场：“雪怡，愣着干嘛，韩靖是为了你着想。”
+在外面赵老自然不会透露出他们和韩靖的关系，于是直呼其名。
+赵雪怡闻言咬唇，只好慢吞吞的接过来：“谢谢。”
+韩靖笑出一口大白牙：“媳妇，不用跟我这么客气。”
+赵雪怡僵着脸色没说话。
+“既然韩先生不怪罪了，不知道李某能不能请韩先生来坐诊，我也想讨教一二。”
+“抱歉，我们有我们的规矩，医术从不外传。”韩靖直接拒绝道。
+“那至少可以来帮忙接诊一下吧。”
+韩靖依旧摇头：“我救人之事，全都是爷爷在安排，没有爷爷的命令，不可随意救人。”
+他们鸿蒙无上医一派有严苛的规矩，非濒死之人不救，十天只救一人，不计报酬，出手却必定达成一诺。
+一连被拒绝两次，话语还这么直白，赵老见李福云脸色不调好，赶紧安抚了一下岔开话题。
+“李先生，他们确实有规矩，还是不要为难了，你看我这身体是不是能够出院了？”
+李福云既生气又无奈：“赵老身边有贵人相助，哪还能有什么大碍，现在可以去办出院手续。”
+没人再在意韩靖，慰问的慰问，办手续的办手续，他整个人无人问津。
+索性就坐在长廊的椅子上百无聊赖。
+“你很得意？”
+阴阳怪气的声音从身后传来。
+韩靖回头，看到冯年扭曲着一张脸，阴鸷的看着他。
+“你别想癞蛤蟆吃天鹅肉了，就算你真的救活了赵老，也不可能娶雪怡，就你这副穷酸样，连站在她身边的资格都没有！”
+韩靖瞬间嚣张的挑眉，语言粗陋：“有你球事，咸吃萝卜淡操心，我警告你，将你对我媳妇的非分之想给我收起来，不然我将你手脚筋都挑断。”
+韩靖从来都是直白的性子，对看不惯的人，自然是要怼回去。
+冯年顿时气的满脸通红：“你有什么可嚣张的，我告诉你，云城陈家陈楚泽听说过吗？他可是对雪怡一直穷追不舍，我劝你还是赶紧滚回你乡下去，不然，这几天就是你的末日。”
+韩靖丝毫没有别吓到：“那个什么陈家的人，也觊觎我媳妇？”
+冯年冷哼一声：“陈家可不是你这个乡巴佬能惹得起的家族，那可是云城武道霸主，陈楚泽可是不达目的不罢休的人，你要是执迷不悟，说不定哪天就横死街头了。”
+冯年说罢就看到赵老爷子从房间里出来，这才不甘心的离开。
+韩靖心中却是危机密布，娘嘞，这媳妇也太抢手了吧。
+手续办完之后，他们坐电梯离开。
+韩靖看着自家媳妇，长的确实好看。
+“媳妇，是不是很多人惦记你啊？”
+赵雪怡被问得一愣，还有今天不过是第一次见面，他怎么这般不羞不躁，内心简直要暴走了。
+赵老解释道：“这个你放心，雪怡确实很多人追求，但是绝对清白，没有不干不净的男女关系。”
+赵雪怡脸上羞红：“爷爷，你跟他说这个干吗？”
+韩靖不怎么在意这件事：“哦，这个没关系，我媳妇可比我们山上一枝花不知道漂亮了多少倍，不过要是谁敢动我媳妇的心思，看我不揍的他半身瘫痪。”
+“……”
+赵雪怡无语望天，再怎么说她也是千万人心中的女神，怎么到他这里，竟和他们的村上一枝花比较了。
+赵老倒是笑眯眯的宽慰孙女：“韩靖这是刚出山，自然没见过什么人，也不懂这些人情世故，别太计较。”
+要不是看他傻里傻气，不太通人情世故，还有爷爷在这里，她早就好好教训他了。
+刚走到别墅区门口，就看到停了一列拉风又嚣张的兰博基尼。
+中间簇拥着一辆布加迪，一位身着蓝色西装的青年，靠在车门上。
+看到他们出来，那青年瞬间上前。
+“恭贺赵老康复出院，楚泽特意为赵老定了餐厅洗扫病气，还请赵老一定要赏光。”
+来者正是云城陈家陈楚泽！
+赵老自然知道陈楚泽对自己孙女的心思，于是开口：“还是改天吧。”
+陈楚泽皮笑肉不笑：“这怎么能改天，雪怡，我们先上车，我还叫了你最喜欢的那个小提琴家助兴。”
+说着就要对赵雪怡动手动脚，没碰到赵雪怡的衣服，就被一阵无形的力量制止。
+陈楚泽面露诧异。
+“云城陈家？”韩靖散漫开口：“抱歉，我是山里来的，没听说过，不过我这个人性子急，要是谁敢碰我老婆，我也是不介意让人领教一下我们山里人的厉害。”
+陈楚泽不屑的嗤笑，连跟他说句话都觉得掉价。
+冯年早就等着这一幕了，看到这里当场叫嚣起来。
+“陈少爷，这个小子不知天高地厚，竟然还妄想娶雪怡小姐，你可一定要给他点厉害瞧瞧！”
+陈楚泽嘴角嘲讽的勾起：“小子，和我争女人，可要掂量掂量自己多少斤两！”
+
+2020-09-07 00:40:33.856 [http-nio-9004-exec-7] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 李福云稍有犹豫，还是从里面便衣口袋里拿出一个香囊。
+“韩先生还真是眼睛独到，这里面可是珍珠粉和檀香木炼制的香料，用来镇心安神的，不过韩先生要是想要，我也就只能忍痛割爱了，就当结交韩先生这个人了。”
+说罢将香囊递给韩靖，韩靖面不改色的接过，里面名贵的药材何止这两种，安神效果确实不错。
+韩靖毫无心理负担的收下：“那就多谢前辈了。”
+“媳妇，我看你气色不好，应该是没有好好睡觉的缘故，你将这个香囊每天戴在身上，可以让你能有个好睡眠。”
+这下旁人看韩靖的眼神更是无语了，还真是没见过这么厚颜无耻之人了，竟然拿着别人的东西转眼就将要过来的香囊递给了赵雪怡。。
+赵雪怡脸上一阵青一阵红，有些羞恼，这还没结婚呢，就直接叫上媳妇了。
+当即起了性子，没有理会。
+还是赵老从中圆场：“雪怡，愣着干嘛，韩靖是为了你着想。”
+在外面赵老自然不会透露出他们和韩靖的关系，于是直呼其名。
+赵雪怡闻言咬唇，只好慢吞吞的接过来：“谢谢。”
+韩靖笑出一口大白牙：“媳妇，不用跟我这么客气。”
+赵雪怡僵着脸色没说话。
+“既然韩先生不怪罪了，不知道李某能不能请韩先生来坐诊，我也想讨教一二。”
+“抱歉，我们有我们的规矩，医术从不外传。”韩靖直接拒绝道。
+“那至少可以来帮忙接诊一下吧。”
+韩靖依旧摇头：“我救人之事，全都是爷爷在安排，没有爷爷的命令，不可随意救人。”
+他们鸿蒙无上医一派有严苛的规矩，非濒死之人不救，十天只救一人，不计报酬，出手却必定达成一诺。
+一连被拒绝两次，话语还这么直白，赵老见李福云脸色不调好，赶紧安抚了一下岔开话题。
+“李先生，他们确实有规矩，还是不要为难了，你看我这身体是不是能够出院了？”
+李福云既生气又无奈：“赵老身边有贵人相助，哪还能有什么大碍，现在可以去办出院手续。”
+没人再在意韩靖，慰问的慰问，办手续的办手续，他整个人无人问津。
+索性就坐在长廊的椅子上百无聊赖。
+“你很得意？”
+阴阳怪气的声音从身后传来。
+韩靖回头，看到冯年扭曲着一张脸，阴鸷的看着他。
+“你别想癞蛤蟆吃天鹅肉了，就算你真的救活了赵老，也不可能娶雪怡，就你这副穷酸样，连站在她身边的资格都没有！”
+韩靖瞬间嚣张的挑眉，语言粗陋：“有你球事，咸吃萝卜淡操心，我警告你，将你对我媳妇的非分之想给我收起来，不然我将你手脚筋都挑断。”
+韩靖从来都是直白的性子，对看不惯的人，自然是要怼回去。
+冯年顿时气的满脸通红：“你有什么可嚣张的，我告诉你，云城陈家陈楚泽听说过吗？他可是对雪怡一直穷追不舍，我劝你还是赶紧滚回你乡下去，不然，这几天就是你的末日。”
+韩靖丝毫没有别吓到：“那个什么陈家的人，也觊觎我媳妇？”
+冯年冷哼一声：“陈家可不是你这个乡巴佬能惹得起的家族，那可是云城武道霸主，陈楚泽可是不达目的不罢休的人，你要是执迷不悟，说不定哪天就横死街头了。”
+冯年说罢就看到赵老爷子从房间里出来，这才不甘心的离开。
+韩靖心中却是危机密布，娘嘞，这媳妇也太抢手了吧。
+手续办完之后，他们坐电梯离开。
+韩靖看着自家媳妇，长的确实好看。
+“媳妇，是不是很多人惦记你啊？”
+赵雪怡被问得一愣，还有今天不过是第一次见面，他怎么这般不羞不躁，内心简直要暴走了。
+赵老解释道：“这个你放心，雪怡确实很多人追求，但是绝对清白，没有不干不净的男女关系。”
+赵雪怡脸上羞红：“爷爷，你跟他说这个干吗？”
+韩靖不怎么在意这件事：“哦，这个没关系，我媳妇可比我们山上一枝花不知道漂亮了多少倍，不过要是谁敢动我媳妇的心思，看我不揍的他半身瘫痪。”
+“……”
+赵雪怡无语望天，再怎么说她也是千万人心中的女神，怎么到他这里，竟和他们的村上一枝花比较了。
+赵老倒是笑眯眯的宽慰孙女：“韩靖这是刚出山，自然没见过什么人，也不懂这些人情世故，别太计较。”
+要不是看他傻里傻气，不太通人情世故，还有爷爷在这里，她早就好好教训他了。
+刚走到别墅区门口，就看到停了一列拉风又嚣张的兰博基尼。
+中间簇拥着一辆布加迪，一位身着蓝色西装的青年，靠在车门上。
+看到他们出来，那青年瞬间上前。
+“恭贺赵老康复出院，楚泽特意为赵老定了餐厅洗扫病气，还请赵老一定要赏光。”
+来者正是云城陈家陈楚泽！
+赵老自然知道陈楚泽对自己孙女的心思，于是开口：“还是改天吧。”
+陈楚泽皮笑肉不笑：“这怎么能改天，雪怡，我们先上车，我还叫了你最喜欢的那个小提琴家助兴。”
+说着就要对赵雪怡动手动脚，没碰到赵雪怡的衣服，就被一阵无形的力量制止。
+陈楚泽面露诧异。
+“云城陈家？”韩靖散漫开口：“抱歉，我是山里来的，没听说过，不过我这个人性子急，要是谁敢碰我老婆，我也是不介意让人领教一下我们山里人的厉害。”
+陈楚泽不屑的嗤笑，连跟他说句话都觉得掉价。
+冯年早就等着这一幕了，看到这里当场叫嚣起来。
+“陈少爷，这个小子不知天高地厚，竟然还妄想娶雪怡小姐，你可一定要给他点厉害瞧瞧！”
+陈楚泽嘴角嘲讽的勾起：“小子，和我争女人，可要掂量掂量自己多少斤两！”
+
+2020-09-07 00:46:34.676 [http-nio-9004-exec-6] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 　　　在一片乌漆嘛黑的混沌中，白含笑不知自己该往何处走……
+
+　“我不是应该去投胎吗？”白含笑小声嘀咕着，然后在脑子里呼叫着微微，可半天都没得到回应。
+
+　白君含僵在原地，心里琢磨着，不对啊，她又没有被渣男陷害，又不是特种兵，她一小老百姓怎就会遇上这事了？
+
+　突然，在她的耳边响起一阵棍棒敲打声，女人的咒骂声，以及妇人的哭泣声……
+
+　白含笑低头蹙眉。
+
+　待她再抬眼时，发现自己面前突然多出一抹光芒来。
+
+　白含笑嘴里小声念叨着，我要是靠近它，我该不会就要……
+
+　“对！没错，就是你想的那个。”
+
+　一个声音突然从四周传来，就在白含笑还在四处寻找声音的来源时，她感觉有人在她背后猛地踹了一脚！
+
+　“走你！”背后那人一边使劲一边从牙齿里挤出这二字。
+
+　还没来得及惊叫，白含笑就被一股巨大的怪力吸了过去！
+
+　待她再次睁眼，看到的就是残破漏风的屋顶。
+
+　“还真是……”穿越啊！
+
+　“嗷！”
+
+　白含笑想要坐起身，可稍稍一动身体就传来剧痛，让她疼得脸色苍白，倒吸了一口冷气。
+
+　一直守在床边的妇人听到声音，立马倒了一碗温水送到她眼前。
+
+　白含笑嗓子沙哑干渴的厉害，本能的把嘴凑了上去。
+
+　这身子虚得厉害，就连做吞咽的动作都很勉强。
+
+　妇人左手扶着碗，右手半抱着她，小心翼翼的喂着水。
+
+　不得吧！她还真穿了，按理说人死后不是该投胎嘛？
+
+　白含笑边想边喝水，三心二意下竟不小心被水给呛了。
+
+　妇人在一旁担心的道：“含笑别急，慢点……”
+
+　含笑！？
+
+　这两个字如同电流一般从耳朵窜入，顺着神经刺入大脑。
+
+　白含笑想起了在地府时，排队领孟婆汤时，碰见的那个阳寿未尽的少女……
+
+　难道她这是代替了那个少女回到了她的现世？
+
+　白含笑幽怨的蹙起眉，抬眼看向了一旁对她很是关切的妇人身上。
+
+　妇人一身古装，面色憔悴的厉害，三十出头的年纪头发却白了许多……
+
+　“娘……”白含笑试探性地叫道。
+
+　可这“娘”字还没说出口，就被妇人捂住了嘴。
+
+　她顺着妇人惊恐的眼神看向门口……
+
+　一阵嘈杂的脚步声从屋外传来，不一会儿，门就被人从外面踹开。
+
+　一个刺耳的女声响起：“本小姐就知道你这贱蹄子是装死！”
+
+　屋内的白含笑微微挑眉，瞬间就来了兴致。
+
+　好就都没人敢这么和她说话了！
+
+　白含笑抿着嘴角，看向门口十几岁的少女。
+
+　少女同样穿着一身古装，头上的首饰繁多，插在一起活像只四处耀武扬威的刺猬。
+
+　少女站在门口，一脸鄙夷的看着白含笑，跟在她身后的两个丫鬟也是态度嚣张跋扈。
+
+　原主现在可能已经死了，现在用她身体的是来自22世纪的白含笑！
+
+　虽无父无母，但是她天资聪颖，长大后更是叱咤商业，横扫各界，要不是过劳猝死，现在首都北城的那片开发区就都归她头上了！
+
+　她一个新时代新型女青年，才不会因为小毛孩的几句话就动怒？
+
+　少女一袭绯色长裙，手中拿着一团金线绣的团扇掩住自己的口鼻，双眼充满了毫不掩饰的厌恶和嫌弃。
+
+　她冲着屋内翻了个白眼，语气轻蔑道：“哝！你的药，母亲发话了，你必须活到成亲那天……”
+2020-09-07 00:58:11.797 [http-nio-9004-exec-5] INFO  c.n.o.y.r.service.impl.AuthorCreationServiceImpl - 　　　在一片乌漆嘛黑的混沌中，白含笑不知自己该往何处走……
+
+　“我不是应该去投胎吗？”白含笑小声嘀咕着，然后在脑子里呼叫着微微，可半天都没得到回应。
+
+　白君含僵在原地，心里琢磨着，不对啊，她又没有被渣男陷害，又不是特种兵，她一小老百姓怎就会遇上这事了？
+
+　突然，在她的耳边响起一阵棍棒敲打声，女人的咒骂声，以及妇人的哭泣声……
+
+　白含笑低头蹙眉。
+
+　待她再抬眼时，发现自己面前突然多出一抹光芒来。
+
+　白含笑嘴里小声念叨着，我要是靠近它，我该不会就要……
+
+　“对！没错，就是你想的那个。”
+
+　一个声音突然从四周传来，就在白含笑还在四处寻找声音的来源时，她感觉有人在她背后猛地踹了一脚！
+
+　“走你！”背后那人一边使劲一边从牙齿里挤出这二字。
+
+　还没来得及惊叫，白含笑就被一股巨大的怪力吸了过去！
+
+　待她再次睁眼，看到的就是残破漏风的屋顶。
+
+　“还真是……”穿越啊！
+
+　“嗷！”
+
+　白含笑想要坐起身，可稍稍一动身体就传来剧痛，让她疼得脸色苍白，倒吸了一口冷气。
+
+　一直守在床边的妇人听到声音，立马倒了一碗温水送到她眼前。
+
+　白含笑嗓子沙哑干渴的厉害，本能的把嘴凑了上去。
+
+　这身子虚得厉害，就连做吞咽的动作都很勉强。
+
+　妇人左手扶着碗，右手半抱着她，小心翼翼的喂着水。
+
+　不得吧！她还真穿了，按理说人死后不是该投胎嘛？
+
+　白含笑边想边喝水，三心二意下竟不小心被水给呛了。
+
+　妇人在一旁担心的道：“含笑别急，慢点……”
+
+　含笑！？
+
+　这两个字如同电流一般从耳朵窜入，顺着神经刺入大脑。
+
+　白含笑想起了在地府时，排队领孟婆汤时，碰见的那个阳寿未尽的少女……
+
+　难道她这是代替了那个少女回到了她的现世？
+
+　白含笑幽怨的蹙起眉，抬眼看向了一旁对她很是关切的妇人身上。
+
+　妇人一身古装，面色憔悴的厉害，三十出头的年纪头发却白了许多……
+
+　“娘……”白含笑试探性地叫道。
+
+　可这“娘”字还没说出口，就被妇人捂住了嘴。
+
+　她顺着妇人惊恐的眼神看向门口……
+
+　一阵嘈杂的脚步声从屋外传来，不一会儿，门就被人从外面踹开。
+
+　一个刺耳的女声响起：“本小姐就知道你这贱蹄子是装死！”
+
+　屋内的白含笑微微挑眉，瞬间就来了兴致。
+
+　好就都没人敢这么和她说话了！
+
+　白含笑抿着嘴角，看向门口十几岁的少女。
+
+　少女同样穿着一身古装，头上的首饰繁多，插在一起活像只四处耀武扬威的刺猬。
+
+　少女站在门口，一脸鄙夷的看着白含笑，跟在她身后的两个丫鬟也是态度嚣张跋扈。
+
+　原主现在可能已经死了，现在用她身体的是来自22世纪的白含笑！
+
+　虽无父无母，但是她天资聪颖，长大后更是叱咤商业，横扫各界，要不是过劳猝死，现在首都北城的那片开发区就都归她头上了！
+
+　她一个新时代新型女青年，才不会因为小毛孩的几句话就动怒？
+
+　少女一袭绯色长裙，手中拿着一团金线绣的团扇掩住自己的口鼻，双眼充满了毫不掩饰的厌恶和嫌弃。
+
+　她冲着屋内翻了个白眼，语气轻蔑道：“哝！你的药，母亲发话了，你必须活到成亲那天……”

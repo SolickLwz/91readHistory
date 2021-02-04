@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.AllowFreeMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.AllowFree">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="chapterid" jdbcType="INTEGER" property="chapterid" />
+    <result column="auditchapterid" jdbcType="INTEGER" property="auditchapterid" />
+    <result column="bookid" jdbcType="INTEGER" property="bookid" />
+    <result column="auditbookid" jdbcType="INTEGER" property="auditbookid" />
+    <result column="bookname" jdbcType="VARCHAR" property="bookname" />
+    <result column="chaptername" jdbcType="VARCHAR" property="chaptername" />
+    <result column="sort" jdbcType="VARCHAR" property="sort" />
+    <result column="creatyearandmonth" jdbcType="VARCHAR" property="creatyearandmonth" />
+    <result column="feebysum" jdbcType="INTEGER" property="feebysum" />
+    <result column="reward" jdbcType="INTEGER" property="reward" />
+    <result column="share" jdbcType="INTEGER" property="share" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+  </resultMap>
+
+  <select id="selectIsHaveByBooknameAndFeebysumIsNotZero" resultMap="BaseResultMap">
+    select * from  allow_free where bookname=#{bookname} and feebysum not in (0)
+  </select>
+
+  <select id="selectIsHaveByBooknameAndcreatyearandmonthIsNull" resultMap="BaseResultMap">
+    select * from  allow_free where bookname=#{bookname} and creatyearandmonth is null
+  </select>
+</mapper>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.CpAuthMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.CpAuth">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="cp_name" jdbcType="VARCHAR" property="cpName" />
+    <result column="cp_key" jdbcType="VARCHAR" property="cpKey" />
+  </resultMap>
+</mapper>

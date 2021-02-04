@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nine.one.yuedu.read.mapper.BookInfoMapper">
+  <resultMap id="BaseResultMap" type="com.nine.one.yuedu.read.entity.BookInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="words" jdbcType="INTEGER" property="words" />
+    <result column="category" jdbcType="VARCHAR" property="category" />
+    <result column="valid" jdbcType="INTEGER" property="valid" />
+    <result column="complete_state" jdbcType="INTEGER" property="completeState" />
+    <result column="last_chapter_id" jdbcType="INTEGER" property="lastChapterId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="pic_url" jdbcType="VARCHAR" property="picUrl" />
+    <result column="cp_book_id" jdbcType="VARCHAR" property="cpBookId" />
+    <result column="open_search" jdbcType="INTEGER" property="openSearch" />
+    <result column="visit_count" jdbcType="INTEGER" property="visitCount" />
+    <result column="cp_id" jdbcType="INTEGER" property="cpId" />
+    <result column="provider" jdbcType="VARCHAR" property="provider" />
+    <result column="feebySum" jdbcType="INTEGER" property="feebysum" />
+    <result column="male_lead" jdbcType="VARCHAR" property="maleLead" />
+    <result column="heroine" jdbcType="VARCHAR" property="heroine" />
+    <result column="recommend" jdbcType="VARCHAR" property="recommend" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+
+	<sql id="Base_Column_List">
+    bi.id, book_name, author, description,keywords,words,category,valid,complete_state,last_chapter_id,create_time,update_time,pic_url,cp_book_id,open_search,visit_count,cp_id,provider
+  </sql>
+
+	<select id="getCurrentMaxId" resultType="java.lang.Integer">
+    SELECT MAX(id) FROM book_info
+  </select>
+	
+	
+	<select id="selectBookInfo4PageAndParam" resultType="com.nine.one.yuedu.read.entity.vo.BookInfoVO">
+		SELECT
+		b.id,
+		b.book_name AS bookName,
+		b.author,
+		b.keywords,
+		b.words,
+		b.category,
+		b.valid,
+		b.complete_state AS completeState,
+		b.last_chapter_id AS lastChapterId,
+		b.create_time AS createTime,
+		b.update_time AS updateTime,
+		b.pic_url AS picUrl,
+		b.visit_count AS visitCount,
+		b.open_search AS openSearch,
+		b.provider,
+		b.description,
+		c.cp_name AS cpName,
+		b.cp_id AS cpId,
+		b.cp_book_id AS cpBookId
+		FROM book_info b,cp c
+		<where>
+			b.cp_id = c.id
+			<if test="privoder!=null and privoder!=''">
+				AND b.provider=#{privoder,jdbcType=VARCHAR}
+			</if>
+			<if test="id!=null">
+				AND b.id=#{id,jdbcType=INTEGER}
+			</if>
+			<if test="bookName!=null and bookName!=''">
+				AND b.book_name LIKE CONCAT('%',#{bookName,jdbcType=VARCHAR},'%')
+			</if>
+			<if test="author!=null and author!=''">
+				AND b.author LIKE CONCAT('%',#{author,jdbcType=VARCHAR},'%')
+			</if>
+			<if test="category!=null and category!=''">
+				AND b.category=#{category,jdbcType=VARCHAR}
+			</if>
+			<if test="valid!=null">
+				AND b.valid=#{valid,jdbcType=INTEGER}
+			</if>
+		</where>
+		ORDER BY b.create_time DESC
+	</select>
+
+	<select id="selectBookInfo4PageAndParamFormal" resultType="com.nine.one.yuedu.read.entity.vo.BookInfoVO">
+		SELECT
+		b.id,
+		b.book_name AS bookName,
+		b.author,
+		b.keywords,
+		b.words,
+		b.category,
+		b.valid,
+		b.complete_state AS completeState,
+		b.last_chapter_id AS lastChapterId,
+		b.create_time AS createTime,
+		b.update_time AS updateTime,
+		b.pic_url AS picUrl,
+		b.visit_count AS visitCount,
+		b.open_search AS openSearch,
+		b.provider,
+		b.description,
+		c.cp_name AS cpName,
+		b.cp_id AS cpId,
+		b.cp_book_id AS cpBookId
+		FROM book_info b,cp c
+		<where>
+			b.cp_id = c.id
+			<if test="privoder!=null and privoder!=''">
+				AND b.provider=#{privoder,jdbcType=VARCHAR}
+			</if>
+			<if test="id!=null">
+				AND b.id=#{id,jdbcType=INTEGER}
+			</if>
+			<if test="bookName!=null and bookName!=''">
+				AND b.book_name LIKE CONCAT('%',#{bookName,jdbcType=VARCHAR},'%')
+			</if>
+			<if test="author!=null and author!=''">
+				AND b.author =#{author,jdbcType=VARCHAR}
+			</if>
+			<if test="category!=null and category!=''">
+				AND b.category=#{category,jdbcType=VARCHAR}
+			</if>
+			<if test="valid!=null">
+				AND b.valid=#{valid,jdbcType=INTEGER}
+			</if>
+		</where>
+		ORDER BY b.create_time DESC
+	</select>
+
+	<select id="selectHaveFeeBySumBookList" resultType="com.nine.one.yuedu.read.entity.BookInfo">
+		SELECT id,book_name,author,words,create_time,feebySum FROM book_info WHERE feebySum &gt;0
+	</select>
+	<!--&amp;amp;lt;select id="selectBookInforByCpAuthId" resultType="com.nine.one.yuedu.read.entity.BookInfo"&amp;amp;gt;
+select &amp;amp;lt;include refid="Base_Column_List"/&amp;amp;gt;
+from cp_auth_book cpb left join book_info bi
+on cpb.book_id = bi.id
+where cpb.cp_auth_id=#{cpid,jdbcType=INTEGER}
+	&amp;amp;lt;/select&amp;amp;gt;-->
+	<select id="selectAiqiyiBookIdListByLastUpdateTime" resultType="java.lang.Integer">
+		SELECT book_id FROM cp_auth_book WHERE cp_auth_id=25 AND book_id IN (SELECT id FROM book_info WHERE update_time &gt;#{lastUpdateTime})
+	</select>
+
+	<select id="selectBookIdOnPageOderByUpdateTime" resultType="java.lang.Integer">
+		select id from book_info where id in
+		(select book_id from  cp_auth_book WHERE cp_auth_id=#{cpAuthId})
+		order by update_time limit #{page},100
+	</select>
+
+	<select id="selectBookIdOnCpidAndCompletestate" resultType="java.lang.Integer">
+		SELECT id FROM book_info WHERE complete_state=#{complete_state} AND id in
+		(SELECT book_id FROM cp_auth_book WHERE cp_auth_id=#{cpAuthId})
+	</select>
+</mapper>

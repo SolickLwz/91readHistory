@@ -1,0 +1,36 @@
+2021-01-20 12:53:03.388 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field pointCrowdService in com.nine.one.yuedu.read.controller.Docking.PointCrowdController required a bean of type 'com.nine.one.yuedu.read.service.PointCrowdService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.nine.one.yuedu.read.service.PointCrowdService' in your configuration.
+
+2021-01-20 12:54:35.006 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field pointCrowdService in com.nine.one.yuedu.read.controller.Docking.PointCrowdController required a bean of type 'com.nine.one.yuedu.read.service.PointCrowdService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.nine.one.yuedu.read.service.PointCrowdService' in your configuration.
+
